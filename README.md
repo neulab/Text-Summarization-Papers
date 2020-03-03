@@ -1,5 +1,5 @@
 # Text-Summarization-Papers
-by [Pengfei Liu](http://pfliu.com/) and other contributors.
+
 
 
 An exhaustive paper list for **Text Summarization**,
