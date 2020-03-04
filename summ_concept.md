@@ -7,8 +7,8 @@
 * `gen-2stage` Two-stage Summarization (compressive, hybrid)
 
 ## Regressive Way
-* `regr-auto`:  Autoregressive (Pointer network) 
-* `regr-nonauto`: Non-autoregressive (Sequence labeling)
+* `regr-auto`:  Autoregressive Decoder (Pointer network) 
+* `regr-nonauto`: Non-autoregressive Decoder (Sequence labeling)
 
 ## Supervision
 * `sup-sup`: Supervised Learning
@@ -24,11 +24,13 @@
 * `task-aspect`: Aspect-based Summarization
 * `task-opinion`: Opinion Summarization
 * `task-questoin`: Question-based Summarization
+* `task-video`: Video-based Summarization
 * `task-code`: Source Code Summarization
-* `task-control`: Controllable summarization
+* `task-control`: Controllable Summarization
+* `task-event`: Event-based Summarization
 * `task-longtext`: Summarization for Long Text
 * `task-knowledge`: Text Summarization with External Knowledge
-* `task-interpret`: Model Understanding or Interpretability
+* `task-analysis`: Model Understanding or Interpretability
 
 
 ## Architecture (Mechanism)
@@ -36,6 +38,7 @@
 * `arch-cnn`: Convolutional Neural Networks (CNN)
 * `arch-transformer`: Transformer
 * `arch-graph`: Graph Neural Networks or Statistic Graph Models
+* `arch-gnn`: Graph Neural Networks
 * `arch-att`: Attention Mechanism
 * `arch-pointer`: Pointer Layer
 * `arch-coverage`: Coverage Mechanism
@@ -43,13 +46,18 @@
 
 ## Training
 * `train-multitask`: Multi-task Learning
+* `train-multilingual`: multi-lingual Learning
 * `train-multimodal`: Multi-modal Learning
 * `train-auxiliary`: Joint Training
 * `train-transfer`: Cross-domain Learning, Transfer Learning, Domian Adaptation
-* `train-multiling`: Bi-lingual, Multi-lingual Learning
 * `train-active`: Active Learning, Boostrapping
 * `train-adver`: Adversarial Learning
 * `train-template`: Template-based Summarization
+* `train-augment`: Data Augmentation
+* `train-curriculum`: Curriculum Learning
+* `train-lowresource`: Low-resource Summarization
+* `train-retrieval`: Retrieval-based Summarization
+* `train-meta`: Meta-learning
 
 
 ## Pre-trained Models
@@ -63,6 +71,23 @@
 * `pre-unilm`: UNILM
 * `pre-mass`: MASS
 
+
+## Relaxation/Training Methods for Non-differentiable Functions
+`nondif-straightthrough`: Straight-through Estimator
+`nondif-gumbelsoftmax`: Gumbel Softmax
+`nondif-minrisk`: Minimum Risk Training
+`nondif-reinforce`: REINFORCE
+
+## Adversarial Methods
+`adv-gan`: Generative	Adversarial Networks
+`adv-feat`: Adversarial Feature Learning
+`adv-examp`: Adversarial Examples
+`adv-train`: Adversarial Training
+
+
+## Latent Variable Models
+`latent-vae`: Variational Auto-encoder
+`latent-topic`: Topic Model
 
 ## Dataset
 * `data-new`: Constructing a new dataset
