@@ -67,9 +67,9 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 
 
 #### Milestone Papers
-* [5 must-read papers for neural **extractive** summarization](http://pfliu.com/pl-summarization/summ_paper_gen-ext.html)
-* [5 must-read papers for neural **abstractive** summarization](http://pfliu.com/pl-summarization/summ_paper_gen-abs.html)
-* [Top 5 **most-cited** summarization papers from 2014](http://pfliu.com/pl-summarization/summ_paper_topcited.html)
+* [10 must-read papers for neural **extractive** summarization](http://pfliu.com/pl-summarization/summ_paper_gen-ext.html)
+* [10 must-read papers for neural **abstractive** summarization](http://pfliu.com/pl-summarization/summ_paper_gen-abs.html)
+* [Top 10 **most-cited** summarization papers from 2014](http://pfliu.com/pl-summarization/summ_paper_topcited.html)
 
 
 
