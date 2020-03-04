@@ -16,7 +16,7 @@ covering papers from eight top conferences (*ACL / EMNLP / NAACL / ICML / ICLR /
 * Find the **top-cited** summarization-papers! [The latest update on: 02.25/2020]
 * Track the **latest** summarization-papers!
 * Find the **milestone** summarization-papers for newbies
-* Searching papers by **research concepts** or any other **keywords**
+* Searching papers by **research concepts** or your interested **keywords**
 
 
 
@@ -43,7 +43,7 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 <br>
 
 
-#### `Trends`:
+#### `Trends in 2019`:
 <img src="fig/fire.png" alt="HOT" height="20" width="20"> Concepts in red suggest HOT topics, and we can observe:
 
 
@@ -102,7 +102,7 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 
 
 ## Future Work
-Hopefully, you will see version2.0 covering papers from 1980 to 2020. 
+Hopefully, you will see our version-2.0 covering papers from 1980 to 2020. 
 
 
 

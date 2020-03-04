@@ -1,4 +1,4 @@
-# Research Concepts for the Text Summarization Task
+# Research Concepts for Text Summarization
 
 
 ## Generation Way
