@@ -12,7 +12,20 @@ covering papers from eight top conferences (*ACL / EMNLP / NAACL / ICML / ICLR /
 
 
 
-### 1. What are the recent Research Concepts and which are HOT?
+### 1. [Paper Retrieval System [Click Me !!!]** &#x1F53D;](http://pfliu.com/pl-summarization/summ_paper.html)
+* Find the **top-cited** summarization-papers! [The latest update on: 02.25/2020]
+* Track the **latest** summarization-papers!
+* Find the **milestone** summarization-papers for newbies
+* Searching papers by **research concepts** or any other **keywords**
+
+
+
+
+
+
+
+
+### 2. What are the recent Research Concepts and which are HOT?
 
 #### `Concepts Definition`
 We define the typology of essential [concepts](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_concept.md) that you should know for the summarization task.
@@ -34,15 +47,15 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 <img src="fig/fire.png" alt="HOT" height="20" width="20"> Concepts in red suggest HOT topics, and we can observe:
 
 
-* **Task**: scientific paper-based summarization has gain growing interests.
+* **Task**: Scientific paper-based summarization has gain growing interests.
 * **Data**: More new datasets are constructed
 * **Architecture**: Pretrained models and graph neural networks prevail
-* **Evaluation**: evaluation of generated summary's factuality attracts recent attention
+* **Evaluation**: Evaluation of the generated summary's factuality attracts recent attention
 
 
 
 
-### 2. Recommended Papers
+### 3.. Recommended Papers
 
 #### Papers with Hot Topics
 * [`pre-X`](XX): summarizer with unsupervised pretrained models
@@ -61,11 +74,7 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 * [Top 5 **most-cited** summarization papers from 2014]()
 
 
-### 3. [Paper Retrieval System [Click Me !!!]** &#x1F53D;](http://pfliu.com/pl-summarization/summ_paper.html)
-* Find the **top-cited** Summarization-papers, which are generally worth reading!! [The latest update on: 02.25/2020]
-* Track the **latest** Summarization-papers!
-* Find the **milestone** Summarization-papers for newbies
-* Searching papers by **research concepts** or any other **keywords**
+
 
 
 
