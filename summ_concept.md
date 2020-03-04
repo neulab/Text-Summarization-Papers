@@ -73,21 +73,21 @@
 
 
 ## Relaxation/Training Methods for Non-differentiable Functions
-`nondif-straightthrough`: Straight-through Estimator
-`nondif-gumbelsoftmax`: Gumbel Softmax
-`nondif-minrisk`: Minimum Risk Training
-`nondif-reinforce`: REINFORCE
+* `nondif-straightthrough`: Straight-through Estimator
+* `nondif-gumbelsoftmax`: Gumbel Softmax
+* `nondif-minrisk`: Minimum Risk Training
+* `nondif-reinforce`: REINFORCE
 
 ## Adversarial Methods
-`adv-gan`: Generative	Adversarial Networks
-`adv-feat`: Adversarial Feature Learning
-`adv-examp`: Adversarial Examples
-`adv-train`: Adversarial Training
+* `adv-gan`: Generative	Adversarial Networks
+* `adv-feat`: Adversarial Feature Learning
+* `adv-examp`: Adversarial Examples
+* `adv-train`: Adversarial Training
 
 
 ## Latent Variable Models
-`latent-vae`: Variational Auto-encoder
-`latent-topic`: Topic Model
+* `latent-vae`: Variational Auto-encoder
+* `latent-topic`: Topic Model
 
 ## Dataset
 * `data-new`: Constructing a new dataset
