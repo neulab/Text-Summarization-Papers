@@ -31,7 +31,7 @@ We define typology of important [concepts](https://github.com/neulab/Text-Summar
 <br>
 
 
-#### Trends:
+#### `Trends`:
 <img src="fig/fire.png" alt="HOT" height="20" width="20"> Concepts in red suggest HOT topics, and we can observe:
 
 
