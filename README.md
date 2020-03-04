@@ -102,6 +102,13 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 
 
 
+
+## Related Work
+
+* [Concepts in Neural Networks for NLP](https://github.com/pfliu-nlp/nn4nlp-concepts)
+* [Named Entity Paper List](https://github.com/pfliu-nlp/Named-Entity-Recognition-NER-Papers)
+
+
 ## Future Work
 Hopefully, you will see our version-2.0 covering papers from 1980 to 2020. 
 
