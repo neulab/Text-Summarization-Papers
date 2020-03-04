@@ -93,12 +93,12 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 
 
 * ### If you have a new "paper" or more reasonable annotations?
-	* **Add** your paper (If possible, with annotated concepts) into [`paper_with_concept`](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_concept.md) and `Pull requests`
+	* **Add** your paper (If possible, with annotated concepts) into [`paper_with_concept`](https://github.com/neulab/Text-Summarization-Papers/blob/master/paper_with_dataset) and `Pull requests`
 	* Or you could directly propose an `Issues`
 
 
 * ### If you have a new "dataset"?
-	* **Add** your dataset (If possible, with brief description) into [`ner_data`](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_concept.md) and `Pull requests`
+	* **Add** your dataset (If possible, with brief description) into [`paper_with_dataset`](https://github.com/neulab/Text-Summarization-Papers/blob/master/paper_with_dataset) and `Pull requests`
 	* Or you could directly propose an `Issues`
 
 
