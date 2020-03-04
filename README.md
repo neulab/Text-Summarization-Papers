@@ -58,20 +58,18 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 ### 3. Recommended Papers
 
 #### Papers with Hot Topics
-* [`pre-X`](XX): summarizer with unsupervised pretrained models
-* [`task-sci`](): scientifc paper-based summarization
-* [`eval-factuality`](): factuality evaluation on generated summaries.
-* [`arch-transformer`](): summarization system consists of Transformer.
-* [`arch-gnn`](): graph neural network-based summarizers. 
-* [`data-new`](): more new datasets are constructed
+* [`pre-X`](http://pfliu.com/pl-summarization/summ_paper_preX.html): summarizer with unsupervised pretrained models
+* [`task-sci`](http://pfliu.com/pl-summarization/summ_paper_task-sci.html): scientifc paper-based summarization
+* [`eval-factuality`](http://pfliu.com/pl-summarization/summ_paper_factuality.html): factuality evaluation on generated summaries.
+* [`arch-gnn`](http://pfliu.com/pl-summarization/summ_paper_arch-gnn.html): graph neural network-based summarizers. 
+* [`data-new`](http://pfliu.com/pl-summarization/summ_paper_data-new.html): more new datasets are constructed
 
 
 
 #### Milestone Papers
-* [5 must-read papers for neural **extractive** summarization]()
-* [5 must-read papers for neural **abstractive** summarization]()
-* [5 must-read papers for neural **two-stage** summarization]()
-* [Top 5 **most-cited** summarization papers from 2014]()
+* [5 must-read papers for neural **extractive** summarization](http://pfliu.com/pl-summarization/summ_paper_gen-ext.html)
+* [5 must-read papers for neural **abstractive** summarization](http://pfliu.com/pl-summarization/summ_paper_gen-abs.html)
+* [Top 5 **most-cited** summarization papers from 2014](http://pfliu.com/pl-summarization/summ_paper_topcited.html)
 
 
 
