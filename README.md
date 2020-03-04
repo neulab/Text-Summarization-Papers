@@ -12,7 +12,7 @@ covering papers from eight top conferences (*ACL / EMNLP / NAACL / ICML / ICLR /
 
 
 
-### 1. [Paper Retrieval System [Click Me !!!]** &#x1F53D;](http://pfliu.com/pl-summarization/summ_paper.html)
+### 1. [Paper Retrieval System **[Click Me !!!]** &#x1F53D;](http://pfliu.com/pl-summarization/summ_paper.html)
 * Find the **top-cited** summarization-papers! [The latest update on: 02.25/2020]
 * Track the **latest** summarization-papers!
 * Find the **milestone** summarization-papers for newbies
@@ -47,10 +47,10 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 <img src="fig/fire.png" alt="HOT" height="20" width="20"> Concepts in red suggest HOT topics, and we can observe:
 
 
-* **Task**: Scientific paper-based summarization has gain growing interests.
-* **Data**: More new datasets are constructed
-* **Architecture**: Pretrained models and graph neural networks prevail
-* **Evaluation**: Evaluation of the generated summary's factuality attracts recent attention
+* <img src="fig/fire.png" alt="HOT" height="20" width="20">**Task**: Scientific paper-based summarization has gain growing interests.
+* <img src="fig/fire.png" alt="HOT" height="20" width="20">**Data**: More new datasets are constructed
+* <img src="fig/fire.png" alt="HOT" height="20" width="20">**Architecture**: Pretrained models and graph neural networks prevail
+* <img src="fig/fire.png" alt="HOT" height="20" width="20">**Evaluation**: Evaluation of the generated summary's factuality attracts recent attention
 
 
 
