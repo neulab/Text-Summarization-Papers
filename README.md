@@ -107,6 +107,7 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 
 * [Concepts in Neural Networks for NLP](https://github.com/pfliu-nlp/nn4nlp-concepts)
 * [Named Entity Recognition Paper List](https://github.com/pfliu-nlp/Named-Entity-Recognition-NER-Papers)
+* [Historiograpy of Text Summarization](http://pfliu.com/Historiography/summarization/summ-eng.html)
 
 
 ## Future Work
