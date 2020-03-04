@@ -55,7 +55,7 @@ We define the typology of essential [concepts](https://github.com/neulab/Text-Su
 
 
 
-### 3.. Recommended Papers
+### 3. Recommended Papers
 
 #### Papers with Hot Topics
 * [`pre-X`](XX): summarizer with unsupervised pretrained models
