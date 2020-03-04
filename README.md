@@ -14,9 +14,9 @@ covering papers from eight top conferences (*ACL / EMNLP / NAACL / ICML / ICLR /
 
 ### 1. What are the recent Research Concepts and which are HOT?
 
-#### [`Concepts Definition`](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_concept.md)
-We define typology of important concepts that you should know for Summarization task.
-We detail them [here](XX).
+#### `Concepts Definition`
+We define typology of important [concepts](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_concept.md) that you should know for summarization task.
+
 
 
 #### `Statistics of Highlighted Concepts`
