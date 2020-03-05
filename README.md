@@ -83,4 +83,5 @@ Hopefully, you will see our version-2.0 covering papers from 1980 to 2020.
 
 
 ## Acknowledgments
-* Thanks [Graham Neubig](http://www.phontron.com/)'s idea on the "concept" and other comments.
+* Thanks Prof. [Graham Neubig](http://www.phontron.com/)'s idea on the "concept" and other comments.
+* Thanks Prof. [Fei Liu](http://www.cs.ucf.edu/~feiliu/) for providing us with a bunch of interesting work and description, which enriches our concept file.
