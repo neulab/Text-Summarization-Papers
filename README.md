@@ -36,7 +36,7 @@ We first define the typology of essential [concepts](https://github.com/neulab/T
 * <img src="fig/fire.png" alt="HOT" height="20" width="20">**Evaluation**: Evaluation of the generated summary's factuality attracts recent attention.
 
 ```
-When the proportion of papers on a concept since 2019 is greater than a certain threshold (0.4), we define this concept as `hot topic`.
+Hot topic: when the proportion of papers on a concept since 2019 is greater than a certain threshold (0.4), we define this concept as a hot topic.
 ```
 
 ### 3. Recommended Papers
