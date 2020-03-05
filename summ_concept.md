@@ -30,6 +30,7 @@
 * `task-event`: Event-based Summarization
 * `task-longtext`: Summarization for Long Text
 * `task-knowledge`: Text Summarization with External Knowledge
+* `task-highlight`: Pick out important content and emphasize
 * `task-analysis`: Model Understanding or Interpretability
 
 
