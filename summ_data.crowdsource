@@ -1,0 +1,203 @@
+data: LCSTS
+domain: weibo
+tasksetting: task-single
+paper: LCSTS: A Large Scale Chinese Short Text Summarization Dataset
+paper_url: https://arxiv.org/pdf/1506.05865.pdf
+data_url: http://icrc.hitsz.edu.cn/Article/show/139.html
+------------------------------------------------------------------------
+data: Xsum
+domain: news
+tasksetting: task-single
+paper: Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization
+paper_url: https://arxiv.org/pdf/1808.08745.pdf
+data_url: https://github.com/EdinburghNLP/XSum/tree/master/XSum-Dataset
+------------------------------------------------------------------------
+data: RottenTomatoes
+domain: movie
+tasksetting: task-multi
+paper: Neural Network-Based Abstract Generation for Opinions and Arguments
+paper_url: https://arxiv.org/pdf/1606.02785.pdf
+data_url: http://www.ccs.neu.edu/home/luwang
+------------------------------------------------------------------------
+data: Reddit TIFU
+domain: social-media
+tasksetting: task-single
+paper: Abstractive Summarization of Reddit Posts with Multi-level Memory Networks
+paper_url: https://arxiv.org/pdf/1811.00783.pdf
+data_url: https://drive.google.com/uc?id=1ffWfITKFMJeqjT8loC8aiCLRNJpc_XnF&export=download
+------------------------------------------------------------------------
+data: BIGPATENT
+domain: patent
+tasksetting: task-longtext, task-single
+paper: BIGPATENT: A Large-Scale Dataset for Abstractive and Coherent Summarization
+paper_url: https://arxiv.org/pdf/1906.03741.pdf
+data_url: https://evasharma.github.io/bigpatent
+------------------------------------------------------------------------
+data: CNNDM
+domain: news
+tasksetting: task-single
+paper: Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond
+paper_url: https://arxiv.org/pdf/1602.06023.pdf
+data_url: https://github.com/abisee/cnn-dailymail
+------------------------------------------------------------------------
+data: Arxiv
+domain: scientific-paper
+tasksetting: task-longtext, task-single
+paper: A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents
+paper_url: https://arxiv.org/pdf/1804.05685.pdf
+data_url: https://github.com/armancohan/long-summarization
+------------------------------------------------------------------------
+data: Pubmed
+domain: scientific-paper
+tasksetting: task-longtext, task-single
+paper: A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents
+paper_url: https://arxiv.org/pdf/1804.05685.pdf
+data_url: https://github.com/armancohan/long-summarization
+------------------------------------------------------------------------
+data: Newsroom
+domain: news
+tasksetting: task-single
+paper: Newsroom: A Dataset of 1.3 Million Summaries with Diverse Extractive Strategies
+paper_url: https://arxiv.org/pdf/1804.11283.pdf
+data_url: https://summari.es
+------------------------------------------------------------------------
+data: BillSum
+domain: legislation
+tasksetting: task-single
+paper: BillSum: A Corpus for Automatic Summarization of US Legislation
+paper_url: https://arxiv.org/pdf/1910.00523.pdf
+data_url: https://github.com/FiscalNote/BillSum
+------------------------------------------------------------------------
+data: AESLC
+domain: email
+tasksetting: task-single
+paper: This Email Could Save Your Life: Introducing the Task of Email Subject Line Generation
+paper_url: https://www.aclweb.org/anthology/P19-1043.pdf
+data_url: https://github.com/ryanzhumich/AESLC
+------------------------------------------------------------------------
+data: SAMSum
+domain: dialogue
+tasksetting: task-single
+paper: SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization
+paper_url: https://arxiv.org/pdf/1911.12237.pdf
+data_url: https://arxiv.org/src/1911.12237v2/anc
+------------------------------------------------------------------------
+data: Global Voices
+domain: multilingual
+tasksetting: task-single, multilingual
+paper: Global Voices: Crossing Borders in Automatic News Summarization
+paper_url: https://www.aclweb.org/anthology/D19-5411.pdf
+data_url: 
+------------------------------------------------------------------------
+data: WikiSum
+domain: wiki
+tasksetting: task-multi
+paper: Generating Wikipedia by Summarizing Long Sequences
+paper_url: https://arxiv.org/pdf/1801.10198.pdf
+data_url: https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/data_generators/wikisum
+------------------------------------------------------------------------
+data: ScisummNet
+domain: scientific-paper
+tasksetting: task-single
+paper: ScisummNet: A Large Annotated Corpus and Content-Impact Models for Scientific Paper Summarization with Citation Networks
+paper_url: https://arxiv.org/pdf/1909.01716.pdf
+data_url: https://cs.stanford.edu/~myasu/projects/scisumm_net
+------------------------------------------------------------------------
+data: Multi-News
+domain: news
+tasksetting: task-multi
+paper: Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model
+paper_url: https://arxiv.org/pdf/1906.01749.pdf
+data_url: https://github.com/Alex-Fabbri/Multi-News
+------------------------------------------------------------------------
+data: Auto-hmds
+domain: multilingual
+tasksetting: task-multi
+paper: Auto-hMDS: Automatic Construction of a Large Heterogeneous Multilingual Multi-Document Summarization Corpus
+paper_url: http://www.lrec-conf.org/proceedings/lrec2018/pdf/1018.pdf
+data_url: https://github.com/AIPHES/auto-hMDS
+------------------------------------------------------------------------
+data: WikiHow
+domain: wiki
+tasksetting: task-single
+paper: WikiHow: A Large Scale Text Summarization Dataset
+paper_url: https://arxiv.org/pdf/1810.09305.pdf
+data_url: https://github.com/mahnazkoupaee/WikiHow-Dataset
+------------------------------------------------------------------------
+data: DisputeDiscussions
+domain: debate
+tasksetting: task-single
+paper: Understanding and Detecting Supporting Arguments of Diverse Types
+paper_url: https://arxiv.org/pdf/1705.00045.pdf
+data_url: http://www.ccs.neu.edu/home/luwang/data.html
+------------------------------------------------------------------------
+data: Debatepedia
+domain: debate
+tasksetting: task-question
+paper: Diversity driven Attention Model for Query-based Abstractive Summarization
+paper_url: https://arxiv.org/pdf/1704.08300v1.pdf
+data_url: https://github.com/PrekshaNema25/DiverstiyBasedAttentionMechanism
+------------------------------------------------------------------------
+data: Funcom
+domain: code
+tasksetting: task-code
+paper: Recommendations for Datasets for Source Code Summarization
+paper_url: https://arxiv.org/pdf/1904.02660.pdf
+data_url: http://leclair.tech/data/funcom/
+------------------------------------------------------------------------
+data: Talksum
+domain: scientific-paper
+tasksetting: task-multi
+paper: TalkSumm: A Dataset and Scalable Annotation Method for Scientific Paper Summarization Based on Conference Talks
+paper_url: https://arxiv.org/pdf/1906.01351.pdf
+data_url: https://github.com/levguy/talksumm
+------------------------------------------------------------------------
+data: Multi-Aspect CNN/DM
+domain: news
+tasksetting: task-aspect
+paper: Inducing Document Structure for Aspect-based Summarization
+paper_url: https://www.aclweb.org/anthology/P19-1630.pdf
+data_url: 
+------------------------------------------------------------------------
+data: proto-summ
+domain: court-judgment
+tasksetting: task-single
+paper: How to Write Summaries with Patterns? Learning towards Abstractive Summarization through Prototype Editing
+paper_url: https://arxiv.org/pdf/1909.08837.pdf
+data_url: https://github.com/gsh199449/proto-summ
+------------------------------------------------------------------------
+data: PeerRead
+domain: peer-review
+tasksetting: task-single
+paper: A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications
+paper_url: https://arxiv.org/pdf/1804.09635.pdf
+data_url: https://github.com/allenai/PeerRead/tree/master/data
+------------------------------------------------------------------------
+data: AMI
+domain: meeting
+tasksetting: task-multimodal
+paper: The AMI meeting corpus: a pre-announcement
+paper_url: https://www.m-iti.org/uploads/MLMI2005_CaAsBoEtAl.pdf
+data_url: http://groups.inf.ed.ac.uk/ami/download
+------------------------------------------------------------------------
+data: BookSum
+domain: book
+tasksetting: task-longtext
+paper: Explorations in Automatic Book Summarization
+paper_url: https://www.aclweb.org/anthology/D07-1040.pdf
+data_url: http://lit.csci.unt.edu/index.php/Downloads
+------------------------------------------------------------------------
+data: MScript
+domain: movie-script
+tasksetting: task-single
+paper: Movie Script Summarization as Graph-based Scene Extraction
+paper_url: https://www.aclweb.org/anthology/N15-1113.pdf
+data_url: 
+------------------------------------------------------------------------
+data: Summarizing Opinions
+domain: product-review
+tasksetting: task-opinion
+paper: Summarizing Opinions: Aspect Extraction Meets Sentiment Prediction and They Are Both Weakly Supervised
+paper_url: https://arxiv.org/pdf/1808.08858v1.pdf
+data_url: https://github.com/stangelid/oposum
+------------------------------------------------------------------------
