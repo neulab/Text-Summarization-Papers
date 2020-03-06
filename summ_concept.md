@@ -71,6 +71,7 @@
 * `pre-pegasus`: PEGASUS
 * `pre-unilm`: UNILM
 * `pre-mass`: MASS
+* `pre-T5`: Text-to-Text Transfer Transformer
 
 
 ## Relaxation/Training Methods for Non-differentiable Functions
@@ -95,6 +96,7 @@
 
 
 ## Evaluation
+* `eval-human`: Human Evaluation
 * `eval-metric-rouge`: ROUGE
 * `eval-metric-bertscore`: BERTScore
 * `eval-aspect-coherence`: Coherence
