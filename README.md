@@ -64,12 +64,12 @@ Hot topic: when the proportion of papers on a concept since 2019 is greater than
 	* **Update** the file [`summ_concept.md`](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_concept.md) and send us a `Pull request`.
 	* Or you could open an `Issue`.
 
-* ### If you have a new "paper" or more reasonable annotations
-	* **Add** your paper (If possible, with annotated concepts) into [`paper_with_concept`](https://github.com/neulab/Text-Summarization-Papers/blob/master/paper_with_dataset) and send us a `Pull request`.
+* ### If you have a new "paper" or want to modify our inaccurate annotations of concepts: 
+	* **Update** your paper into the file [`summ_paper.crowdsource`](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_paper.crowdsource) and send us a `Pull request`.
 	* Or you could open an `Issue`.
 
-* ### If you have a new "dataset"
-	* **Add** your dataset (If possible, with a brief description) into [`paper_with_dataset`](https://github.com/neulab/Text-Summarization-Papers/blob/master/paper_with_dataset) and send us a `Pull request`.
+* ### If you have a new "dataset" or want to modify our inaccurate annotations:
+	* **Add** your dataset (If possible, with a brief description) into [`summ_data.crowdsource`](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_data.crowdsource) and send us a `Pull request`.
 	* Or you could open an `Issue`.
 
 
