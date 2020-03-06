@@ -15,6 +15,22 @@ citation: 4
 tag: gen-ext
 ------------------------------------------------------------------------
 year: 2019
+conf: Arxiv
+title: SummAE: Zero-Shot Abstractive Text Summarization using Length-Agnostic Auto-Encoders
+author: Peter J. Liu, Yu-An Chung, Jie Ren
+url: https://arxiv.org/pdf/1910.00998.pdf
+citation: 1
+tag: abs-abs, sup-unsup
+------------------------------------------------------------------------
+year: 2019
+conf: Arxiv
+title: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+author: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
+url: https://arxiv.org/pdf/1910.10683.pdf
+citation: 39
+tag: arch-Transformer, gen-abs, pre-T5
+------------------------------------------------------------------------
+year: 2019
 conf: EMNLP
 title: MoverScore: Text Generation Evaluating with Contextualized Embeddings and Earth Mover Distance
 author: Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Christian M. Meyer, Steffen Eger
