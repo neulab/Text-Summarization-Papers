@@ -91,3 +91,4 @@ Hopefully, you will see our version-2.0 covering papers from 1980 to 2020.
 * Thanks Prof. [Fei Liu](http://www.cs.ucf.edu/~feiliu/) for providing us with a bunch of interesting work and description, which enriches our concept file.
 * Thanks [Peter J. Liu](https://research.google/people/105182/)  a lot for the crowdsourcing idea of the paper and dataset annotations. Feel free to correct our wrong annotations by updating [`summ_paper.crowdsource`](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_paper.crowdsource) and [`summ_data.crowdsource`](https://github.com/neulab/Text-Summarization-Papers/blob/master/summ_data.crowdsource).
 * Thanks Prof. [Mohit Bansal](http://www.cs.unc.edu/~mbansal/)'s feedback about this summary.
+* Thanks for [Richard Socher](https://www.socher.org/index.php/Main/HomePage)'s invitation to giving a talk in salesforce and talking more about this project.
