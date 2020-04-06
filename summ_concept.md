@@ -3,7 +3,7 @@
 
 ## Generation Way
 * `gen-ext`: Extractive Summarization 
-* `gen-abs`: Abstractive Summarizatin
+* `gen-abs`: Abstractive Summarization
 * `gen-2stage` Two-stage Summarization (compressive, hybrid)
 
 ## Regressive Way
@@ -47,10 +47,10 @@
 
 ## Training
 * `train-multitask`: Multi-task Learning
-* `train-multilingual`: multi-lingual Learning
+* `train-multilingual`: Multi-lingual Learning
 * `train-multimodal`: Multi-modal Learning
 * `train-auxiliary`: Joint Training
-* `train-transfer`: Cross-domain Learning, Transfer Learning, Domian Adaptation
+* `train-transfer`: Cross-domain Learning, Transfer Learning, Domain Adaptation
 * `train-active`: Active Learning, Boostrapping
 * `train-adver`: Adversarial Learning
 * `train-template`: Template-based Summarization
