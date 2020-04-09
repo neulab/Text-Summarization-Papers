@@ -75,7 +75,7 @@ Hot topic: when the proportion of papers on a concept since 2019 is greater than
 
 ## Related Work
 
-* [Concepts in Neural Networks for NLP](https://github.com/pfliu-nlp/nn4nlp-concepts)
+* [Concepts in Neural Networks for NLP](https://github.com/neulab/nn4nlp-concepts)
 * [Named Entity Recognition Paper List](https://github.com/pfliu-nlp/Named-Entity-Recognition-NER-Papers)
 * [Historiography of Text Summarization](http://pfliu.com/Historiography/summarization/summ-eng.html)
 
