@@ -25,7 +25,7 @@ We first define the typology of essential [concepts](https://github.com/neulab/T
 <img src="fig/red.png" alt="from 2019" height="20" width="20"> denotes the number of papers **since 2019**.
 <br>
 
-<p align="center"><img src="fig/stat_summ-1.png" alt="Summary" width="90%"></p>
+<p align="center"><img src="fig/sum.gif" alt="Summary" width="90%"></p>
 
 #### `Trends in 2019`:
 <img src="fig/fire.png" alt="HOT" height="20" width="20"> Concepts in red suggest HOT topics, and we can observe:
