@@ -385,7 +385,7 @@ tag: eval-aspect-factuality
 year: 2019
 conf: ACL
 title: Searching for Effective Neural Extractive Summarization: What Works and What's Next
-author: Ming Zhong,Pengfei Liu,Danqing Wang,Xipeng Qiu,Xuanjing Huang
+author: Ming Zhong, Pengfei Liu, Danqing Wang, Xipeng Qiu, Xuanjing Huang
 url: https://arxiv.org/pdf/1907.03491.pdf
 citation: 4
 tag: gen-ext
@@ -393,7 +393,7 @@ tag: gen-ext
 year: 2018
 conf: EMNLP
 title: Content Selection in Deep Learning Models of Summarization
-author: Chris Kedzie,Kathleen McKeown,Hal Daumé
+author: Chris Kedzie, Kathleen McKeown, Hal Daumé
 url: https://arxiv.org/pdf/1810.12343.pdf
 citation: 17
 tag: task-analysis
@@ -521,7 +521,7 @@ tag: task-sci
 year: 2015
 conf: EMNLP
 title: A Neural Attention Model for Abstractive Sentence Summarization
-author: Alexander M. Rush,Sumit Chopra,Jason Weston
+author: Alexander M. Rush, Sumit Chopra, Jason Weston
 url: https://arxiv.org/pdf/1509.00685.pdf
 citation: 1288
 tag: gen-abs, arch-cnn, arch-att
@@ -529,7 +529,7 @@ tag: gen-abs, arch-cnn, arch-att
 year: 2017
 conf: ACL
 title: Get To The Point: Summarization with Pointer-Generator Networks
-author: Abigail See,Peter J. Liu,Christopher D. Manning
+author: Abigail See, Peter J. Liu, Christopher D. Manning
 url: https://arxiv.org/pdf/1704.04368.pdf
 citation: 605
 tag: arch-rnn, arch-att, arch-coverage, arch-pointer
@@ -561,7 +561,7 @@ tag: arch-coverage, arch-rnn, arch-att
 year: 2018
 conf: ICLR
 title: A Deep Reinforced Model for Abstractive Summarization
-author: Romain Paulus,Caiming Xiong,Richard Socher
+author: Romain Paulus, Caiming Xiong, Richard Socher
 url: https://arxiv.org/pdf/1705.04304.pdf
 citation: 453
 tag: nondif-reinforce, arch-rnn, arch-att
@@ -569,7 +569,7 @@ tag: nondif-reinforce, arch-rnn, arch-att
 year: 2016
 conf: ACL
 title: Neural Summarization by Extracting Sentences and Words
-author: Jianpeng Cheng,Mirella Lapata
+author: Jianpeng Cheng, Mirella Lapata
 url: https://arxiv.org/pdf/1603.07252.pdf
 citation: 340
 tag: task-singledDoc, arch-rnn
@@ -577,7 +577,7 @@ tag: task-singledDoc, arch-rnn
 year: 2017
 conf: AAAI
 title: SummaRuNNer: A Recurrent Neural Network Based Sequence Model for Extractive Summarization of Documents
-author: Ramesh Nallapati,Feifei Zhai,Bowen Zhou
+author: Ramesh Nallapati, Feifei Zhai, Bowen Zhou
 url: https://arxiv.org/pdf/1611.04230.pdf
 citation: 315
 tag: arch-rnn
@@ -585,7 +585,7 @@ tag: arch-rnn
 year: 2019
 conf: AAAI
 title: Discriminative Feature Learning for Unsupervised Video Summarization
-author: Yunjae Jung,Donghyeon Cho,Dahun Kim,Sanghyun Woo,In-So Kweon
+author: Yunjae Jung, Donghyeon Cho, Dahun Kim, Sanghyun Woo, In-So Kweon
 url: https://arxiv.org/pdf/1811.09791.pdf
 citation: 3
 tag: train-unsup, task-video
@@ -593,7 +593,7 @@ tag: train-unsup, task-video
 year: 2014
 conf: NIPS
 title: Diverse Sequential Subset Selection for Supervised Video Summarization
-author: Boqing Gong,Wei-Lun Chao,Kristen Grauman,Fei Sha
+author: Boqing Gong, Wei-Lun Chao, Kristen Grauman, Fei Sha
 url: https://pdfs.semanticscholar.org/3ddd/140e1519f6e8f9b2b917ccb04478f32dcf1d.pdf
 citation: 222
 tag: task-video
@@ -601,7 +601,7 @@ tag: task-video
 year: 2015
 conf: EMNLP
 title: LCSTS: A Large Scale Chinese Short Text Summarization Dataset
-author: Baotian Hu,Qingcai Chen,Fangze Zhu
+author: Baotian Hu, Qingcai Chen, Fangze Zhu
 url: https://arxiv.org/pdf/1506.05865.pdf
 citation: 105
 tag: data-new, arch-rnn
@@ -625,7 +625,7 @@ tag: data-new
 year: 2019
 conf: NAA-CL
 title: Abstractive Summarization of Reddit Posts with Multi-level Memory Networks
-author: Byeongchang Kim,Hyunwoo Kim,Gunhee Kim
+author: Byeongchang Kim, Hyunwoo Kim, Gunhee Kim
 url: https://arxiv.org/pdf/1811.00783.pdf
 citation: 10
 tag: gen-abs, data-new, arch-rnn, arch-att
@@ -633,7 +633,7 @@ tag: gen-abs, data-new, arch-rnn, arch-att
 year: 2019
 conf: ACL
 title: BIGPATENT: A Large-Scale Dataset for Abstractive and Coherent Summarization
-author: Eva Sharma,Chen Li,Lu Wang
+author: Eva Sharma, Chen Li, Lu Wang
 url: https://arxiv.org/pdf/1906.03741.pdf
 citation: 2
 tag: gen-abs, data-new
@@ -649,7 +649,7 @@ tag: gen-abs, data-new, arch-rnn
 year: 2018
 conf: NAA-CL
 title: A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents
-author: Arman Cohan,Franck Dernoncourt,Doo Soon Kim,Trung Bui,Seokhwan Kim,Walter Chang,Nazli Goharian
+author: Arman Cohan, Franck Dernoncourt, Doo Soon Kim, Trung Bui, Seokhwan Kim, Walter Chang, Nazli Goharian
 url: https://arxiv.org/pdf/1804.05685.pdf
 citation: 44
 tag: task-sci, arch-att, arch-rnn
@@ -673,7 +673,7 @@ tag: data-new
 year: 2019
 conf: EMNLP
 title: SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization
-author: Prakhar Ganesh,Saket Dingliwal
+author: Prakhar Ganesh, Saket Dingliwal
 url: https://arxiv.org/pdf/1902.01615.pdf
 citation: 0
 tag: gen-abs
@@ -681,7 +681,7 @@ tag: gen-abs
 year: 2019
 conf: EMNLP
 title: Global Voices: Crossing Borders in Automatic News Summarization
-author: Khanh Nguyen,Hal Daumé
+author: Khanh Nguyen, Hal Daumé
 url: https://arxiv.org/pdf/1910.00421.pdf
 citation: 0
 tag: train-multilingual
@@ -705,7 +705,7 @@ tag: task-sci, data-new
 year: 2019
 conf: ACL
 title: Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model
-author: Alexander R. Fabbri,Irene Li,Tianwei She,Suyi Li,Dragomir R. Radev
+author: Alexander R. Fabbri, Irene Li, Tianwei She, Suyi Li, Dragomir R. Radev
 url: https://arxiv.org/pdf/1906.01749.pdf
 citation: 5
 tag: data-new
@@ -777,7 +777,7 @@ tag: data-new
 year: 2019
 conf: ACL
 title: Multimodal Abstractive Summarization for How2 Videos
-author: Shruti Palaskar,Jindřich Libovický,Spandana Gella,Florian Metze
+author: Shruti Palaskar, Jindřich Libovický, Spandana Gella, Florian Metze
 url: https://arxiv.org/pdf/1906.07901.pdf
 citation: 3
 tag: task-multimodal
@@ -785,7 +785,7 @@ tag: task-multimodal
 year: 2020
 conf: AAAI
 title: Joint Parsing and Generation for Abstractive Summarization
-author: Kaiqiang Song,Logan Lebanoff,Qipeng Guo,Xipeng Qiu,Xiangyang Xue,Chen Li,Dong Yu,Fei Liu
+author: Kaiqiang Song, Logan Lebanoff, Qipeng Guo, Xipeng Qiu, Xiangyang Xue, Chen Li, Dong Yu, Fei Liu
 url: https://arxiv.org/pdf/1911.10389.pdf
 citation: 0
 tag: gen-abs
@@ -793,7 +793,7 @@ tag: gen-abs
 year: 2020
 conf: AAAI
 title: Controlling the Amount of Verbatim Copying in Abstractive Summarization
-author: Kaiqiang Song,Bingqing Wang,Zhe Feng,Liu Ren,Fei Liu
+author: Kaiqiang Song, Bingqing Wang, Zhe Feng, Liu Ren, Fei Liu
 url: https://arxiv.org/pdf/1911.10390.pdf
 citation: 1
 tag: pre-bert
@@ -801,7 +801,7 @@ tag: pre-bert
 year: 2020
 conf: AAAI
 title: Syntactically Look-Ahead Attention Network for Sentence Compression
-author: Hidetaka Kamigaito,Manabu Okumura
+author: Hidetaka Kamigaito, Manabu Okumura
 url: https://arxiv.org/pdf/2002.01145.pdf
 citation: 0
 tag: task-senCompre
@@ -809,7 +809,7 @@ tag: task-senCompre
 year: 2019
 conf: AAAI
 title: Abstractive Text Summarization by Incorporating Reader Comments
-author: Shen Gao,Xiuying Chen,Piji Li,Zhaochun Ren,Lidong Bing,Dongyan Zhao,Rui Yan
+author: Shen Gao, Xiuying Chen, Piji Li, Zhaochun Ren, Lidong Bing, Dongyan Zhao, Rui Yan
 url: https://arxiv.org/pdf/1812.05407.pdf
 citation: 5
 tag: gen-abs
@@ -817,7 +817,7 @@ tag: gen-abs
 year: 2019
 conf: AAAI
 title: Towards Personalized Review Summarization via User-Aware Sequence Network
-author: Junjie Li,Haoran Li,Chengqing Zong
+author: Junjie Li, Haoran Li, Chengqing Zong
 url: https://pdfs.semanticscholar.org/d269/717aecdcdd0e484dddc02699b407ce756d62.pdf
 citation: 1
 tag: data-new
@@ -825,7 +825,7 @@ tag: data-new
 year: 2019
 conf: AAAI
 title: DeepChannel: Salience Estimation by Contrastive Learning for Extractive Document Summarization
-author: Jiaxin Shi,Chen Liang,Lei Hou,Juan-Zi Li,Zhiyuan Liu,Hanwang Zhang
+author: Jiaxin Shi, Chen Liang, Lei Hou, Juan-Zi Li, Zhiyuan Liu, Hanwang Zhang
 url: https://arxiv.org/pdf/1811.02394.pdf
 citation: 5
 tag: arch-cnn
@@ -841,7 +841,7 @@ tag: other
 year: 2019
 conf: AAAI
 title: Cycle-SUM: Cycle-Consistent Adversarial LSTM Networks for Unsupervised Video Summarization
-author: Li Yuan,Francis EH Tay,Ping Li,Li Zhou,Jiashi Feng
+author: Li Yuan, Francis EH Tay, Ping Li, Li Zhou, Jiashi Feng
 url: https://arxiv.org/pdf/1904.08265.pdf
 citation: 6
 tag: task-video
@@ -849,7 +849,7 @@ tag: task-video
 year: 2019
 conf: AAAI
 title: Abstractive Summarization: A Survey of the State of the Art
-author: Hui Lin,Vincent Ng
+author: Hui Lin, Vincent Ng
 url: https://doi.org/10.1609/aaai.v33i01.33019815
 citation: 1
 tag: other
@@ -857,7 +857,7 @@ tag: other
 year: 2019
 conf: AAAI
 title: A Multi-Task Learning Framework for Abstractive Text Summarization
-author: Yao Lu,Linqing Liu,Zhile Jiang,Min Yang,Randy Goebel
+author: Yao Lu, Linqing Liu, Zhile Jiang, Min Yang, Randy Goebel
 url: https://doi.org/10.1609/aaai.v33i01.33019987
 citation: 0
 tag: other
@@ -865,7 +865,7 @@ tag: other
 year: 2019
 conf: ACL
 title: Improving Abstractive Document Summarization with Salient Information Modeling
-author: Yongjian You,Weijia Jia,Tianyi Liu,Wenmian Yang
+author: Yongjian You, Weijia Jia, Tianyi Liu, Wenmian Yang
 url: https://pdfs.semanticscholar.org/cbf9/07906a60184f38a85db51c3f8c2ce99dca0b.pdf
 citation: 4
 tag: arch-transformer
@@ -873,7 +873,7 @@ tag: arch-transformer
 year: 2019
 conf: ACL
 title: Unsupervised Neural Single-Document Summarization of Reviews via Learning Latent Discourse Structure and its Ranking
-author: Masaru Isonuma,Junichiro Mori,Ichiro Sakata
+author: Masaru Isonuma, Junichiro Mori, Ichiro Sakata
 url: https://arxiv.org/pdf/1906.05691.pdf
 citation: 2
 tag: train-unsup
@@ -881,7 +881,7 @@ tag: train-unsup
 year: 2019
 conf: ACL
 title: Sentence Centrality Revisited for Unsupervised Summarization
-author: Hao Zheng,Mirella Lapata
+author: Hao Zheng, Mirella Lapata
 url: https://arxiv.org/pdf/1906.03508.pdf
 citation: 1
 tag: train-unsup
@@ -889,7 +889,7 @@ tag: train-unsup
 year: 2019
 conf: ACL
 title: BiSET: Bi-directional Selective Encoding with Template for Abstractive Summarization
-author: Kai Wang,Xiaojun Quan,Rui Wang
+author: Kai Wang, Xiaojun Quan, Rui Wang
 url: https://arxiv.org/pdf/1906.05012.pdf
 citation: 1
 tag: train-template
@@ -897,7 +897,7 @@ tag: train-template
 year: 2019
 conf: ACL
 title: Hierarchical Transformers for Multi-Document Summarization
-author: Yang Liu,Mirella Lapata
+author: Yang Liu, Mirella Lapata
 url: https://arxiv.org/pdf/1905.13164.pdf
 citation: 4
 tag: task-multiDoc
@@ -905,7 +905,7 @@ tag: task-multiDoc
 year: 2019
 conf: ACL
 title: Abstractive text summarization based on deep learning and semantic content generalization
-author: Panagiotis Kouris,Georgios Alexandridis,Andreas Stafylopatis
+author: Panagiotis Kouris, Georgios Alexandridis, Andreas Stafylopatis
 url: https://pdfs.semanticscholar.org/50ce/1595e8daf95ea031b91237d0ed21e1525787.pdf
 citation: 1
 tag: gen-abs
@@ -921,7 +921,7 @@ tag: eval-aspect-redundancy
 year: 2019
 conf: ACL
 title: HighRES: Highlight-based Reference-less Evaluation of Summarization
-author: Hardy,Shashi Narayan,Andreas Vlachos
+author: Hardy, Shashi Narayan, Andreas Vlachos
 url: https://arxiv.org/pdf/1906.01361.pdf
 citation: 2
 tag: other
@@ -929,7 +929,7 @@ tag: other
 year: 2019
 conf: ACL
 title: HIBERT: Document Level Pre-training of Hierarchical Bidirectional Transformers for Document Summarization
-author: Xingxing Zhang,Furu Wei,Ming Zhou
+author: Xingxing Zhang, Furu Wei, Ming Zhou
 url: https://arxiv.org/pdf/1905.06566.pdf
 citation: 8
 tag: eval-metric-rouge
@@ -937,7 +937,7 @@ tag: eval-metric-rouge
 year: 2019
 conf: ACL
 title: Scoring Sentence Singletons and Pairs for Abstractive Summarization
-author: Logan Lebanoff,Kaiqiang Song,Franck Dernoncourt,Doo Soon Kim,Seokhwan Kim,Walter Chang,Fei Liu
+author: Logan Lebanoff, Kaiqiang Song, Franck Dernoncourt, Doo Soon Kim, Seokhwan Kim, Walter Chang, Fei Liu
 url: https://arxiv.org/pdf/1906.00077.pdf
 citation: 5
 tag: gen-abs, arch-cnn
@@ -945,7 +945,7 @@ tag: gen-abs, arch-cnn
 year: 2019
 conf: ACL
 title: Improving the Similarity Measure of Determinantal Point Processes for Extractive Multi-Document Summarization
-author: Sangwoo Cho,Logan Lebanoff,Hassan Foroosh,Fei Liu
+author: Sangwoo Cho, Logan Lebanoff, Hassan Foroosh, Fei Liu
 url: https://arxiv.org/pdf/1906.00072.pdf
 citation: 3
 tag: task-multiDoc
@@ -953,7 +953,7 @@ tag: task-multiDoc
 year: 2019
 conf: ACL
 title: Zero-Shot Cross-Lingual Abstractive Sentence Summarization through Teaching Generation and Attention
-author: Xiangyu Duan,Mingming Yin,Min Zhang,Boxing Chen,Weihua Luo
+author: Xiangyu Duan, Mingming Yin, Min Zhang, Boxing Chen, Weihua Luo
 url: https://pdfs.semanticscholar.org/8011/68a3f084b385d418b38fc9d877bc57cc545a.pdf
 citation: 6
 tag: arch-att
@@ -961,7 +961,7 @@ tag: arch-att
 year: 2019
 conf: ACL
 title: Global Optimization under Length Constraint for Neural Text Summarization
-author: Takuya Makino,Tomoya Iwakura,Hiroya Takamura,Manabu Okumura
+author: Takuya Makino, Tomoya Iwakura, Hiroya Takamura, Manabu Okumura
 url: https://pdfs.semanticscholar.org/8d92/c3e1687af5ad7eddc1ffe50728b64e7b3b5b.pdf
 citation: 3
 tag: gen-abs, task-singledDoc, arch-cnn, eval-metric-rouge
@@ -969,7 +969,7 @@ tag: gen-abs, task-singledDoc, arch-cnn, eval-metric-rouge
 year: 2019
 conf: ACL
 title: Keep Meeting Summaries on Topic: Abstractive Multi-Modal Meeting Summarization
-author: Manling Li,Lingyu Zhang,Heng Ji,Richard J. Radke
+author: Manling Li, Lingyu Zhang, Heng Ji, Richard J. Radke
 url: https://pdfs.semanticscholar.org/8c2f/5ed9efe3985ded8ee724dffc6ebf1f082493.pdf
 citation: 1
 tag: task-multimodal
@@ -985,7 +985,7 @@ tag: other
 year: 2019
 conf: ACL
 title: Simple Unsupervised Summarization by Contextual Matching
-author: Jiawei Zhou,Alexander M. Rush
+author: Jiawei Zhou, Alexander M. Rush
 url: https://arxiv.org/pdf/1907.13337.pdf
 citation: 1
 tag: gen-ext, gen-abs, train-unsup
@@ -993,7 +993,7 @@ tag: gen-ext, gen-abs, train-unsup
 year: 2019
 conf: ACL
 title: Self-Supervised Learning for Contextualized Extractive Summarization
-author: Hong Wang,Xin Wang,Wenhan Xiong,Mo Yu,Xiaoxiao Guo,Shiyu Chang,William Yang Wang
+author: Hong Wang, Xin Wang, Wenhan Xiong, Mo Yu, Xiaoxiao Guo, Shiyu Chang, William Yang Wang
 url: https://arxiv.org/pdf/1906.04466.pdf
 citation: 1
 tag: gen-ext, arch-cnn
@@ -1001,7 +1001,7 @@ tag: gen-ext, arch-cnn
 year: 2019
 conf: ACL
 title: On the Summarization of Consumer Health Questions
-author: Asma Ben Abacha,Dina Demner-Fushman
+author: Asma Ben Abacha, Dina Demner-Fushman
 url: https://pdfs.semanticscholar.org/2dad/078c48278da520d5bd67ed2e4fca0ef85e83.pdf
 citation: 0
 tag: task-question
@@ -1017,7 +1017,7 @@ tag: task-opinion
 year: 2019
 conf: ACL
 title: STRASS: A Light and Effective Method for Extractive Summarization Based on Sentence Embeddings
-author: Léo Bouscarrat,Antoine Bonnefoy,Thomas Peel,Cecile Pereira
+author: Léo Bouscarrat, Antoine Bonnefoy, Thomas Peel, Cecile Pereira
 url: https://arxiv.org/pdf/1907.07323.pdf
 citation: 0
 tag: gen-ext, eval-metric-rouge
@@ -1025,7 +1025,7 @@ tag: gen-ext, eval-metric-rouge
 year: 2019
 conf: ACL
 title: A Modular Tool for Automatic Summarization
-author: Valentin Nyzam,Aurélien Bossard
+author: Valentin Nyzam, Aurélien Bossard
 url: https://pdfs.semanticscholar.org/6d51/d8a0f5ad5ac1dce9afd321aee2d85349c5b0.pdf
 citation: 0
 tag: task-knowledge
@@ -1033,7 +1033,7 @@ tag: task-knowledge
 year: 2019
 conf: EMNLP
 title: An Entity-Driven Framework for Abstractive Summarization
-author: Eva Sharma,Luyang Huang,Zhe Hu,Lu Wang
+author: Eva Sharma, Luyang Huang, Zhe Hu, Lu Wang
 url: https://arxiv.org/pdf/1909.02059.pdf
 citation: 1
 tag: gen-ext, gen-abs, task-singledDoc, pre-bert
@@ -1041,7 +1041,7 @@ tag: gen-ext, gen-abs, task-singledDoc, pre-bert
 year: 2019
 conf: EMNLP
 title: Answers Unite! Unsupervised Metrics for Reinforced Summarization Models
-author: Thomas Scialom,Sylvain Lamprier,Benjamin Piwowarski,Jacopo Staiano
+author: Thomas Scialom, Sylvain Lamprier, Benjamin Piwowarski, Jacopo Staiano
 url: https://arxiv.org/pdf/1909.01610.pdf
 citation: 1
 tag: gen-abs, nondif-reinforce, eval-metric-rouge
@@ -1049,7 +1049,7 @@ tag: gen-abs, nondif-reinforce, eval-metric-rouge
 year: 2019
 conf: EMNLP
 title: Attribute-aware Sequence Network for Review Summarization
-author: Junjie Li,Xuepeng Wang,Dawei Yin,Chengqing Zong
+author: Junjie Li, Xuepeng Wang, Dawei Yin, Chengqing Zong
 url: https://pdfs.semanticscholar.org/1bad/13a444f3b1fc43eb79892fecf8363d4d7eee.pdf
 citation: 0
 tag: arch-att
@@ -1057,7 +1057,7 @@ tag: arch-att
 year: 2019
 conf: EMNLP
 title: Concept Pointer Network for Abstractive Summarization
-author: Wang Wenbo,Yang Gao,Huang Heyan,Yuxiang Zhou
+author: Wang Wenbo, Yang Gao, Huang Heyan, Yuxiang Zhou
 url: https://arxiv.org/pdf/1910.08486.pdf
 citation: 0
 tag: gen-abs, task-knowledge, arch-pointer
@@ -1065,7 +1065,7 @@ tag: gen-abs, task-knowledge, arch-pointer
 year: 2019
 conf: EMNLP
 title: Contrastive Attention Mechanism for Abstractive Sentence Summarization
-author: Xiangyu Duan,Hongfei Yu,Mingming Yin,Min Zhang,Weihua Luo,Yue Zhang
+author: Xiangyu Duan, Hongfei Yu, Mingming Yin, Min Zhang, Weihua Luo, Yue Zhang
 url: https://arxiv.org/pdf/1910.13114.pdf
 citation: 0
 tag: gen-abs, arch-att
@@ -1073,7 +1073,7 @@ tag: gen-abs, arch-att
 year: 2019
 conf: EMNLP
 title: Extractive Summarization of Long Documents by Combining Global and Local Context
-author: Wen Xiao,Giuseppe Carenini
+author: Wen Xiao, Giuseppe Carenini
 url: https://arxiv.org/pdf/1909.08089.pdf
 citation: 0
 tag: gen-ext, gen-abs, task-sci, task-longtext, eval-metric-rouge
@@ -1081,7 +1081,7 @@ tag: gen-ext, gen-abs, task-sci, task-longtext, eval-metric-rouge
 year: 2019
 conf: EMNLP
 title: Improving Latent Alignment in Text Summarization by Generalizing the Pointer Generator
-author: Xiaoyu Shen,Yang Zhao,Hui Chia Su,Dietrich Klakow
+author: Xiaoyu Shen, Yang Zhao, Hui Chia Su, Dietrich Klakow
 url: https://pdfs.semanticscholar.org/38f5/7d726a0812ca0ba279af9e5fd2281c71fd79.pdf
 citation: 0
 tag: gen-ext
@@ -1089,7 +1089,7 @@ tag: gen-ext
 year: 2019
 conf: EMNLP
 title: NCLS: Neural Cross-Lingual Summarization
-author: Junnan Zhu,Qian Wang,Yining Wang,Yu Fang Zhou,Jiajun Zhang,Shaonan Wang,Chengqing Zong
+author: Junnan Zhu, Qian Wang, Yining Wang, Yu Fang Zhou, Jiajun Zhang, Shaonan Wang, Chengqing Zong
 url: https://arxiv.org/pdf/1909.00156.pdf
 citation: 0
 tag: train-multitask
@@ -1097,7 +1097,7 @@ tag: train-multitask
 year: 2019
 conf: EMNLP
 title: Neural Extractive Text Summarization with Syntactic Compression
-author: Jiacheng Xu,Greg Durrett
+author: Jiacheng Xu, Greg Durrett
 url: https://arxiv.org/pdf/1902.00863.pdf
 citation: 8
 tag: gen-ext, gen-2stage, task-singledDoc, arch-cnn, eval-metric-rouge
@@ -1105,7 +1105,7 @@ tag: gen-ext, gen-2stage, task-singledDoc, arch-cnn, eval-metric-rouge
 year: 2019
 conf: EMNLP
 title: Neural Text Summarization: A Critical Evaluation
-author: Wojciech Kryscinski,Nitish Shirish Keskar,Bryan McCann,Caiming Xiong,Richard Socher
+author: Wojciech Kryscinski, Nitish Shirish Keskar, Bryan McCann, Caiming Xiong, Richard Socher
 url: https://arxiv.org/pdf/1908.08960.pdf
 citation: 6
 tag: arch-att, train-multitask, eval-aspect-factuality
@@ -1113,7 +1113,7 @@ tag: arch-att, train-multitask, eval-aspect-factuality
 year: 2019
 conf: EMNLP
 title: Reading Like HER: Human Reading Inspired Extractive Summarization
-author: Ling Luo,Xiang Ao,Y. S. Song,Feiyang Pan,Min Yang,Qing He
+author: Ling Luo, Xiang Ao, Y. S. Song, Feiyang Pan, Min Yang, Qing He
 url: https://pdfs.semanticscholar.org/3088/0653c7a39dd234b0f3edf4eb72a5e8961a9d.pdf
 citation: 0
 tag: gen-ext, gen-2stage, arch-cnn, nondif-reinforce, eval-metric-rouge
@@ -1121,7 +1121,7 @@ tag: gen-ext, gen-2stage, arch-cnn, nondif-reinforce, eval-metric-rouge
 year: 2019
 conf: EMNLP
 title: Subtopic-Driven Multi-Document Summarization
-author: Xin Zheng,Aixin Sun,Jing Li,Karthik Muthuswamy
+author: Xin Zheng, Aixin Sun, Jing Li, Karthik Muthuswamy
 url: https://pdfs.semanticscholar.org/f5c4/c5e0dcdb9d4aed2cd9616b7a903a53dfc5fa.pdf
 citation: 0
 tag: task-multiDoc, arch-rnn
@@ -1129,7 +1129,7 @@ tag: task-multiDoc, arch-rnn
 year: 2019
 conf: EMNLP
 title: Summary Cloze: A New Task for Content Selection in Topic-Focused Summarization
-author: Daniel Deutsch,Dan Roth
+author: Daniel Deutsch, Dan Roth
 url: https://pdfs.semanticscholar.org/3011/91fa17caaa3f9400b1722e196bee75b778ac.pdf
 citation: 0
 tag: other
@@ -1137,7 +1137,7 @@ tag: other
 year: 2019
 conf: EMNLP
 title: Text Summarization with Pretrained Encoders
-author: Yang Liu,Mirella Lapata
+author: Yang Liu, Mirella Lapata
 url: https://arxiv.org/pdf/1908.08345.pdf
 citation: 12
 tag: gen-ext, gen-abs, gen-2stage, arch-transformer
@@ -1145,7 +1145,7 @@ tag: gen-ext, gen-abs, gen-2stage, arch-transformer
 year: 2019
 conf: EMNLP
 title: Abstract Text Summarization: A Low Resource Challenge
-author: Shantipriya Parida,Petr Motlícek
+author: Shantipriya Parida, Petr Motlícek
 url: https://pdfs.semanticscholar.org/b699/32bd355beb359557d9f988dfb84cc361e605.pdf
 citation: 0
 tag: train-multilingual
@@ -1153,7 +1153,7 @@ tag: train-multilingual
 year: 2019
 conf: EMNLP
 title: Attention Optimization for Abstractive Document Summarization
-author: Min Gui,Junfeng Tian,Rui Wang,Zhenglu Yang
+author: Min Gui, Junfeng Tian, Rui Wang, Zhenglu Yang
 url: https://arxiv.org/pdf/1910.11491.pdf
 citation: 0
 tag: gen-abs, arch-cnn, arch-att
@@ -1161,7 +1161,7 @@ tag: gen-abs, arch-cnn, arch-att
 year: 2019
 conf: EMNLP
 title: Countering the effects of lead bias in news summarization via multi-stage training and auxiliary losses
-author: M. E. Grenander,Yue Dong,Jackie Chi Kit Cheung,Annie Louis
+author: M. E. Grenander, Yue Dong, Jackie Chi Kit Cheung, Annie Louis
 url: https://arxiv.org/pdf/1909.04028.pdf
 citation: 1
 tag: gen-ext, nondif-reinforce, eval-metric-rouge
@@ -1169,7 +1169,7 @@ tag: gen-ext, nondif-reinforce, eval-metric-rouge
 year: 2019
 conf: EMNLP
 title: Deep Reinforcement Learning with Distributional Semantic Rewards for Abstractive Summarization
-author: Siyao Li,Deren Lei,Pengda Qin,William Yang Wang
+author: Siyao Li, Deren Lei, Pengda Qin, William Yang Wang
 url: https://arxiv.org/pdf/1909.00141.pdf
 citation: 1
 tag: gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge
@@ -1177,7 +1177,7 @@ tag: gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge
 year: 2019
 conf: EMNLP
 title: The Feasibility of Embedding Based Automatic Evaluation for Single Document Summarization
-author: Simeng Sun,Ani Nenkova
+author: Simeng Sun, Ani Nenkova
 url: https://pdfs.semanticscholar.org/584b/9e321c8f82fed514f70b10313b5fd971b277.pdf
 citation: 0
 tag: pre-elmo
@@ -1185,7 +1185,7 @@ tag: pre-elmo
 year: 2019
 conf: EMNLP
 title: BottleSum: Unsupervised and Self-supervised Sentence Summarization using the Information Bottleneck Principle
-author: Peter West,Ari Holtzman,Jan Buys,Yejin Choi
+author: Peter West, Ari Holtzman, Jan Buys, Yejin Choi
 url: https://arxiv.org/pdf/1909.07405.pdf
 citation: 1
 tag: gen-ext, train-unsup, arch-transformer
@@ -1193,7 +1193,7 @@ tag: gen-ext, train-unsup, arch-transformer
 year: 2019
 conf: EMNLP
 title: A Summarization System for Scientific Documents
-author: Shai Erera,Michal Shmueli-Scheuer,Guy Feigenblat,Ora Peled Nakash,Odellia Boni,Haggai Roitman,Doron Cohen,Bar Weiner,Yosi Mass,Or Rivlin,Guy Lev,Achiya Jerbi,Jonathan Herzig,Yufang Hou,Charles Jochim,Martin Gleize,Francesca Bonin,David Konopnicki
+author: Shai Erera, Michal Shmueli-Scheuer, Guy Feigenblat, Ora Peled Nakash, Odellia Boni, Haggai Roitman, Doron Cohen, Bar Weiner, Yosi Mass, Or Rivlin, Guy Lev, Achiya Jerbi, Jonathan Herzig, Yufang Hou, Charles Jochim, Martin Gleize, Francesca Bonin, David Konopnicki
 url: https://arxiv.org/pdf/1908.11152.pdf
 citation: 0
 tag: task-query
@@ -1201,7 +1201,7 @@ tag: task-query
 year: 2019
 conf: EMNLP
 title: Summary Level Training of Sentence Rewriting for Abstractive Summarization
-author: Sanghwan Bae,Taeuk Kim,Jihoon Kim,Sang-goo Lee
+author: Sanghwan Bae, Taeuk Kim, Jihoon Kim, Sang-goo Lee
 url: https://arxiv.org/pdf/1909.08752.pdf
 citation: 0
 tag: gen-ext, gen-abs, arch-cnn, pre-bert, eval-metric-rouge
@@ -1209,7 +1209,7 @@ tag: gen-ext, gen-abs, arch-cnn, pre-bert, eval-metric-rouge
 year: 2019
 conf: EMNLP
 title: Learning to Create Sentence Semantic Relation Graphs for Multi-Document Summarization
-author: Diego Antognini,Boi Faltings
+author: Diego Antognini, Boi Faltings
 url: https://arxiv.org/pdf/1909.12231.pdf
 citation: 0
 tag: other
@@ -1217,7 +1217,7 @@ tag: other
 year: 2019
 conf: EMNLP
 title: Unsupervised Aspect-Based Multi-Document Abstractive Summarization
-author: Maximin Coavoux,Hady ElSahar,Matthias Gallé
+author: Maximin Coavoux, Hady ElSahar, Matthias Gallé
 url: https://pdfs.semanticscholar.org/c605/fa1e3618c35c98b63398c25a04b9936da1e3.pdf
 citation: 0
 tag: gen-abs, train-unsup, task-multiDoc, arch-rnn
@@ -1225,7 +1225,7 @@ tag: gen-abs, train-unsup, task-multiDoc, arch-rnn
 year: 2019
 conf: EMNLP
 title: An Editorial Network for Enhanced Document Summarization
-author: Edward Moroshko,Guy Feigenblat,Haggai Roitman,David Konopnicki
+author: Edward Moroshko, Guy Feigenblat, Haggai Roitman, David Konopnicki
 url: https://arxiv.org/pdf/1902.10360.pdf
 citation: 1
 tag: gen-ext, gen-abs, arch-att, eval-aspect-redundancy
@@ -1233,7 +1233,7 @@ tag: gen-ext, gen-abs, arch-att, eval-aspect-redundancy
 year: 2019
 conf: EMNLP
 title: A Closer Look at Data Bias in Neural Extractive Summarization Models
-author: Ming Zhong,Danqing Wang,Pengfei Liu,Xipeng Qiu,Xuanjing Huang
+author: Ming Zhong, Danqing Wang, Pengfei Liu, Xipeng Qiu, Xuanjing Huang
 url: https://arxiv.org/pdf/1909.13705.pdf
 citation: 1
 tag: gen-ext
@@ -1241,7 +1241,7 @@ tag: gen-ext
 year: 2019
 conf: EMNLP
 title: Multi-Document Summarization with Determinantal Point Processes and Contextualized Representations
-author: Sangwoo Cho,Chen Li,D. H. Yu,Hassan Foroosh,Fei Liu
+author: Sangwoo Cho, Chen Li, D. H. Yu, Hassan Foroosh, Fei Liu
 url: https://arxiv.org/pdf/1910.11411.pdf
 citation: 0
 tag: gen-ext, pre-elmo, pre-bert
@@ -1249,7 +1249,7 @@ tag: gen-ext, pre-elmo, pre-bert
 year: 2019
 conf: EMNLP
 title: Analyzing Sentence Fusion in Abstractive Summarization
-author: Logan Lebanoff,John Muchovej,Franck Dernoncourt,Doo Soon Kim,Seokhwan Kim,Walter Chang,Fei Liu
+author: Logan Lebanoff, John Muchovej, Franck Dernoncourt, Doo Soon Kim, Seokhwan Kim, Walter Chang, Fei Liu
 url: https://arxiv.org/pdf/1910.00203.pdf
 citation: 2
 tag: gen-abs
@@ -1257,7 +1257,7 @@ tag: gen-abs
 year: 2019
 conf: EMNLP
 title: Exploiting Discourse-Level Segmentation for Extractive Summarization
-author: Zhengyuan Liu,Nancy F. Chen
+author: Zhengyuan Liu, Nancy F. Chen
 url: https://pdfs.semanticscholar.org/6b34/426d7609452d2d39299cefd3a1bcf1029ce2.pdf
 citation: 0
 tag: gen-ext, arch-cnn, arch-transformer
@@ -1265,7 +1265,7 @@ tag: gen-ext, arch-cnn, arch-transformer
 year: 2019
 conf: EMNLP
 title: Transformer-based Model for Single Documents Neural Summarization
-author: Elozino Egonmwan,Yllias Chali
+author: Elozino Egonmwan, Yllias Chali
 url: https://pdfs.semanticscholar.org/1401/dabdf177352d54467576832d0d767ecff795.pdf
 citation: 0
 tag: gen-abs, task-singledDoc, arch-cnn, arch-transformer, arch-att, eval-aspect-factuality
@@ -1273,7 +1273,7 @@ tag: gen-abs, task-singledDoc, arch-cnn, arch-transformer, arch-att, eval-aspect
 year: 2019
 conf: EMNLP
 title: Cross-Task Knowledge Transfer for Query-Based Text Summarization
-author: Elozino Egonmwan,Vittorio Castelli,Md Arafat Sultan
+author: Elozino Egonmwan, Vittorio Castelli, Md Arafat Sultan
 url: https://pdfs.semanticscholar.org/5913/88f994543ca03fb99b91d6d93421c2304d8c.pdf
 citation: 0
 tag: task-senCompre
@@ -1281,7 +1281,7 @@ tag: task-senCompre
 year: 2019
 conf: ICML
 title: MeanSum: A Neural Model for Unsupervised Multi-Document Abstractive Summarization
-author: Eric Chu,Peter J. Liu
+author: Eric Chu, Peter J. Liu
 url: https://pdfs.semanticscholar.org/f5af/fe0ba254aad17a0481522c4378636b84a3da.pdf
 citation: 7
 tag: gen-ext, gen-abs, train-unsup, task-multiDoc
@@ -1289,7 +1289,7 @@ tag: gen-ext, gen-abs, train-unsup, task-multiDoc
 year: 2019
 conf: ICML
 title: Fair k-Center Clustering for Data Summarization
-author: Matthäus Kleindessner,Pranjal Awasthi,Jamie Morgenstern
+author: Matthäus Kleindessner, Pranjal Awasthi, Jamie Morgenstern
 url: https://arxiv.org/pdf/1901.08628.pdf
 citation: 17
 tag: other
@@ -1297,7 +1297,7 @@ tag: other
 year: 2019
 conf: NAA-CL
 title: A Robust Abstractive System for Cross-Lingual Summarization
-author: Jessica Ouyang,Boya Song,Kathleen McKeown
+author: Jessica Ouyang, Boya Song, Kathleen McKeown
 url: https://pdfs.semanticscholar.org/a79d/7b0bbabe28ea8cc4e8fbcd73a5b43d29782c.pdf
 citation: 3
 tag: train-lowresource
@@ -1305,7 +1305,7 @@ tag: train-lowresource
 year: 2019
 conf: NAA-CL
 title: Fast Concept Mention Grouping for Concept Map-based Multi-Document Summarization
-author: Tobias Falke,Iryna Gurevych
+author: Tobias Falke, Iryna Gurevych
 url: https://pdfs.semanticscholar.org/0618/964c3a84a6bb34a40c725caae6c5c2cc1651.pdf
 citation: 0
 tag: task-multiDoc
@@ -1313,7 +1313,7 @@ tag: task-multiDoc
 year: 2019
 conf: NAA-CL
 title: Guiding Extractive Summarization with Question-Answering Rewards
-author: Kristjan Arumae,Fei Liu
+author: Kristjan Arumae, Fei Liu
 url: https://arxiv.org/pdf/1904.02321.pdf
 citation: 6
 tag: gen-ext, task-multimodal, task-video, task-question
@@ -1321,7 +1321,7 @@ tag: gen-ext, task-multimodal, task-video, task-question
 year: 2019
 conf: NAA-CL
 title: Keyphrase Generation: A Text Summarization Struggle
-author: Erion Çano,Ondrej Bojar
+author: Erion Çano, Ondrej Bojar
 url: https://arxiv.org/pdf/1904.00110.pdf
 citation: 2
 tag: gen-abs, train-unsup, task-sci
@@ -1329,7 +1329,7 @@ tag: gen-abs, train-unsup, task-sci
 year: 2019
 conf: NAA-CL
 title: Question Answering as an Automatic Evaluation Metric for News Article Summarization
-author: Matan Eyal,Tal Baumel,Michael Elhadad
+author: Matan Eyal, Tal Baumel, Michael Elhadad
 url: https://arxiv.org/pdf/1906.00318.pdf
 citation: 4
 tag: gen-abs, arch-cnn, eval-metric-rouge, task-question
@@ -1337,7 +1337,7 @@ tag: gen-abs, arch-cnn, eval-metric-rouge, task-question
 year: 2019
 conf: NAA-CL
 title: Single Document Summarization as Tree Induction
-author: Yang Liu,Ivan Titov,Mirella Lapata
+author: Yang Liu, Ivan Titov, Mirella Lapata
 url: https://pdfs.semanticscholar.org/6f8d/ff0ff99397e5833d12b1c300474b07e77eae.pdf
 citation: 6
 tag: other
@@ -1345,7 +1345,7 @@ tag: other
 year: 2019
 conf: NAA-CL
 title: Crowdsourcing Lightweight Pyramids for Manual Summary Evaluation
-author: Ori Shapira,David Gabay,Yang Gao,Hadar Ronen,Ramakanth Pasunuru,Mohit Bansal,Yael Amsterdamer,Ido Dagan
+author: Ori Shapira, David Gabay, Yang Gao, Hadar Ronen, Ramakanth Pasunuru, Mohit Bansal, Yael Amsterdamer, Ido Dagan
 url: https://arxiv.org/pdf/1904.05929.pdf
 citation: 0
 tag: other
@@ -1353,7 +1353,7 @@ tag: other
 year: 2019
 conf: NAA-CL
 title: How to Compare Summarizers without Target Length? Pitfalls, Solutions and Re-Examination of the Neural Summarization Literature
-author: Simeng Sun,Ori Shapira,Ido Dagan,Ani Nenkova
+author: Simeng Sun, Ori Shapira, Ido Dagan, Ani Nenkova
 url: https://pdfs.semanticscholar.org/c6fb/8d0b8d4eefa4a2fd8a4c44d0103bd24c1401.pdf
 citation: 2
 tag: eval-metric-rouge
@@ -1361,7 +1361,7 @@ tag: eval-metric-rouge
 year: 2018
 conf: ACL
 title: A Unified Model for Extractive and Abstractive Summarization using Inconsistency Loss
-author: Wan Ting Hsu,Chieh-Kai Lin,Ming-Ying Lee,Kerui Min,Jing Tang,Min Sun
+author: Wan Ting Hsu, Chieh-Kai Lin, Ming-Ying Lee, Kerui Min, Jing Tang, Min Sun
 url: https://arxiv.org/pdf/1805.06266.pdf
 citation: 46
 tag: gen-ext, gen-abs, arch-att, eval-metric-rouge
@@ -1369,7 +1369,7 @@ tag: gen-ext, gen-abs, arch-att, eval-metric-rouge
 year: 2018
 conf: ACL
 title: Extractive Summarization with SWAP-NET: Sentences and Words from Alternating Pointer Networks
-author: Aishwarya Jadhav,Vaibhav Rajan
+author: Aishwarya Jadhav, Vaibhav Rajan
 url: https://pdfs.semanticscholar.org/f5f8/2b5e42768a25246b0f7ba4c59f6c522fc892.pdf
 citation: 15
 tag: gen-ext, arch-pointer
@@ -1377,7 +1377,7 @@ tag: gen-ext, arch-pointer
 year: 2018
 conf: ACL
 title: Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization
-author: Ziqiang Cao,Wenjie Li,Sujian Li,Furu Wei
+author: Ziqiang Cao, Wenjie Li, Sujian Li, Furu Wei
 url: https://pdfs.semanticscholar.org/c93b/8518204ef722f4c749628023c6d5d061a5fa.pdf
 citation: 35
 tag: train-template
@@ -1385,7 +1385,7 @@ tag: train-template
 year: 2018
 conf: ACL
 title: Neural Document Summarization by Jointly Learning to Score and Select Sentences
-author: Qingyu Zhou,Nan Yang,Furu Wei,Shaohan Huang,Ming Zhou,Tiejun Zhao
+author: Qingyu Zhou, Nan Yang, Furu Wei, Shaohan Huang, Ming Zhou, Tiejun Zhao
 url: https://arxiv.org/pdf/1807.02305.pdf
 citation: 45
 tag: gen-ext, arch-cnn
@@ -1393,7 +1393,7 @@ tag: gen-ext, arch-cnn
 year: 2018
 conf: ACL
 title: Unsupervised Abstractive Meeting Summarization with Multi-Sentence Compression
-author: Guokan Shang,Wensi Ding,Zekun Zhang,Antoine Jean-Pierre Tixier,Polykarpos Meladianos,Michalis Vazirgiannis,Jean-Pierre Lorré
+author: Guokan Shang, Wensi Ding, Zekun Zhang, Antoine Jean-Pierre Tixier, Polykarpos Meladianos, Michalis Vazirgiannis, Jean-Pierre Lorré
 url: https://arxiv.org/pdf/1805.05271.pdf
 citation: 13
 tag: gen-abs, train-unsup, task-senCompre, task-knowledge
@@ -1401,7 +1401,7 @@ tag: gen-abs, train-unsup, task-senCompre, task-knowledge
 year: 2018
 conf: ACL
 title: Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting
-author: Yen-Chun Chen,Mohit Bansal
+author: Yen-Chun Chen, Mohit Bansal
 url: https://arxiv.org/pdf/1805.11080.pdf
 citation: 101
 tag: gen-abs, arch-cnn, nondif-reinforce
@@ -1409,7 +1409,7 @@ tag: gen-abs, arch-cnn, nondif-reinforce
 year: 2018
 conf: ACL
 title: Soft Layer-Specific Multi-Task Summarization with Entailment and Question Generation
-author: Han Guo,Ramakanth Pasunuru,Mohit Bansal
+author: Han Guo, Ramakanth Pasunuru, Mohit Bansal
 url: https://arxiv.org/pdf/1805.11004.pdf
 citation: 31
 tag: gen-abs, train-multitask, eval-aspect-redundancy
@@ -1417,7 +1417,7 @@ tag: gen-abs, train-multitask, eval-aspect-redundancy
 year: 2018
 conf: ACL
 title: Global Encoding for Abstractive Summarization
-author: Junyang Lin,Xu Sun,Shuming Ma,Qi Su
+author: Junyang Lin, Xu Sun, Shuming Ma, Qi Su
 url: https://arxiv.org/pdf/1805.03989.pdf
 citation: 40
 tag: gen-abs, arch-cnn
@@ -1425,7 +1425,7 @@ tag: gen-abs, arch-cnn
 year: 2018
 conf: ACL
 title: Autoencoder as Assistant Supervisor: Improving Text Representation for Chinese Social Media Text Summarization
-author: Shuming Ma,Xu Sun,Junyang Lin,Houfeng Wang
+author: Shuming Ma, Xu Sun, Junyang Lin, Houfeng Wang
 url: https://arxiv.org/pdf/1805.04869.pdf
 citation: 16
 tag: gen-abs
@@ -1441,7 +1441,7 @@ tag: gen-abs, task-opinion, train-multilingual
 year: 2018
 conf: ACL
 title: Unsupervised Semantic Abstractive Summarization
-author: Shibhansh Dohare,Vivek Gupta,Harish Karnick
+author: Shibhansh Dohare, Vivek Gupta, Harish Karnick
 url: https://pdfs.semanticscholar.org/a895/e96b52d2ff0c9365106a94c780a017cf9a58.pdf
 citation: 6
 tag: gen-abs, train-unsup
@@ -1449,7 +1449,7 @@ tag: gen-abs, train-unsup
 year: 2018
 conf: ACL
 title: Reinforced Extractive Summarization with Question-Focused Rewards
-author: Kristjan Arumae,Fei Liu
+author: Kristjan Arumae, Fei Liu
 url: https://arxiv.org/pdf/1805.10392.pdf
 citation: 4
 tag: gen-ext, nondif-reinforce, task-question
@@ -1457,7 +1457,7 @@ tag: gen-ext, nondif-reinforce, task-question
 year: 2018
 conf: ACL
 title: Controllable Abstractive Summarization
-author: Angela Fan,David Grangier,Michael Auli
+author: Angela Fan, David Grangier, Michael Auli
 url: https://arxiv.org/pdf/1711.05217.pdf
 citation: 54
 tag: task-control
@@ -1465,7 +1465,7 @@ tag: task-control
 year: 2018
 conf: EMNLP
 title: Guided Neural Language Generation for Abstractive Summarization using Abstract Meaning Representation
-author: Hardy,Andreas Vlachos
+author: Hardy, Andreas Vlachos
 url: https://arxiv.org/pdf/1808.09160.pdf
 citation: 6
 tag: gen-abs, eval-metric-rouge
@@ -1473,7 +1473,7 @@ tag: gen-abs, eval-metric-rouge
 year: 2018
 conf: EMNLP
 title: Neural Latent Extractive Document Summarization
-author: Xingxing Zhang,Mirella Lapata,Furu Wei,Ming Zhou
+author: Xingxing Zhang, Mirella Lapata, Furu Wei, Ming Zhou
 url: https://arxiv.org/pdf/1808.07187.pdf
 citation: 21
 tag: latent-vae
@@ -1481,7 +1481,7 @@ tag: latent-vae
 year: 2018
 conf: EMNLP
 title: On the Abstractiveness of Neural Document Summarization
-author: Fangfang Zhang,Jin-ge Yao,Rui Yan
+author: Fangfang Zhang, Jin-ge Yao, Rui Yan
 url: https://pdfs.semanticscholar.org/99ea/0837b8be4583366156d3a83f83c0b41d9eb0.pdf
 citation: 6
 tag: gen-ext, gen-abs
@@ -1489,7 +1489,7 @@ tag: gen-ext, gen-abs
 year: 2018
 conf: EMNLP
 title: Harnessing Popularity in Social Media for Extractive Summarization of Online Conversations
-author: Ryuji Kano,Yasuhide Miura,Motoki Taniguchi,Yan-Ying Chen,Francine Chen,Tomoko Ohkuma
+author: Ryuji Kano, Yasuhide Miura, Motoki Taniguchi, Yan-Ying Chen, Francine Chen, Tomoko Ohkuma
 url: https://pdfs.semanticscholar.org/3bc8/78cff3c817b689ede7ba737fc72e7ac3fcfc.pdf
 citation: 1
 tag: gen-ext, task-multimodal
@@ -1497,7 +1497,7 @@ tag: gen-ext, task-multimodal
 year: 2018
 conf: EMNLP
 title: Neural Related Work Summarization with a Joint Context-driven Attention Mechanism
-author: Yongzhen Wang,Xiaozhong Liu,Zheng Gao
+author: Yongzhen Wang, Xiaozhong Liu, Zheng Gao
 url: https://arxiv.org/pdf/1901.09492.pdf
 citation: 5
 tag: task-sci, arch-att
@@ -1505,7 +1505,7 @@ tag: task-sci, arch-att
 year: 2018
 conf: EMNLP
 title: Improving Neural Abstractive Document Summarization with Explicit Information Selection Modeling
-author: Wei Li,Xinyan Xiao,Yajuan Lyu,Yuanzhuo Wang
+author: Wei Li, Xinyan Xiao, Yajuan Lyu, Yuanzhuo Wang
 url: https://pdfs.semanticscholar.org/1363/c78901f7204047241768af8c13e49f405625.pdf
 citation: 14
 tag: gen-abs, task-multimodal
@@ -1513,7 +1513,7 @@ tag: gen-abs, task-multimodal
 year: 2018
 conf: EMNLP
 title: Improving Abstraction in Text Summarization
-author: Wojciech Kryscinski,Romain Paulus,Caiming Xiong,Richard Socher
+author: Wojciech Kryscinski, Romain Paulus, Caiming Xiong, Richard Socher
 url: https://arxiv.org/pdf/1808.07913.pdf
 citation: 38
 tag: gen-abs, task-knowledge, eval-aspect-factuality
@@ -1521,7 +1521,7 @@ tag: gen-abs, task-knowledge, eval-aspect-factuality
 year: 2018
 conf: EMNLP
 title: BanditSum: Extractive Summarization as a Contextual Bandit
-author: Yue Dong,Yikang Shen,Eric Crawford,Herke van Hoof,Jackie Chi Kit Cheung
+author: Yue Dong, Yikang Shen, Eric Crawford, Herke van Hoof, Jackie Chi Kit Cheung
 url: https://arxiv.org/pdf/1809.09672.pdf
 citation: 19
 tag: gen-ext, gen-abs, arch-rnn, nondif-reinforce, eval-metric-rouge
@@ -1529,7 +1529,7 @@ tag: gen-ext, gen-abs, arch-rnn, nondif-reinforce, eval-metric-rouge
 year: 2018
 conf: EMNLP
 title: Abstractive Text-Image Summarization Using Multi-Modal Attentional Hierarchical RNN
-author: Jingqiang Chen,Hai Zhuge
+author: Jingqiang Chen, Hai Zhuge
 url: https://pdfs.semanticscholar.org/f8a5/2cb3d840d7250a87fc9be92be1abaa377d82.pdf
 citation: 5
 tag: gen-abs, task-multimodal, arch-rnn, arch-att, task-multimodal
@@ -1537,7 +1537,7 @@ tag: gen-abs, task-multimodal, arch-rnn, arch-att, task-multimodal
 year: 2018
 conf: EMNLP
 title: Closed-Book Training to Improve Summarization Encoder Memory
-author: Yichen Jiang,Mohit Bansal
+author: Yichen Jiang, Mohit Bansal
 url: https://arxiv.org/pdf/1809.04585.pdf
 citation: 8
 tag: task-multimodal
@@ -1545,7 +1545,7 @@ tag: task-multimodal
 year: 2018
 conf: EMNLP
 title: Improving Neural Abstractive Document Summarization with Structural Regularization
-author: Wei Li,Xinyan Xiao,Yajuan Lyu,Yuanzhuo Wang
+author: Wei Li, Xinyan Xiao, Yajuan Lyu, Yuanzhuo Wang
 url: https://pdfs.semanticscholar.org/01f8/314c8e03af0afb8391576d1ffb9ed821f199.pdf
 citation: 7
 tag: gen-abs, arch-att, arch-rnn
@@ -1553,7 +1553,7 @@ tag: gen-abs, arch-att, arch-rnn
 year: 2018
 conf: EMNLP
 title: Iterative Document Representation Learning Towards Summarization with Polishing
-author: Xiuying Chen,Shen Gao,Chongyang Tao,Yan Song,Dongyan Zhao,Rui Yan
+author: Xiuying Chen, Shen Gao, Chongyang Tao, Yan Song, Dongyan Zhao, Rui Yan
 url: https://arxiv.org/pdf/1809.10324.pdf
 citation: 5
 tag: gen-ext, arch-cnn
@@ -1561,7 +1561,7 @@ tag: gen-ext, arch-cnn
 year: 2018
 conf: EMNLP
 title: Bottom-Up Abstractive Summarization
-author: Sebastian Gehrmann,Yuntian Deng,Alexander M. Rush
+author: Sebastian Gehrmann, Yuntian Deng, Alexander M. Rush
 url: https://arxiv.org/pdf/1808.10792.pdf
 citation: 97
 tag: gen-abs, arch-cnn, arch-att, eval-metric-rouge
@@ -1569,7 +1569,7 @@ tag: gen-abs, arch-cnn, arch-att, eval-metric-rouge
 year: 2018
 conf: EMNLP
 title: Controlling Length in Abstractive Summarization Using a Convolutional Neural Network
-author: Yizhu Liu,Zhiyi Luo,Kenny Q. Zhu
+author: Yizhu Liu, Zhiyi Luo, Kenny Q. Zhu
 url: https://pdfs.semanticscholar.org/95ba/8a071cb992efb736be6a8dc26b83266d054e.pdf
 citation: 8
 tag: gen-abs, arch-cnn, eval-metric-rouge
@@ -1577,7 +1577,7 @@ tag: gen-abs, arch-cnn, eval-metric-rouge
 year: 2018
 conf: EMNLP
 title: Adapting the Neural Encoder-Decoder Framework from Single to Multi-Document Summarization
-author: Logan Lebanoff,Kaiqiang Song,Fei Liu
+author: Logan Lebanoff, Kaiqiang Song, Fei Liu
 url: https://arxiv.org/pdf/1808.06218.pdf
 citation: 20
 tag: train-transfer, arch-rnn, arch-att
@@ -1585,7 +1585,7 @@ tag: train-transfer, arch-rnn, arch-att
 year: 2018
 conf: EMNLP
 title: MSMO: Multimodal Summarization with Multimodal Output
-author: Junnan Zhu,Haoran Li,Tianshang Liu,Yu Zhou,Jiajun Zhang,Chengqing Zong
+author: Junnan Zhu, Haoran Li, Tianshang Liu, Yu Zhou, Jiajun Zhang, Chengqing Zong
 url: https://pdfs.semanticscholar.org/2f10/b647947526c1e6d84fc54fdf741a33f4c1cb.pdf
 citation: 3
 tag: task-multimodal, arch-att, task-multimodal
@@ -1601,7 +1601,7 @@ tag: gen-abs, train-unsup
 year: 2018
 conf: NAA-CL
 title: Entity Commonsense Representation for Neural Abstractive Summarization
-author: Reinald Kim Amplayo,Seonjae Lim,Seung-won Hwang
+author: Reinald Kim Amplayo, Seonjae Lim, Seung-won Hwang
 url: https://arxiv.org/pdf/1806.05504.pdf
 citation: 11
 tag: gen-abs, task-knowledge
@@ -1609,7 +1609,7 @@ tag: gen-abs, task-knowledge
 year: 2018
 conf: NAA-CL
 title: Deep Communicating Agents for Abstractive Summarization
-author: Asli Çelikyilmaz,Antoine Bosselut,Xiaodong He,Yejin Choi
+author: Asli Çelikyilmaz, Antoine Bosselut, Xiaodong He, Yejin Choi
 url: https://arxiv.org/pdf/1803.10357.pdf
 citation: 95
 tag: gen-abs, task-longtext
@@ -1617,7 +1617,7 @@ tag: gen-abs, task-longtext
 year: 2018
 conf: NAA-CL
 title: Provable Fast Greedy Compressive Summarization with Any Monotone Submodular Function
-author: Shinsaku Sakaue,Tsutomu Hirao,Masaaki Nishino,Masaaki Nagata
+author: Shinsaku Sakaue, Tsutomu Hirao, Masaaki Nishino, Masaaki Nagata
 url: https://pdfs.semanticscholar.org/de01/77d3cbbb0001d9ac3276c8bcfd09f67a91a6.pdf
 citation: 2
 tag: gen-ext, gen-2stage
@@ -1625,7 +1625,7 @@ tag: gen-ext, gen-2stage
 year: 2018
 conf: NAA-CL
 title: Ranking Sentences for Extractive Summarization with Reinforcement Learning
-author: Shashi Narayan,Shay B. Cohen,Mirella Lapata
+author: Shashi Narayan, Shay B. Cohen, Mirella Lapata
 url: https://arxiv.org/pdf/1802.08636.pdf
 citation: 112
 tag: gen-ext, gen-abs, task-singledDoc, arch-rnn, arch-cnn, nondif-reinforce, eval-metric-rouge
@@ -1633,7 +1633,7 @@ tag: gen-ext, gen-abs, task-singledDoc, arch-rnn, arch-cnn, nondif-reinforce, ev
 year: 2018
 conf: NAA-CL
 title: Relational Summarization for Corpus Analysis
-author: Abram Handler,Brendan T. O'Connor
+author: Abram Handler, Brendan T. O'Connor
 url: https://pdfs.semanticscholar.org/0b74/af5233b693226c86736ff796b91b3e60f50b.pdf
 citation: 1
 tag: task-query
@@ -1641,7 +1641,7 @@ tag: task-query
 year: 2018
 conf: NAA-CL
 title: Which Scores to Predict in Sentence Regression for Text Summarization?
-author: Markus Zopf,Eneldo Loza Mencía,Johannes Fürnkranz
+author: Markus Zopf, Eneldo Loza Mencía, Johannes Fürnkranz
 url: https://pdfs.semanticscholar.org/7f0c/6325723003f15a49b0982d9dcdc43164deb0.pdf
 citation: 6
 tag: eval-metric-rouge
@@ -1649,7 +1649,7 @@ tag: eval-metric-rouge
 year: 2018
 conf: NAA-CL
 title: Guiding Generation for Abstractive Text Summarization Based on Key Information Guide Network
-author: Chenliang Li,Weiran Xu,Si Kan Li,Sheng Gao
+author: Chenliang Li, Weiran Xu, Si Kan Li, Sheng Gao
 url: https://pdfs.semanticscholar.org/2770/a733eecdda23c1b3f9408c9202efec4f0da0.pdf
 citation: 28
 tag: gen-ext, gen-abs, arch-cnn
@@ -1657,7 +1657,7 @@ tag: gen-ext, gen-abs, arch-cnn
 year: 2018
 conf: NAA-CL
 title: A Mixed Hierarchical Attention Based Encoder-Decoder Approach for Standard Table Summarization
-author: Parag Jain,Anirban Laha,Karthik Sankaranarayanan,Preksha Nema,Mitesh M. Khapra,Shreyas Shetty
+author: Parag Jain, Anirban Laha, Karthik Sankaranarayanan, Preksha Nema, Mitesh M. Khapra, Shreyas Shetty
 url: https://arxiv.org/pdf/1804.07790.pdf
 citation: 9
 tag: arch-att
@@ -1665,7 +1665,7 @@ tag: arch-att
 year: 2018
 conf: NAA-CL
 title: Effective Crowdsourcing for a New Type of Summarization Task
-author: Youxuan Jiang,Catherine Finegan-Dollak,Jonathan K. Kummerfeld,Walter S. Lasecki
+author: Youxuan Jiang, Catherine Finegan-Dollak, Jonathan K. Kummerfeld, Walter S. Lasecki
 url: https://pdfs.semanticscholar.org/69ab/6ce4656be944db0e987228a7cb2f449b6ed2.pdf
 citation: 6
 tag: task-query
@@ -1673,7 +1673,7 @@ tag: task-query
 year: 2018
 conf: NAA-CL
 title: Multi-Reward Reinforced Summarization with Saliency and Entailment
-author: Ramakanth Pasunuru,Mohit Bansal
+author: Ramakanth Pasunuru, Mohit Bansal
 url: https://arxiv.org/pdf/1804.06451.pdf
 citation: 48
 tag: gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge, eval-aspect-redundancy
@@ -1681,7 +1681,7 @@ tag: gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge, eval-aspect-redunda
 year: 2018
 conf: NAA-CL
 title: Objective Function Learning to Match Human Judgements for Optimization-Based Summarization
-author: Maxime Peyrard,Iryna Gurevych
+author: Maxime Peyrard, Iryna Gurevych
 url: https://pdfs.semanticscholar.org/7ed8/dd8a10ebf1508947c29c1e82f8a0197f9f78.pdf
 citation: 7
 tag: eval-metric-rouge
@@ -1689,7 +1689,7 @@ tag: eval-metric-rouge
 year: 2018
 conf: AAAI
 title: Video Summarization via Semantic Attended Networks
-author: Huawei Wei,Bingbing Ni,Yichao Yan,Huanyu Yu,Xiaokang Yang,Chen Yao
+author: Huawei Wei, Bingbing Ni, Yichao Yan, Huanyu Yu, Xiaokang Yang, Chen Yao
 url: https://pdfs.semanticscholar.org/6ec0/9bad57cc81a71ef7596f57e94ee13b380ae3.pdf
 citation: 19
 tag: task-multimodal, task-video, arch-att
@@ -1697,7 +1697,7 @@ tag: task-multimodal, task-video, arch-att
 year: 2018
 conf: AAAI
 title: Streaming Non-Monotone Submodular Maximization: Personalized Video Summarization on the Fly
-author: Baharan Mirzasoleiman,Stefanie Jegelka,Andreas Krause
+author: Baharan Mirzasoleiman, Stefanie Jegelka, Andreas Krause
 url: https://arxiv.org/pdf/1706.03583.pdf
 citation: 24
 tag: task-multimodal, task-video
@@ -1705,7 +1705,7 @@ tag: task-multimodal, task-video
 year: 2018
 conf: AAAI
 title: Faithful to the Original: Fact Aware Neural Abstractive Summarization
-author: Ziqiang Cao,Furu Wei,Wenjie Li,Sujian Li
+author: Ziqiang Cao, Furu Wei, Wenjie Li, Sujian Li
 url: https://arxiv.org/pdf/1711.04434.pdf
 citation: 43
 tag: gen-ext, gen-abs, arch-att, eval-aspect-factuality
@@ -1713,7 +1713,7 @@ tag: gen-ext, gen-abs, arch-att, eval-aspect-factuality
 year: 2018
 conf: AAAI
 title: A Semantic QA-Based Approach for Text Summarization Evaluation
-author: Po Hung Chen,Fei Wu,Tong Wang
+author: Po Hung Chen, Fei Wu, Tong Wang
 url: https://arxiv.org/pdf/1704.06259.pdf
 citation: 2
 tag: task-knowledge
@@ -1721,7 +1721,7 @@ tag: task-knowledge
 year: 2018
 conf: AAAI
 title: Unity in Diversity: Learning Distributed Heterogeneous Sentence Representation for Extractive Summarization
-author: Abhishek Kumar Singh,Manish Gupta,Vasudeva Varma
+author: Abhishek Kumar Singh, Manish Gupta, Vasudeva Varma
 url: https://arxiv.org/pdf/1912.11688.pdf
 citation: 0
 tag: gen-ext, task-multiDoc, eval-metric-rouge
@@ -1729,7 +1729,7 @@ tag: gen-ext, task-multiDoc, eval-metric-rouge
 year: 2018
 conf: AAAI
 title: Twitter Summarization Based on Social Network and Sparse Reconstruction
-author: Ruifang He,Xingyi Duan
+author: Ruifang He, Xingyi Duan
 url: https://pdfs.semanticscholar.org/0904/00e0c6404958f500a51bf52f66ca2b50e694.pdf
 citation: 3
 tag: gen-ext, eval-aspect-redundancy
@@ -1737,7 +1737,7 @@ tag: gen-ext, eval-aspect-redundancy
 year: 2018
 conf: AAAI
 title: Cognition-Cognizant Sentiment Analysis With Multitask Subjectivity Summarization Based on Annotators' Gaze Behavior
-author: Abhijit Mishra,Srikanth Tamilselvam,Riddhiman Dasgupta,Seema Nagar,Kuntal Dey
+author: Abhijit Mishra, Srikanth Tamilselvam, Riddhiman Dasgupta, Seema Nagar, Kuntal Dey
 url: https://pdfs.semanticscholar.org/ef52/f8f774464961139fd45be462b133255e6147.pdf
 citation: 4
 tag: gen-ext, task-opinion, task-knowledge, arch-rnn, train-multitask
@@ -1745,7 +1745,7 @@ tag: gen-ext, task-opinion, task-knowledge, arch-rnn, train-multitask
 year: 2018
 conf: AAAI
 title: Deep Reinforcement Learning for Unsupervised Video Summarization With Diversity-Representativeness Reward
-author: Kaiyang Zhou,Yu Qiao
+author: Kaiyang Zhou, Yu Qiao
 url: https://arxiv.org/pdf/1801.00054.pdf
 citation: 55
 tag: train-unsup, task-multimodal, task-video, task-opinion, arch-rnn, nondif-reinforce
@@ -1753,7 +1753,7 @@ tag: train-unsup, task-multimodal, task-video, task-opinion, arch-rnn, nondif-re
 year: 2018
 conf: AAAI
 title: Generative Adversarial Network for Abstractive Text Summarization
-author: Linqing Liu,Yao Lu,Min Yang,Qiang Qu,Jia Zhu,Hongyan Li
+author: Linqing Liu, Yao Lu, Min Yang, Qiang Qu, Jia Zhu, Hongyan Li
 url: https://arxiv.org/pdf/1711.09357.pdf
 citation: 42
 tag: gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge
@@ -1761,7 +1761,7 @@ tag: gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge
 year: 2018
 conf: ICML
 title: Fair and Diverse DPP-Based Data Summarization
-author: L. Elisa Celis,Vijay Keswani,Damian Straszak,Amit Deshpande,Tarun Kathuria,Nisheeth K. Vishnoi
+author: L. Elisa Celis, Vijay Keswani, Damian Straszak, Amit Deshpande, Tarun Kathuria, Nisheeth K. Vishnoi
 url: https://arxiv.org/pdf/1802.04023.pdf
 citation: 28
 tag: task-multimodal
@@ -1769,7 +1769,7 @@ tag: task-multimodal
 year: 2018
 conf: ICML
 title: Data Summarization at Scale: A Two-Stage Submodular Approach
-author: Marko Mitrovic,Ehsan Kazemi,Morteza Zadimoghaddam,Amin Karbasi
+author: Marko Mitrovic, Ehsan Kazemi, Morteza Zadimoghaddam, Amin Karbasi
 url: https://arxiv.org/pdf/1806.02815.pdf
 citation: 10
 tag: gen-2stage
@@ -1777,7 +1777,7 @@ tag: gen-2stage
 year: 2018
 conf: ICML
 title: Scalable Deletion-Robust Submodular Maximization: Data Summarization with Privacy and Fairness Constraints
-author: Ehsan Kazemi,Morteza Zadimoghaddam,Amin Karbasi
+author: Ehsan Kazemi, Morteza Zadimoghaddam, Amin Karbasi
 url: https://pdfs.semanticscholar.org/6259/9f741551c1f8a12336714f6cd7d4a7004e54.pdf
 citation: 15
 tag: other
@@ -1785,7 +1785,7 @@ tag: other
 year: 2017
 conf: ACL
 title: Diversity driven attention model for query-based abstractive summarization
-author: Preksha Nema,Mitesh M. Khapra,Anirban Laha,Balaraman Ravindran
+author: Preksha Nema, Mitesh M. Khapra, Anirban Laha, Balaraman Ravindran
 url: https://arxiv.org/pdf/1704.08300.pdf
 citation: 46
 tag: gen-ext, gen-abs, task-query, arch-att
@@ -1793,7 +1793,7 @@ tag: gen-ext, gen-abs, task-query, arch-att
 year: 2017
 conf: ACL
 title: Supervised Learning of Automatic Pyramid for Optimization-Based Multi-Document Summarization
-author: Maxime Peyrard,Judith Eckle-Kohler
+author: Maxime Peyrard, Judith Eckle-Kohler
 url: https://pdfs.semanticscholar.org/fff9/8a5851431593f40945b4c49ec969888bce62.pdf
 citation: 6
 tag: gen-ext, task-multiDoc
@@ -1801,7 +1801,7 @@ tag: gen-ext, task-multiDoc
 year: 2017
 conf: ACL
 title: Selective Encoding for Abstractive Sentence Summarization
-author: Qingyu Zhou,Nan Yang,Furu Wei,Ming Zhou
+author: Qingyu Zhou, Nan Yang, Furu Wei, Ming Zhou
 url: https://arxiv.org/pdf/1704.07073.pdf
 citation: 106
 tag: gen-abs, arch-cnn
@@ -1809,7 +1809,7 @@ tag: gen-abs, arch-cnn
 year: 2017
 conf: ACL
 title: Abstractive Document Summarization with a Graph-Based Attentional Neural Model
-author: Jiwei Tan,Xiaojun Wan,Jianguo Xiao
+author: Jiwei Tan, Xiaojun Wan, Jianguo Xiao
 url: https://pdfs.semanticscholar.org/c624/c38e53f321a6df2d16bd707499ce744ca114.pdf
 citation: 111
 tag: gen-ext, gen-abs, arch-att
@@ -1817,7 +1817,7 @@ tag: gen-ext, gen-abs, arch-att
 year: 2017
 conf: ACL
 title: Oracle Summaries of Compressive Summarization
-author: Tsutomu Hirao,Masaaki Nishino,Masaaki Nagata
+author: Tsutomu Hirao, Masaaki Nishino, Masaaki Nagata
 url: https://pdfs.semanticscholar.org/37eb/67de02a79855de24420d391efd025ebaa89a.pdf
 citation: 4
 tag: gen-ext, gen-2stage, eval-metric-rouge
@@ -1825,7 +1825,7 @@ tag: gen-ext, gen-2stage, eval-metric-rouge
 year: 2017
 conf: ACL
 title: Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization
-author: Shuming Ma,Xu Sun,Jingjing Xu,Houfeng Wang,Wenjie Li,Qi Su
+author: Shuming Ma, Xu Sun, Jingjing Xu, Houfeng Wang, Wenjie Li, Qi Su
 url: https://arxiv.org/pdf/1706.02459.pdf
 citation: 27
 tag: arch-att
@@ -1833,7 +1833,7 @@ tag: arch-att
 year: 2017
 conf: EMNLP
 title: Affinity-Preserving Random Walk for Multi-Document Summarization
-author: Kexiang Wang,Tianyu Liu,Zhifang Sui,Baobao Chang
+author: Kexiang Wang, Tianyu Liu, Zhifang Sui, Baobao Chang
 url: https://pdfs.semanticscholar.org/9397/c3545ada8e139684c6f479d6f0e125885b32.pdf
 citation: 3
 tag: task-multiDoc, eval-metric-rouge
@@ -1841,7 +1841,7 @@ tag: task-multiDoc, eval-metric-rouge
 year: 2017
 conf: EMNLP
 title: Hierarchically-Attentive RNN for Album Summarization and Storytelling
-author: Licheng Yu,Mohit Bansal,Tamara L. Berg
+author: Licheng Yu, Mohit Bansal, Tamara L. Berg
 url: https://arxiv.org/pdf/1708.02977.pdf
 citation: 26
 tag: task-event
@@ -1849,7 +1849,7 @@ tag: task-event
 year: 2017
 conf: EMNLP
 title: Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video
-author: Haoran Li,Junnan Zhu,Cong Ma,Jiajun Zhang,Chengqing Zong
+author: Haoran Li, Junnan Zhu, Cong Ma, Jiajun Zhang, Chengqing Zong
 url: https://pdfs.semanticscholar.org/25e3/a70f95e4c636e4ddd602dcf5a6d3318a0504.pdf
 citation: 12
 tag: task-multimodal, task-video, task-multimodal
@@ -1857,7 +1857,7 @@ tag: task-multimodal, task-video, task-multimodal
 year: 2017
 conf: EMNLP
 title: Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization
-author: Piji Li,Wai Lam,Lidong Bing,Weiwei Guo,Huang Li
+author: Piji Li, Wai Lam, Lidong Bing, Weiwei Guo, Huang Li
 url: https://pdfs.semanticscholar.org/d025/598aab2075a89c5313c6092a6fbeab744b2f.pdf
 citation: 12
 tag: gen-2stage, train-unsup, task-multiDoc, task-senCompre, arch-att
@@ -1865,7 +1865,7 @@ tag: gen-2stage, train-unsup, task-multiDoc, task-senCompre, arch-att
 year: 2017
 conf: EMNLP
 title: Deep Recurrent Generative Decoder for Abstractive Text Summarization
-author: Piji Li,Wai Lam,Lidong Bing,Zihao W. Wang
+author: Piji Li, Wai Lam, Lidong Bing, Zihao W. Wang
 url: https://arxiv.org/pdf/1708.00625.pdf
 citation: 76
 tag: gen-abs, latent-vae
@@ -1873,7 +1873,7 @@ tag: gen-abs, latent-vae
 year: 2017
 conf: EMNLP
 title: Extractive Summarization Using Multi-Task Learning with Document Classification
-author: Masaru Isonuma,Toru Fujino,Junichiro Mori,Yutaka Matsuo,Ichiro Sakata
+author: Masaru Isonuma, Toru Fujino, Junichiro Mori, Yutaka Matsuo, Ichiro Sakata
 url: https://pdfs.semanticscholar.org/a621/f2049fc484ae696ccb32ff5544a922009f7b.pdf
 citation: 32
 tag: train-curriculum
@@ -1881,7 +1881,7 @@ tag: train-curriculum
 year: 2017
 conf: EMNLP
 title: Interactive Abstractive Summarization for Event News Tweets
-author: Ori Shapira,Hadar Ronen,Meni Adler,Yael Amsterdamer,Judit Bar-Ilan,Ido Dagan
+author: Ori Shapira, Hadar Ronen, Meni Adler, Yael Amsterdamer, Judit Bar-Ilan, Ido Dagan
 url: https://pdfs.semanticscholar.org/84f0/09920b919ff3ee6b64cb146446a7b80fdecf.pdf
 citation: 7
 tag: task-event
@@ -1889,7 +1889,7 @@ tag: task-event
 year: 2017
 conf: AAAI
 title: Bridging Video Content and Comments: Synchronized Video Description with Temporal Summarization of Crowdsourced Time-Sync Comments
-author: Linli Xu,Chao Zhang
+author: Linli Xu, Chao Zhang
 url: https://pdfs.semanticscholar.org/fdcc/b06ca15bb83961cf7d1b62cb7be158a38864.pdf
 citation: 7
 tag: task-multimodal, task-video
@@ -1897,7 +1897,7 @@ tag: task-multimodal, task-video
 year: 2017
 conf: AAAI
 title: Improving Multi-Document Summarization via Text Classification
-author: Ziqiang Cao,Wenjie Li,Sujian Li,Furu Wei
+author: Ziqiang Cao, Wenjie Li, Sujian Li, Furu Wei
 url: https://arxiv.org/pdf/1611.09238.pdf
 citation: 42
 tag: task-multiDoc
@@ -1905,7 +1905,7 @@ tag: task-multiDoc
 year: 2017
 conf: AAAI
 title: Salience Estimation via Variational Auto-Encoders for Multi-Document Summarization
-author: Piji Li,Zihao W. Wang,Wai Lam,Zhaochun Ren,Lidong Bing
+author: Piji Li, Zihao W. Wang, Wai Lam, Zhaochun Ren, Lidong Bing
 url: https://pdfs.semanticscholar.org/c41d/71217cebb1ef70ba16068d21df9f7be16b70.pdf
 citation: 25
 tag: train-unsup, task-multiDoc, train-multitask, latent-vae
@@ -1913,7 +1913,7 @@ tag: train-unsup, task-multiDoc, train-multitask, latent-vae
 year: 2017
 conf: AAAI
 title: Active Video Summarization: Customized Summaries via On-line Interaction with the User
-author: Ana Garcia del Molino,Xavier Boix,Joo-Hwee Lim,Ah-Hwee Tan
+author: Ana Garcia del Molino, Xavier Boix, Joo-Hwee Lim, Ah-Hwee Tan
 url: https://pdfs.semanticscholar.org/eb9b/5c4f161954443b59a5fa4df14f4123f95953.pdf
 citation: 12
 tag: task-multimodal, task-video, task-event, data-new
@@ -1921,7 +1921,7 @@ tag: task-multimodal, task-video, task-event, data-new
 year: 2017
 conf: ICML
 title: Differentially Private Submodular Maximization: Data Summarization in Disguise
-author: Marko Mitrovic,Mark Bun,Andreas Krause,Amin Karbasi
+author: Marko Mitrovic, Mark Bun, Andreas Krause, Amin Karbasi
 url: https://pdfs.semanticscholar.org/0fe4/1911a6d96579be0452ab805e953e6230fbb1.pdf
 citation: 8
 tag: other
@@ -1929,7 +1929,7 @@ tag: other
 year: 2017
 conf: ICML
 title: Deletion-Robust Submodular Maximization: Data Summarization with "the Right to be Forgotten"
-author: Baharan Mirzasoleiman,Amin Karbasi,Andreas Krause
+author: Baharan Mirzasoleiman, Amin Karbasi, Andreas Krause
 url: https://pdfs.semanticscholar.org/eb94/9b8b72bab2bdfd0729f1e9df31cfb7434b2c.pdf
 citation: 23
 tag: task-multimodal
@@ -1937,7 +1937,7 @@ tag: task-multimodal
 year: 2017
 conf: NIPS
 title: Subset Selection and Summarization in Sequential Data
-author: Ehsan Elhamifar,M. Clara De Paolis Kaluza
+author: Ehsan Elhamifar, M. Clara De Paolis Kaluza
 url: https://pdfs.semanticscholar.org/add6/f2c6357a57e9fc56d3e9df6950d3978bd476.pdf
 citation: 9
 tag: task-multimodal, task-video
@@ -1945,7 +1945,7 @@ tag: task-multimodal, task-video
 year: 2016
 conf: ACL
 title: Optimizing an Approximation of ROUGE - a Problem-Reduction Approach to Extractive Multi-Document Summarization
-author: Maxime Peyrard,Judith Eckle-Kohler
+author: Maxime Peyrard, Judith Eckle-Kohler
 url: https://pdfs.semanticscholar.org/6545/5772149b5d0d7db369da2fb9f1795ad2acf8.pdf
 citation: 10
 tag: gen-ext, task-multiDoc, eval-metric-rouge
@@ -1953,7 +1953,7 @@ tag: gen-ext, task-multiDoc, eval-metric-rouge
 year: 2016
 conf: ACL
 title: Learning-Based Single-Document Summarization with Compression and Anaphoricity Constraints
-author: Greg Durrett,Taylor Berg-Kirkpatrick,Dan Klein
+author: Greg Durrett, Taylor Berg-Kirkpatrick, Dan Klein
 url: https://arxiv.org/pdf/1603.08887.pdf
 citation: 70
 tag: task-singledDoc
@@ -1961,7 +1961,7 @@ tag: task-singledDoc
 year: 2016
 conf: EMNLP
 title: News Stream Summarization using Burst Information Networks
-author: Tao Ge,Lei Cui,Baobao Chang,Sujian Li,Ming Zhou,Zhifang Sui
+author: Tao Ge, Lei Cui, Baobao Chang, Sujian Li, Ming Zhou, Zhifang Sui
 url: https://pdfs.semanticscholar.org/574c/8f5ed8c8b2779ce3eeb4a6d31f218a9073cd.pdf
 citation: 9
 tag: other
@@ -1969,7 +1969,7 @@ tag: other
 year: 2016
 conf: NAA-CL
 title: A Low-Rank Approximation Approach to Learning Joint Embeddings of News Stories and Images for Timeline Summarization
-author: William Yang Wang,Yashar Mehdad,Dragomir R. Radev,Amanda Stent
+author: William Yang Wang, Yashar Mehdad, Dragomir R. Radev, Amanda Stent
 url: https://pdfs.semanticscholar.org/0b9d/93e5d3b72ff61117edde269c3068724bd119.pdf
 citation: 22
 tag: gen-ext, task-multimodal, task-video, task-event, arch-cnn
@@ -1977,7 +1977,7 @@ tag: gen-ext, task-multimodal, task-video, task-event, arch-cnn
 year: 2016
 conf: NAA-CL
 title: Automatic Summarization of Student Course Feedback
-author: Wencan Luo,Fei Liu,Zitao Liu,Diane J. Litman
+author: Wencan Luo, Fei Liu, Zitao Liu, Diane J. Litman
 url: https://arxiv.org/pdf/1805.10395.pdf
 citation: 11
 tag: eval-metric-rouge
@@ -1985,7 +1985,7 @@ tag: eval-metric-rouge
 year: 2016
 conf: NAA-CL
 title: Abstractive Sentence Summarization with Attentive Recurrent Neural Networks
-author: Sumit Chopra,Michael Auli,Alexander M. Rush
+author: Sumit Chopra, Michael Auli, Alexander M. Rush
 url: https://pdfs.semanticscholar.org/7a67/159fc7bc76d0b37930b55005a69b51241635.pdf
 citation: 400
 tag: gen-abs, arch-rnn, arch-cnn, arch-att
@@ -1993,7 +1993,7 @@ tag: gen-abs, arch-rnn, arch-cnn, arch-att
 year: 2016
 conf: NAA-CL
 title: Non-decreasing Sub-modular Function for Comprehensible Summarization
-author: Litton J. Kurisinkel,Pruthwik Mishra,Vigneshwaran Muralidaran,Vasudeva Varma,Dipti Misra Sharma
+author: Litton J. Kurisinkel, Pruthwik Mishra, Vigneshwaran Muralidaran, Vasudeva Varma, Dipti Misra Sharma
 url: https://pdfs.semanticscholar.org/d1f5/67bbc0f0c456ec64c822d7bec0c38b21d490.pdf
 citation: 1
 tag: eval-aspect-coherence
@@ -2001,7 +2001,7 @@ tag: eval-aspect-coherence
 year: 2016
 conf: AAAI
 title: Noisy Submodular Maximization via Adaptive Sampling with Applications to Crowdsourced Image Collection Summarization
-author: Adish Singla,Sebastian Tschiatschek,Andreas Krause
+author: Adish Singla, Sebastian Tschiatschek, Andreas Krause
 url: https://arxiv.org/pdf/1511.07211.pdf
 citation: 44
 tag: task-multimodal
@@ -2009,7 +2009,7 @@ tag: task-multimodal
 year: 2016
 conf: AAAI
 title: Topic Concentration in Query Focused Summarization Datasets
-author: Tal Baumel,Raphael Cohen,Michael Elhadad
+author: Tal Baumel, Raphael Cohen, Michael Elhadad
 url: http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/11939
 citation: 4
 tag: other
@@ -2017,7 +2017,7 @@ tag: other
 year: 2016
 conf: AAAI
 title: TGSum: Build Tweet Guided Multi-Document Summarization Dataset
-author: Ziqiang Cao,Chengyao Chen,Wenjie Li,Sujian Li,Furu Wei,Ming Zhou
+author: Ziqiang Cao, Chengyao Chen, Wenjie Li, Sujian Li, Furu Wei, Ming Zhou
 url: https://arxiv.org/pdf/1511.08417.pdf
 citation: 25
 tag: gen-abs, task-multiDoc, eval-metric-rouge
@@ -2025,7 +2025,7 @@ tag: gen-abs, task-multiDoc, eval-metric-rouge
 year: 2016
 conf: AAAI
 title: Microsummarization of Online Reviews: An Experimental Study
-author: Rebecca Mason,Benjamin Gaska,Benjamin Van Durme,Pallavi Choudhury,Ted Hart,William B. Dolan,Kristina Toutanova,Margaret Mitchell
+author: Rebecca Mason, Benjamin Gaska, Benjamin Van Durme, Pallavi Choudhury, Ted Hart, William B. Dolan, Kristina Toutanova, Margaret Mitchell
 url: https://pdfs.semanticscholar.org/f902/646b34f3ad6981ee868a5e3a1ec8eaee33a4.pdf
 citation: 12
 tag: gen-ext, train-unsup, task-opinion
@@ -2033,7 +2033,7 @@ tag: gen-ext, train-unsup, task-opinion
 year: 2016
 conf: IJCAI
 title: HIEDS: A Generic and Efficient Approach to Hierarchical Dataset Summarization
-author: Gong Cheng,Cheng Jin,Yuzhong Qu
+author: Gong Cheng, Cheng Jin, Yuzhong Qu
 url: https://pdfs.semanticscholar.org/026b/f96710109f9d4842cb8f6000e3cda688ce90.pdf
 citation: 10
 tag: other
@@ -2041,7 +2041,7 @@ tag: other
 year: 2016
 conf: IJCAI
 title: Timeline Summarization with Life Cycle Models
-author: Yi Chang,Jiliang Tang,Dawei Yin,Makoto Yamada,Yan Liu
+author: Yi Chang, Jiliang Tang, Dawei Yin, Makoto Yamada, Yan Liu
 url: https://pdfs.semanticscholar.org/e2f5/022bc9857704f3f27658ad2e87b55106955a.pdf
 citation: 11
 tag: other
@@ -2049,7 +2049,7 @@ tag: other
 year: 2016
 conf: IJCAI
 title: Real-Time Web Scale Event Summarization Using Sequential Decision Making
-author: Javed A. Aslam,Matthew Ekstrand-Abueg,Virgil Pavlu,Fernando Diaz,Tetsuya Sakai
+author: Javed A. Aslam, Matthew Ekstrand-Abueg, Virgil Pavlu, Fernando Diaz, Tetsuya Sakai
 url: https://pdfs.semanticscholar.org/4e46/ca0cd5284d35ca5e6db24839214436905dbb.pdf
 citation: 16
 tag: other
@@ -2057,7 +2057,7 @@ tag: other
 year: 2016
 conf: ICML
 title: Fast Constrained Submodular Maximization: Personalized Data Summarization
-author: Baharan Mirzasoleiman,Ashwinkumar Badanidiyuru,Amin Karbasi
+author: Baharan Mirzasoleiman, Ashwinkumar Badanidiyuru, Amin Karbasi
 url: https://pdfs.semanticscholar.org/2adc/e1a5e7606157950b1899a2a4c709a6820429.pdf
 citation: 56
 tag: other
@@ -2065,7 +2065,7 @@ tag: other
 year: 2016
 conf: ICML
 title: A Convolutional Attention Network for Extreme Summarization of Source Code
-author: Miltiadis Allamanis,Hao Peng,Charles A. Sutton
+author: Miltiadis Allamanis, Hao Peng, Charles A. Sutton
 url: https://arxiv.org/pdf/1602.03001.pdf
 citation: 166
 tag: task-code, arch-cnn, arch-att
@@ -2073,7 +2073,7 @@ tag: task-code, arch-cnn, arch-att
 year: 2016
 conf: NIPS
 title: Leveraging Sparsity for Efficient Submodular Data Summarization
-author: Erik M. Lindgren,Shanshan Wu,Alexandros G. Dimakis
+author: Erik M. Lindgren, Shanshan Wu, Alexandros G. Dimakis
 url: https://arxiv.org/pdf/1703.02690.pdf
 citation: 8
 tag: train-retrieval
@@ -2081,7 +2081,7 @@ tag: train-retrieval
 year: 2016
 conf: NIPS
 title: Fast Distributed Submodular Cover: Public-Private Data Summarization
-author: Baharan Mirzasoleiman,Morteza Zadimoghaddam,Amin Karbasi
+author: Baharan Mirzasoleiman, Morteza Zadimoghaddam, Amin Karbasi
 url: https://pdfs.semanticscholar.org/15d6/7d6303cd873ede3e695dc180bb44742e6615.pdf
 citation: 25
 tag: other
@@ -2089,7 +2089,7 @@ tag: other
 year: 2015
 conf: ACL
 title: Summarization of Multi-Document Topic Hierarchies using Submodular Mixtures
-author: Ramakrishna Bairi,Rishabh K. Iyer,Ganesh Ramakrishnan,Jeff A. Bilmes
+author: Ramakrishna Bairi, Rishabh K. Iyer, Ganesh Ramakrishnan, Jeff A. Bilmes
 url: https://pdfs.semanticscholar.org/3552/449ef8576bb4fa11d8944e0ccb4338982cce.pdf
 citation: 10
 tag: other
@@ -2097,7 +2097,7 @@ tag: other
 year: 2015
 conf: ACL
 title: Abstractive Multi-Document Summarization via Phrase Selection and Merging
-author: Lidong Bing,Piji Li,Yi Liao,Wai Lam,Weiwei Guo,Rebecca J. Passonneau
+author: Lidong Bing, Piji Li, Yi Liao, Wai Lam, Weiwei Guo, Rebecca J. Passonneau
 url: https://arxiv.org/pdf/1506.01597.pdf
 citation: 106
 tag: gen-abs, task-multiDoc
@@ -2105,7 +2105,7 @@ tag: gen-abs, task-multiDoc
 year: 2015
 conf: ACL
 title: Joint Graphical Models for Date Selection in Timeline Summarization
-author: Giang Binh Tran,Eelco Herder,Katja Markert
+author: Giang Binh Tran, Eelco Herder, Katja Markert
 url: https://doi.org/10.3115/v1%2FP15-1154
 citation: 16
 tag: other
@@ -2113,7 +2113,7 @@ tag: other
 year: 2015
 conf: ACL
 title: Predicting Salient Updates for Disaster Summarization
-author: Chris Kedzie,Kathleen McKeown,Fernando Díaz
+author: Chris Kedzie, Kathleen McKeown, Fernando Díaz
 url: https://pdfs.semanticscholar.org/382b/f4617c7732fbd9aa2b8cee442216f204d4c6.pdf
 citation: 39
 tag: task-event, eval-aspect-redundancy
@@ -2121,7 +2121,7 @@ tag: task-event, eval-aspect-redundancy
 year: 2015
 conf: ACL
 title: BrailleSUM: A News Summarization System for the Blind and Visually Impaired People
-author: Chin-Yew Lin,Eduard H. Hovy
+author: Chin-Yew Lin, Eduard H. Hovy
 url: https://pdfs.semanticscholar.org/9c1a/028299cc2b7f4cbdbe6e19abfc844a6ead6b.pdf
 citation: 1
 tag: task-multiDoc
@@ -2129,7 +2129,7 @@ tag: task-multiDoc
 year: 2015
 conf: ACL
 title: Learning Summary Prior Representation for Extractive Summarization
-author: Ziqiang Cao,Furu Wei,Sujian Li,Wenjie Li,Ming Zhou,Houfeng Wang
+author: Ziqiang Cao, Furu Wei, Sujian Li, Wenjie Li, Ming Zhou, Houfeng Wang
 url: https://pdfs.semanticscholar.org/0f6d/8e5d9b243eaf1d3968d8cd272db64e536beb.pdf
 citation: 73
 tag: arch-cnn
@@ -2137,7 +2137,7 @@ tag: arch-cnn
 year: 2015
 conf: ACL
 title: Unsupervised extractive summarization via coverage maximization with syntactic and semantic concepts
-author: Natalie Schluter,Anders Søgaard
+author: Natalie Schluter, Anders Søgaard
 url: https://pdfs.semanticscholar.org/ff20/f2c56d3f57c679c33174ab20c0260b3654a2.pdf
 citation: 16
 tag: gen-ext, train-unsup
@@ -2145,7 +2145,7 @@ tag: gen-ext, train-unsup
 year: 2015
 conf: EMNLP
 title: System Combination for Multi-document Summarization
-author: Kai Hong,Mitchell Marcus,Ani Nenkova
+author: Kai Hong, Mitchell Marcus, Ani Nenkova
 url: https://pdfs.semanticscholar.org/0403/ca8ad125899996c783f6481c78d432a77106.pdf
 citation: 33
 tag: task-multiDoc
@@ -2153,7 +2153,7 @@ tag: task-multiDoc
 year: 2015
 conf: EMNLP
 title: Monotone Submodularity in Opinion Summaries
-author: Jayanth Jayanth,Jayaprakash Sundararaj,Pushpak Bhattacharyya
+author: Jayanth Jayanth, Jayaprakash Sundararaj, Pushpak Bhattacharyya
 url: https://pdfs.semanticscholar.org/7922/602d076e4ee4eccee690ceb44561c81fb3c4.pdf
 citation: 4
 tag: task-opinion
@@ -2161,7 +2161,7 @@ tag: task-opinion
 year: 2015
 conf: EMNLP
 title: Using Content-level Structures for Summarizing Microblog Repost Trees
-author: Jing Li,Wei Gao,Zhongyu Wei,Baolin Peng,Kam-Fai Wong
+author: Jing Li, Wei Gao, Zhongyu Wei, Baolin Peng, Kam-Fai Wong
 url: https://pdfs.semanticscholar.org/31df/51e3f31f702898b169764825bcc9c911b7de.pdf
 citation: 12
 tag: task-event
@@ -2169,7 +2169,7 @@ tag: task-event
 year: 2015
 conf: EMNLP
 title: Summarizing Student Responses to Reflection Prompts
-author: Wencan Luo,Diane J. Litman
+author: Wencan Luo, Diane J. Litman
 url: https://pdfs.semanticscholar.org/71fe/25e61cf181fd0d02f23162360644dd9d401b.pdf
 citation: 15
 tag: gen-abs
@@ -2177,7 +2177,7 @@ tag: gen-abs
 year: 2015
 conf: EMNLP
 title: Phrase-based Compressive Cross-Language Summarization
-author: Jin-ge Yao,Xiaojun Wan,Jianguo Xiao
+author: Jin-ge Yao, Xiaojun Wan, Jianguo Xiao
 url: https://pdfs.semanticscholar.org/c572/0b45c183aab4366ec339ae08b23b956711d4.pdf
 citation: 24
 tag: gen-ext
@@ -2193,7 +2193,7 @@ tag: eval-metric-rouge
 year: 2015
 conf: EMNLP
 title: Indicative Tweet Generation: An Extractive Summarization Problem?
-author: Priya Sidhaye,Jackie Chi Kit Cheung
+author: Priya Sidhaye, Jackie Chi Kit Cheung
 url: https://pdfs.semanticscholar.org/5e4b/040741fb5e4944368885944cace5e31a17be.pdf
 citation: 8
 tag: gen-ext
@@ -2209,7 +2209,7 @@ tag: gen-ext, gen-abs, task-multiDoc, task-event
 year: 2015
 conf: EMNLP
 title: Concept-based Summarization using Integer Linear Programming: From Concept Pruning to Multiple Optimal Solutions
-author: Florian Boudin,Hugo Mougard,Benoît Favre
+author: Florian Boudin, Hugo Mougard, Benoît Favre
 url: https://pdfs.semanticscholar.org/5ffa/3faab9f936f3973a57321acc5b8b69869a5f.pdf
 citation: 33
 tag: eval-metric-rouge
@@ -2217,7 +2217,7 @@ tag: eval-metric-rouge
 year: 2015
 conf: EMNLP
 title: Better Summarization Evaluation with Word Embeddings for ROUGE
-author: Jun-Ping Ng,Viktoria Abrecht
+author: Jun-Ping Ng, Viktoria Abrecht
 url: https://arxiv.org/pdf/1508.06034.pdf
 citation: 36
 tag: gen-abs, eval-metric-rouge
@@ -2225,7 +2225,7 @@ tag: gen-abs, eval-metric-rouge
 year: 2015
 conf: EMNLP
 title: Krimping texts for better summarization
-author: Marina Litvak,Mark Last,Natalia Vanetik
+author: Marina Litvak, Mark Last, Natalia Vanetik
 url: https://pdfs.semanticscholar.org/35d9/68bd727c8cc9408834f0846db0d789db4152.pdf
 citation: 9
 tag: gen-ext, train-unsup, task-query
@@ -2233,7 +2233,7 @@ tag: gen-ext, train-unsup, task-query
 year: 2015
 conf: EMNLP
 title: Topical Coherence for Graph-based Extractive Summarization
-author: Daraksha Parveen,Hans-Martin Ramsl,Michael Strube
+author: Daraksha Parveen, Hans-Martin Ramsl, Michael Strube
 url: https://pdfs.semanticscholar.org/52eb/b5873677dd900a97e4bd4042fb40be14f937.pdf
 citation: 60
 tag: latent-topic
@@ -2241,7 +2241,7 @@ tag: latent-topic
 year: 2015
 conf: EMNLP
 title: Extractive Summarization by Maximizing Semantic Volume
-author: Dani Yogatama,Fei Liu,Noah A. Smith
+author: Dani Yogatama, Fei Liu, Noah A. Smith
 url: https://pdfs.semanticscholar.org/6bb2/08cf0aa40af2349acf0fd491136b9619b0ca.pdf
 citation: 26
 tag: other
@@ -2249,7 +2249,7 @@ tag: other
 year: 2015
 conf: EMNLP
 title: Summarization Based on Embedding Distributions
-author: Hayato Kobayashi,Masaki Noguchi,Taichi Yatsuka
+author: Hayato Kobayashi, Masaki Noguchi, Taichi Yatsuka
 url: https://pdfs.semanticscholar.org/11f3/474414d9c3fe3d9f85777b3292a5b31dd6f4.pdf
 citation: 38
 tag: other
@@ -2257,7 +2257,7 @@ tag: other
 year: 2015
 conf: NAA-CL
 title: Using Summarization to Discover Argument Facets in Online Idealogical Dialog
-author: Amita Misra,Pranav Anand,Jean E. Fox Tree,Marilyn A. Walker
+author: Amita Misra, Pranav Anand, Jean E. Fox Tree, Marilyn A. Walker
 url: https://arxiv.org/pdf/1709.00662.pdf
 citation: 33
 tag: task-opinion
@@ -2265,7 +2265,7 @@ tag: task-opinion
 year: 2015
 conf: NAA-CL
 title: A Dynamic Programming Algorithm for Tree Trimming-based Text Summarization
-author: Masaaki Nishino,Norihito Yasuda,Tsutomu Hirao,Shin-ichi Minato,Masaaki Nagata
+author: Masaaki Nishino, Norihito Yasuda, Tsutomu Hirao, Shin-ichi Minato, Masaaki Nagata
 url: https://pdfs.semanticscholar.org/60b3/d552588c7342a681194d4835dfac82f99cb5.pdf
 citation: 6
 tag: gen-ext, task-singledDoc, task-senCompre
@@ -2273,7 +2273,7 @@ tag: gen-ext, task-singledDoc, task-senCompre
 year: 2015
 conf: NAA-CL
 title: Using External Resources and Joint Learning for Bigram Weighting in ILP-Based Multi-Document Summarization
-author: Chen Li,Yang Liu,Lin Zhao
+author: Chen Li, Yang Liu, Lin Zhao
 url: https://pdfs.semanticscholar.org/51c2/91403797ce3e4f3410d74241c976332a6627.pdf
 citation: 30
 tag: task-multiDoc
@@ -2281,7 +2281,7 @@ tag: task-multiDoc
 year: 2015
 conf: NAA-CL
 title: Movie Script Summarization as Graph-based Scene Extraction
-author: Philip John Gorinski,Mirella Lapata
+author: Philip John Gorinski, Mirella Lapata
 url: https://pdfs.semanticscholar.org/79c4/243df125387e89bb9ed2121f3c0f7a4565d7.pdf
 citation: 23
 tag: other
@@ -2289,7 +2289,7 @@ tag: other
 year: 2015
 conf: NAA-CL
 title: Toward Abstractive Summarization Using Semantic Representations
-author: Fei Liu,Jeffrey Flanigan,Sam Thomson,Norman M. Sadeh,Noah A. Smith
+author: Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman M. Sadeh, Noah A. Smith
 url: https://arxiv.org/pdf/1805.10399.pdf
 citation: 151
 tag: gen-abs, task-event
@@ -2297,7 +2297,7 @@ tag: gen-abs, task-event
 year: 2015
 conf: NAA-CL
 title: Clustering Sentences with Density Peaks for Multi-document Summarization
-author: Yang Zhang,Yunqing Xia,Yi Liu,Wenmin Wang
+author: Yang Zhang, Yunqing Xia, Yi Liu, Wenmin Wang
 url: https://pdfs.semanticscholar.org/9d0c/28d20de2ff4f429e95f5247e938acff4f01c.pdf
 citation: 27
 tag: task-multiDoc
@@ -2305,7 +2305,7 @@ tag: task-multiDoc
 year: 2015
 conf: NAA-CL
 title: Improving Update Summarization via Supervised ILP and Sentence Reranking
-author: Chen Li,Yang Liu,Lin Zhao
+author: Chen Li, Yang Liu, Lin Zhao
 url: https://pdfs.semanticscholar.org/ae37/e0d13547caa149273cab7883d2dd721d465a.pdf
 citation: 16
 tag: eval-metric-rouge
@@ -2313,7 +2313,7 @@ tag: eval-metric-rouge
 year: 2015
 conf: NAA-CL
 title: Enhancing Instructor-Student and Student-Student Interactions with Mobile Interfaces and Summarization
-author: Wencan Luo,Xiangmin Fan,Muhsin Menekse,Jingtao Wang,Diane J. Litman
+author: Wencan Luo, Xiangmin Fan, Muhsin Menekse, Jingtao Wang, Diane J. Litman
 url: https://pdfs.semanticscholar.org/9ff7/76a8675463b747e3af677f603a77957216bc.pdf
 citation: 11
 tag: gen-ext
@@ -2321,7 +2321,7 @@ tag: gen-ext
 year: 2015
 conf: AAAI
 title: FACES: Diversity-Aware Entity Summarization Using Incremental Hierarchical Conceptual Clustering
-author: Kalpa Gunaratna,Krishnaprasad Thirunarayan,Amit P. Sheth
+author: Kalpa Gunaratna, Krishnaprasad Thirunarayan, Amit P. Sheth
 url: https://pdfs.semanticscholar.org/a7cb/7de7329f1145626a3689349ce92e54f81756.pdf
 citation: 42
 tag: gen-ext
@@ -2329,7 +2329,7 @@ tag: gen-ext
 year: 2015
 conf: AAAI
 title: Multi-Document Summarization Based on Two-Level Sparse Representation Model
-author: He Liu,Hongliang Yu,Zhi-Hong Deng
+author: He Liu, Hongliang Yu, Zhi-Hong Deng
 url: https://pdfs.semanticscholar.org/1100/064b1e68e15d4dfadfcaf1d0d037c5b3786d.pdf
 citation: 37
 tag: gen-ext, task-multiDoc
@@ -2337,7 +2337,7 @@ tag: gen-ext, task-multiDoc
 year: 2015
 conf: AAAI
 title: Ranking with Recursive Neural Networks and Its Application to Multi-Document Summarization
-author: Ziqiang Cao,Furu Wei,Li Dong,Sujian Li,Ming Zhou
+author: Ziqiang Cao, Furu Wei, Li Dong, Sujian Li, Ming Zhou
 url: https://pdfs.semanticscholar.org/e522/e23a4f4c797478d90afaa5c4d96b30d50aa7.pdf
 citation: 159
 tag: task-multiDoc
@@ -2345,7 +2345,7 @@ tag: task-multiDoc
 year: 2015
 conf: IJCAI
 title: Compressive Document Summarization via Sparse Optimization
-author: Jin-ge Yao,Xiaojun Wan,Jianguo Xiao
+author: Jin-ge Yao, Xiaojun Wan, Jianguo Xiao
 url: https://pdfs.semanticscholar.org/58ca/38168655d1acfc9f38bfd1c2107d34fdda22.pdf
 citation: 29
 tag: gen-ext, gen-2stage
@@ -2353,7 +2353,7 @@ tag: gen-ext, gen-2stage
 year: 2015
 conf: IJCAI
 title: Multi-Document Abstractive Summarization Using ILP based Multi-Sentence Compression
-author: Siddhartha Banerjee,Prasenjit Mitra,Kazunari Sugiyama
+author: Siddhartha Banerjee, Prasenjit Mitra, Kazunari Sugiyama
 url: https://arxiv.org/pdf/1609.07034.pdf
 citation: 89
 tag: gen-abs, task-multiDoc, task-senCompre
@@ -2361,7 +2361,7 @@ tag: gen-abs, task-multiDoc, task-senCompre
 year: 2015
 conf: IJCAI
 title: Reader-Aware Multi-Document Summarization via Sparse Coding
-author: Piji Li,Lidong Bing,Wai Lam,Huang Li,Yi Liao
+author: Piji Li, Lidong Bing, Wai Lam, Huang Li, Yi Liao
 url: https://arxiv.org/pdf/1504.07324.pdf
 citation: 33
 tag: gen-2stage, task-multiDoc, task-event
@@ -2369,7 +2369,7 @@ tag: gen-2stage, task-multiDoc, task-event
 year: 2015
 conf: IJCAI
 title: Optimizing Sentence Modeling and Selection for Document Summarization
-author: Wenpeng Yin,Yulong Pei
+author: Wenpeng Yin, Yulong Pei
 url: https://pdfs.semanticscholar.org/f121/92424dfd1a2df308346520556a1a7ed6094c.pdf
 citation: 58
 tag: gen-ext, arch-cnn, eval-aspect-redundancy
@@ -2377,7 +2377,7 @@ tag: gen-ext, arch-cnn, eval-aspect-redundancy
 year: 2015
 conf: IJCAI
 title: Integrating Importance, Non-redundancy and Coherence Graph-based Extractive Summarization
-author: Daraksha Parveen,Michael Strube
+author: Daraksha Parveen, Michael Strube
 url: https://pdfs.semanticscholar.org/8d66/4019dfaa30b07d3b2d9b15b0c756092347f2.pdf
 citation: 47
 tag: gen-ext, task-singledDoc, task-senCompre, task-sci, eval-metric-rouge, eval-aspect-coherence, eval-aspect-redundancy
@@ -2385,7 +2385,7 @@ tag: gen-ext, task-singledDoc, task-senCompre, task-sci, eval-metric-rouge, eval
 year: 2015
 conf: NIPS
 title: Weighted Theta Functions and Embeddings with Applications to Max-Cut, Clustering and Summarization
-author: Fredrik D. Johansson,Ankani Chattoraj,Chiranjib Bhattacharyya,Devdatt P. Dubhashi
+author: Fredrik D. Johansson, Ankani Chattoraj, Chiranjib Bhattacharyya, Devdatt P. Dubhashi
 url: https://pdfs.semanticscholar.org/fe63/ccc491b5d7e5633927a4d5cd8a1fd8516f65.pdf
 citation: 4
 tag: gen-ext
@@ -2401,7 +2401,7 @@ tag: gen-ext, gen-abs, task-event
 year: 2014
 conf: ACL
 title: Hierarchical Summarization: Scaling Up Multi-Document Summarization
-author: Janara Christensen,Stephen Soderland,Gagan Bansal,Mausam
+author: Janara Christensen, Stephen Soderland, Gagan Bansal, Mausam
 url: https://pdfs.semanticscholar.org/7c44/f9cb7a22576c811d344c58846a9c41356a08.pdf
 citation: 38
 tag: task-multiDoc
@@ -2409,7 +2409,7 @@ tag: task-multiDoc
 year: 2014
 conf: ACL
 title: Query-Chain Focused Summarization
-author: Tal Baumel,Raphael Cohen,Michael Elhadad
+author: Tal Baumel, Raphael Cohen, Michael Elhadad
 url: https://pdfs.semanticscholar.org/1190/d79aaa94da75bdab3300e29369fb82bd47a8.pdf
 citation: 13
 tag: task-query
@@ -2417,7 +2417,7 @@ tag: task-query
 year: 2014
 conf: ACL
 title: Exploiting Timelines to Enhance Multi-document Summarization
-author: Jun-Ping Ng,Yan Chen,Min-Yen Kan,Zhoujun Li
+author: Jun-Ping Ng, Yan Chen, Min-Yen Kan, Zhoujun Li
 url: https://pdfs.semanticscholar.org/6bdf/3bd4c32b65ba0c144768ed75744497d193d4.pdf
 citation: 28
 tag: task-multiDoc, eval-metric-rouge
@@ -2425,7 +2425,7 @@ tag: task-multiDoc, eval-metric-rouge
 year: 2014
 conf: ACL
 title: Abstractive Summarization of Spoken and Written Conversations Based on Phrasal Queries
-author: Yashar Mehdad,Giuseppe Carenini,Raymond T. Ng
+author: Yashar Mehdad, Giuseppe Carenini, Raymond T. Ng
 url: https://pdfs.semanticscholar.org/a892/4217e17c5119333789504576933d9075f5c3.pdf
 citation: 20
 tag: gen-ext, gen-abs, task-query
@@ -2433,7 +2433,7 @@ tag: gen-ext, gen-abs, task-query
 year: 2014
 conf: ACL
 title: Detection of Topic and its Extrinsic Evaluation Through Multi-Document Summarization
-author: Yoshimi Suzuki,Fumiyo Fukumoto
+author: Yoshimi Suzuki, Fumiyo Fukumoto
 url: https://pdfs.semanticscholar.org/3df4/aefbaa410c71ba54820731a2e4b7a850fe07.pdf
 citation: 5
 tag: gen-ext, task-multiDoc, task-event, nondif-reinforce
@@ -2441,7 +2441,7 @@ tag: gen-ext, task-multiDoc, task-event, nondif-reinforce
 year: 2014
 conf: ACL
 title: Single Document Summarization based on Nested Tree Structure
-author: Yuta Kikuchi,Tsutomu Hirao,Hiroya Takamura,Manabu Okumura,Masaaki Nagata
+author: Yuta Kikuchi, Tsutomu Hirao, Hiroya Takamura, Manabu Okumura, Masaaki Nagata
 url: https://pdfs.semanticscholar.org/da7a/8544f1d110c2ba1d430350810af61e0b1a35.pdf
 citation: 40
 tag: other
@@ -2457,7 +2457,7 @@ tag: task-knowledge
 year: 2014
 conf: EMNLP
 title: Finding Good Enough: A Task-Based Evaluation of Query Biased Summarization for Cross-Language Information Retrieval
-author: Jennifer Williams,Sharon W. Tam,Wade Shen
+author: Jennifer Williams, Sharon W. Tam, Wade Shen
 url: https://pdfs.semanticscholar.org/7186/ba0e0098e07ee35849167b39b2b11bff9bb0.pdf
 citation: 2
 tag: task-query, train-retrieval, eval-metric-rouge
@@ -2465,7 +2465,7 @@ tag: task-query, train-retrieval, eval-metric-rouge
 year: 2014
 conf: EMNLP
 title: Fear the REAPER: A System for Automatic Multi-Document Summarization with Reinforcement Learning
-author: Cody Rioux,Sadid A. Hasan,Yllias Chali
+author: Cody Rioux, Sadid A. Hasan, Yllias Chali
 url: https://pdfs.semanticscholar.org/14a9/3e7967e9fd2cdcc3cdfc350a3522f063bfdf.pdf
 citation: 24
 tag: task-multiDoc, task-query, nondif-reinforce, eval-metric-rouge
@@ -2473,7 +2473,7 @@ tag: task-multiDoc, task-query, nondif-reinforce, eval-metric-rouge
 year: 2014
 conf: EMNLP
 title: Improving Multi-documents Summarization by Sentence Compression based on Expanded Constituent Parse Trees
-author: Chen Li,Yang Liu,Fei Liu,Lin Zhao,Fuliang Weng
+author: Chen Li, Yang Liu, Fei Liu, Lin Zhao, Fuliang Weng
 url: https://pdfs.semanticscholar.org/26d8/cd270901ec70e9c1bd8e76dafe7855d83a99.pdf
 citation: 39
 tag: gen-2stage, task-multiDoc, task-senCompre, eval-metric-rouge
@@ -2481,7 +2481,7 @@ tag: gen-2stage, task-multiDoc, task-senCompre, eval-metric-rouge
 year: 2014
 conf: EMNLP
 title: Analyzing Stemming Approaches for Turkish Multi-Document Summarization
-author: Muhammed Yavuz Nuzumlali,Arzucan Özgür
+author: Muhammed Yavuz Nuzumlali, Arzucan Özgür
 url: https://pdfs.semanticscholar.org/3237/0a4d20eec6d26e69f465f091a8c23360e9d6.pdf
 citation: 1
 tag: task-multiDoc, task-knowledge
@@ -2489,7 +2489,7 @@ tag: task-multiDoc, task-knowledge
 year: 2014
 conf: EMNLP
 title: Unsupervised Sentence Enhancement for Automatic Summarization
-author: Jackie Chi Kit Cheung,Gerald Penn
+author: Jackie Chi Kit Cheung, Gerald Penn
 url: https://pdfs.semanticscholar.org/b8c7/ab732f1e51d3ad00024bc4e5eda3b041f7cc.pdf
 citation: 30
 tag: gen-abs, task-event
@@ -2497,7 +2497,7 @@ tag: gen-abs, task-event
 year: 2014
 conf: EMNLP
 title: Leveraging Effective Query Modeling Techniques for Speech Recognition and Summarization
-author: Kuan-Yu Chen,Shih-Hung Liu,Berlin Chen,Ea-Ee Jan,Hsin-Min Wang,Wen-Lian Hsu,Hsin-Hsi Chen
+author: Kuan-Yu Chen, Shih-Hung Liu, Berlin Chen, Ea-Ee Jan, Hsin-Min Wang, Wen-Lian Hsu, Hsin-Hsi Chen
 url: https://pdfs.semanticscholar.org/14c5/82c34e19ab9c8be34547ba1ca5404db1b865.pdf
 citation: 8
 tag: task-query, train-retrieval
@@ -2505,7 +2505,7 @@ tag: task-query, train-retrieval
 year: 2014
 conf: EMNLP
 title: Abstractive Summarization of Product Reviews Using Discourse Structure
-author: Shima Gerani,Yashar Mehdad,Giuseppe Carenini,Raymond T. Ng,Bita Nejat
+author: Shima Gerani, Yashar Mehdad, Giuseppe Carenini, Raymond T. Ng, Bita Nejat
 url: https://pdfs.semanticscholar.org/2113/8c47dfe71fb33267ea0f855f32accf5c11ce.pdf
 citation: 96
 tag: gen-abs, task-opinion, train-template
@@ -2513,7 +2513,7 @@ tag: gen-abs, task-opinion, train-template
 year: 2014
 conf: EMNLP
 title: Dependency-based Discourse Parser for Single-Document Summarization
-author: Yasuhisa Yoshida,Jun Suzuki,Tsutomu Hirao,Masaaki Nagata
+author: Yasuhisa Yoshida, Jun Suzuki, Tsutomu Hirao, Masaaki Nagata
 url: https://pdfs.semanticscholar.org/3eb3/43d0b8160fb406da59855118a49c53e1136e.pdf
 citation: 43
 tag: eval-metric-rouge
@@ -2521,7 +2521,7 @@ tag: eval-metric-rouge
 year: 2014
 conf: AAAI
 title: A Joint Optimization Model for Image Summarization Based on Image Content and Tags
-author: Hongliang Yu,Zhi-Hong Deng,Yunlun Yang,Tao Xiong
+author: Hongliang Yu, Zhi-Hong Deng, Yunlun Yang, Tao Xiong
 url: https://pdfs.semanticscholar.org/e33e/330842c693a074bf04962499f3dc3b7ffc4e.pdf
 citation: 10
 tag: task-multimodal
@@ -2529,7 +2529,7 @@ tag: task-multimodal
 year: 2013
 conf: ACL
 title: Domain-Independent Abstract Generation for Focused Meeting Summarization
-author: Lu Wang,Claire Cardie
+author: Lu Wang, Claire Cardie
 url: https://pdfs.semanticscholar.org/0a47/0d9724c3ca21e6b53539ef9f099ba1c3e59c.pdf
 citation: 45
 tag: gen-abs, train-template
@@ -2537,7 +2537,7 @@ tag: gen-abs, train-template
 year: 2013
 conf: ACL
 title: A Sentence Compression Based Framework to Query-Focused Multi-Document Summarization
-author: Lu Wang,Hema Raghavan,Vittorio Castelli,Radu Florian,Claire Cardie
+author: Lu Wang, Hema Raghavan, Vittorio Castelli, Radu Florian, Claire Cardie
 url: https://arxiv.org/pdf/1606.07548.pdf
 citation: 78
 tag: task-multiDoc, task-senCompre, task-query, eval-metric-rouge
@@ -2545,7 +2545,7 @@ tag: task-multiDoc, task-senCompre, task-query, eval-metric-rouge
 year: 2013
 conf: ACL
 title: Fast and Robust Compressive Summarization with Dual Decomposition and Multi-Task Learning
-author: Miguel B. Almeida,André F. T. Martins
+author: Miguel B. Almeida, André F. T. Martins
 url: https://pdfs.semanticscholar.org/6401/9361de1d4fa54a7fc5949f3c4f568a6f334c.pdf
 citation: 76
 tag: gen-ext, task-multiDoc, train-multitask, eval-metric-rouge
@@ -2553,7 +2553,7 @@ tag: gen-ext, task-multiDoc, train-multitask, eval-metric-rouge
 year: 2013
 conf: ACL
 title: Subtree Extractive Summarization via Submodular Maximization
-author: Hajime Morita,Ryohei Sasano,Hiroya Takamura,Manabu Okumura
+author: Hajime Morita, Ryohei Sasano, Hiroya Takamura, Manabu Okumura
 url: https://pdfs.semanticscholar.org/0aed/313319c636496b3b04be33123d9677a52d91.pdf
 citation: 30
 tag: gen-ext
@@ -2561,7 +2561,7 @@ tag: gen-ext
 year: 2013
 conf: ACL
 title: Summarization Through Submodularity and Dispersion
-author: Anirban Dasgupta,Ravi Kumar,Sujith Ravi
+author: Anirban Dasgupta, Ravi Kumar, Sujith Ravi
 url: https://pdfs.semanticscholar.org/dbe1/93dc6d9bb313cb4298da26f9ab38b807e51e.pdf
 citation: 43
 tag: eval-aspect-redundancy
@@ -2569,7 +2569,7 @@ tag: eval-aspect-redundancy
 year: 2013
 conf: ACL
 title: Towards Robust Abstractive Multi-Document Summarization: A Caseframe Analysis of Centrality and Domain
-author: Jackie Chi Kit Cheung,Gerald Penn
+author: Jackie Chi Kit Cheung, Gerald Penn
 url: https://pdfs.semanticscholar.org/eb57/6221bd83bb1de9105d3bc934930216615126.pdf
 citation: 27
 tag: gen-abs, task-multiDoc, task-senCompre, eval-aspect-redundancy
@@ -2577,7 +2577,7 @@ tag: gen-abs, task-multiDoc, task-senCompre, eval-aspect-redundancy
 year: 2013
 conf: ACL
 title: Using Supervised Bigram-based ILP for Extractive Summarization
-author: Chen Li,Xian Qian,Yang Liu
+author: Chen Li, Xian Qian, Yang Liu
 url: https://pdfs.semanticscholar.org/4dbf/34d4604935af29eeca2d5a5ea4f17df0e379.pdf
 citation: 78
 tag: gen-ext
@@ -2585,7 +2585,7 @@ tag: gen-ext
 year: 2013
 conf: ACL
 title: Evolutionary Hierarchical Dirichlet Process for Timeline Summarization
-author: Jiwei Li,Sujian Li
+author: Jiwei Li, Sujian Li
 url: https://pdfs.semanticscholar.org/eff3/c2e5a633857138688336ee7bc4bd6cc7cec2.pdf
 citation: 31
 tag: eval-metric-rouge
@@ -2593,7 +2593,7 @@ tag: eval-metric-rouge
 year: 2013
 conf: ACL
 title: Sequential Summarization: A New Application for Timely Updated Twitter Trending Topics
-author: Dehong Gao,Wenjie Li,Renxian Zhang
+author: Dehong Gao, Wenjie Li, Renxian Zhang
 url: https://pdfs.semanticscholar.org/eb7c/c170b294ef56911dac7d1d078299ac7d10c0.pdf
 citation: 14
 tag: other
@@ -2601,7 +2601,7 @@ tag: other
 year: 2013
 conf: EMNLP
 title: Automatically Determining a Proper Length for Multi-document Summarization: A Bayesian Nonparametric Approach
-author: Tengfei Ma,Hiroshi Nakagawa
+author: Tengfei Ma, Hiroshi Nakagawa
 url: https://pdfs.semanticscholar.org/99ed/33dc371b1d281be919c5d2533161f0a4ac22.pdf
 citation: 1
 tag: task-singledDoc
@@ -2609,7 +2609,7 @@ tag: task-singledDoc
 year: 2013
 conf: EMNLP
 title: Collective Personal Profile Summarization with Social Networks
-author: Zhongqing Wang,Shoushan Li,Fang Kong,Guodong Zhou
+author: Zhongqing Wang, Shoushan Li, Fang Kong, Guodong Zhou
 url: https://pdfs.semanticscholar.org/ad82/5000bb191e1cf705a2f83e55c128bfd1d160.pdf
 citation: 9
 tag: task-knowledge
@@ -2617,7 +2617,7 @@ tag: task-knowledge
 year: 2013
 conf: EMNLP
 title: Document Summarization via Guided Sentence Compression
-author: Chen Li,Fei Liu,Fuliang Weng,Yang Liu
+author: Chen Li, Fei Liu, Fuliang Weng, Yang Liu
 url: https://pdfs.semanticscholar.org/1b98/ecc801d4435fd57c6ef87b4c24cf6b3b58ce.pdf
 citation: 56
 tag: gen-2stage, task-senCompre
@@ -2625,7 +2625,7 @@ tag: gen-2stage, task-senCompre
 year: 2013
 conf: EMNLP
 title: Fast Joint Compression and Summarization via Graph Cuts
-author: Xian Qian,Yang Liu
+author: Xian Qian, Yang Liu
 url: https://pdfs.semanticscholar.org/f299/c0d0cce60cad6643e5dd5333b8e7d1537a3e.pdf
 citation: 40
 tag: gen-ext, gen-2stage, eval-metric-rouge
@@ -2633,7 +2633,7 @@ tag: gen-ext, gen-2stage, eval-metric-rouge
 year: 2013
 conf: EMNLP
 title: Single-Document Summarization as a Tree Knapsack Problem
-author: Tsutomu Hirao,Yasuhisa Yoshida,Masaaki Nishino,Norihito Yasuda,Masaaki Nagata
+author: Tsutomu Hirao, Yasuhisa Yoshida, Masaaki Nishino, Norihito Yasuda, Masaaki Nagata
 url: https://pdfs.semanticscholar.org/ed0c/8a7ab911cdb30b7e95edada3a55c01eb22c5.pdf
 citation: 86
 tag: gen-ext, task-singledDoc, eval-metric-rouge, eval-aspect-coherence
@@ -2641,7 +2641,7 @@ tag: gen-ext, task-singledDoc, eval-metric-rouge, eval-aspect-coherence
 year: 2013
 conf: NAA-CL
 title: A Participant-based Approach for Event Summarization Using Twitter Streams
-author: Chao Shen,Fei Liu,Fuliang Weng,Tao Li
+author: Chao Shen, Fei Liu, Fuliang Weng, Tao Li
 url: https://pdfs.semanticscholar.org/0d7e/335365f4b7a6cb3cca996b59e7adbc967ceb.pdf
 citation: 65
 tag: task-event
@@ -2649,7 +2649,7 @@ tag: task-event
 year: 2013
 conf: NAA-CL
 title: Towards Coherent Multi-Document Summarization
-author: Janara Christensen,Mausam,Stephen Soderland,Oren Etzioni
+author: Janara Christensen, Mausam, Stephen Soderland, Oren Etzioni
 url: https://pdfs.semanticscholar.org/1dc0/4459d2e14df5d1ba2c50a35832e2de7da8ec.pdf
 citation: 89
 tag: gen-ext, task-multiDoc, eval-aspect-coherence
@@ -2657,7 +2657,7 @@ tag: gen-ext, task-multiDoc, eval-aspect-coherence
 year: 2013
 conf: NAA-CL
 title: Using Document Summarization Techniques for Speech Data Subset Selection
-author: Kai Wei,Yuzong Liu,Katrin Kirchhoff,Jeff A. Bilmes
+author: Kai Wei, Yuzong Liu, Katrin Kirchhoff, Jeff A. Bilmes
 url: https://pdfs.semanticscholar.org/f20d/6b1b43b30996a41e0002ee88b5e940ba4a8f.pdf
 citation: 55
 tag: train-unsup
@@ -2665,7 +2665,7 @@ tag: train-unsup
 year: 2013
 conf: IJCAI
 title: i, Poet: Automatic Chinese Poetry Composition through a Generative Summarization Framework under Constrained Optimization
-author: Rui Yan,Han Jiang,Mirella Lapata,Shou-de Lin,Xueqiang Lv,Xiaoming Li
+author: Rui Yan, Han Jiang, Mirella Lapata, Shou-de Lin, Xueqiang Lv, Xiaoming Li
 url: https://pdfs.semanticscholar.org/c83f/a87a6359b6b871a383aaa59652ed264bc47a.pdf
 citation: 58
 tag: eval-metric-rouge
