@@ -10,10 +10,6 @@
 * `regr-auto`:  Autoregressive Decoder (Pointer network) 
 * `regr-nonauto`: Non-autoregressive Decoder (Sequence labeling)
 
-## Supervision
-* `sup-sup`: Supervised Learning
-* `sup-weak`  (implies `sup-sup`): Weakly Supervised Learning
-* `sup-unsup`: Unsupervised Learning
 
 ## Task Settings
 * `task-single`: Single-document Summarization
@@ -46,6 +42,9 @@
 
 
 ## Training
+* `train-sup`: Supervised Learning
+* `train-unsup`: Unsupervised Learning
+* `train-weak`:  (implies `train-sup`): Weakly Supervised Learning
 * `train-multitask`: Multi-task Learning
 * `train-multilingual`: Multi-lingual Learning
 * `train-multimodal`: Multi-modal Learning
