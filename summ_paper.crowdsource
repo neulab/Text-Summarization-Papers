@@ -1,4 +1,44 @@
 year: 2020
+conf: ACL
+title: Asking and Answering Questions to Evaluate the Factual Consistency of Summaries
+author: Alex Wang, Kyunghyun Cho, Mike Lewis
+url: https://arxiv.org/pdf/2004.04228.pdf
+citation: 0
+tag: aa-recentlyAdded, eval-factuality, task-question
+------------------------------------------------------------------------
+year: 2020
+conf: ACL
+title: Rigid Formats Controlled Text Generation
+author: Piji Li Haisong Zhang Xiaojiang Liu Shuming Shi
+url: https://arxiv.org/pdf/2004.08022.pdf
+citation: 0
+tag: aa-recentlyAdded, task-rigidFormat, task-control, pre-BERT, arch-transformer
+------------------------------------------------------------------------
+year: 2020
+conf: ACL
+title: BLEURT: Learning Robust Metrics for Text Generation
+author: Thibault Sellam Dipanjan Das Ankur P. Parikh
+url: https://arxiv.org/pdf/2004.04696.pdf
+citation: 0
+tag: aa-recentlyAdded, eval-metric-learnable, pre-bert
+------------------------------------------------------------------------
+year: 2012
+conf: NAA-CL
+title: HyTER: Meaning-Equivalent Semantics for Translation Evaluation
+author: Markus Dreyer, Daniel Marcu
+url: https://www.aclweb.org/anthology/N12-1017.pdf
+citation: 52
+tag: aa-recentlyAdded, eval-referenceQuality
+------------------------------------------------------------------------
+year: 2020
+conf: Arxiv
+title: BLEU might be Guilty but References are not Innocent
+author: Markus Freitag, David Grangier, Isaac Caswell
+url: https://arxiv.org/pdf/2004.06063.pdf
+citation: 0
+tag: aa-recentlyAdded, eval-referenceQuality, artifact-translationese
+------------------------------------------------------------------------
+year: 2020
 conf: Arxiv
 title: Belief Propagation for Maximum Coverage on Weighted Bipartite Graph and Application to Text Summarization
 author: Hiroki Kitano, Koujin Takeda
@@ -28,7 +68,7 @@ title: Aspect and Opinion Aware Abstractive Review Summarization with Reinforced
 author: Yufei Tian, Jianfei Yu, Jing Jiang
 url: https://arxiv.org/pdf/2004.05755
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, task-review, task-control
 ------------------------------------------------------------------------
 year: 2020
 conf: ICMR
@@ -36,7 +76,7 @@ title: Query-controllable Video Summarization
 author: Jia-Hong Huang, Marcel Worring
 url: https://arxiv.org/pdf/2004.03661
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, task-video, task-control, task-query
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -52,7 +92,7 @@ title: Windowing Models for Abstractive Summarization of Long Texts
 author: Leon Schüller, Florian Wilhelm, Nico Kreiling, Goran Glavaš
 url: https://arxiv.org/pdf/2004.03324
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, task-longtext, gen-abs
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv

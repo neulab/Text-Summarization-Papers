@@ -19,6 +19,7 @@
 * `task-multimodal`: Multi-modal Summarization
 * `task-aspect`: Aspect-based Summarization
 * `task-opinion`: Opinion Summarization
+* `task-review`: Review Summarization
 * `task-questoin`: Question-based Summarization
 * `task-video`: Video-based Summarization
 * `task-code`: Source Code Summarization
@@ -102,3 +103,5 @@
 * `eval-aspect-redundancy`: Redundancy of Summary 
 * `eval-aspect-factuality`: Factuality
 * `eval-aspect-abstractness`: Abstractness
+* `eval-referenceQuality`: Reference Quality
+* `eval-metric-learnable`: Metrics are Learnable
