@@ -480,9 +480,9 @@ tag: pre-unilm
 ------------------------------------------------------------------------
 year: 2019
 conf: Arxiv
-title: Sample Efficient Text Summarization Using a Single Pre-Trained
-author: Transformer
-url: Urvashi Khandelwal, Kevin Clark, Dan Jurafsky, Lukasz Kaiser
+title: Sample Efficient Text Summarization Using a Single Pre-Trained Transformer
+author: Urvashi Khandelwal, Kevin Clark, Dan Jurafsky, Lukasz Kaiser
+url: https://arxiv.org/pdf/1904.02020.pdf
 citation: 6
 tag: pre-gpt
 ------------------------------------------------------------------------
