@@ -12,8 +12,8 @@
 
 
 ## Task Settings
-* `task-single`: Single-document Summarization
-* `task-multi`: Multi-document Summarization
+* `task-singleDoc`: Single-document Summarization
+* `task-multiDoc`: Multi-document Summarization
 * `task-senCompre:` Sentence Compression
 * `task-sci`: Scientific Paper
 * `task-multimodal`: Multi-modal Summarization

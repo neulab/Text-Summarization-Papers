@@ -4,7 +4,7 @@ title: Extractive Summarization as Text Matching
 author: Ming Zhong, Pengfei Liu, Yiran Chen, Danqing Wang, Xipeng Qiu, Xuanjing Huang
 url: https://arxiv.org/pdf/2004.08795.pdf
 citation: 0
-tag: aa-recentlyAdded, gen-ext, eval-redundancy, pre-bert
+tag: aa-recentlyAdded, aa-ACL2020, gen-ext, eval-redundancy, pre-bert
 ------------------------------------------------------------------------
 year: 2020
 conf: ACL
@@ -12,7 +12,7 @@ title: Asking and Answering Questions to Evaluate the Factual Consistency of Sum
 author: Alex Wang, Kyunghyun Cho, Mike Lewis
 url: https://arxiv.org/pdf/2004.04228.pdf
 citation: 0
-tag: aa-recentlyAdded, eval-factuality, task-question
+tag: aa-recentlyAdded, aa-ACL2020, eval-factuality, task-question
 ------------------------------------------------------------------------
 year: 2020
 conf: ACL
@@ -20,7 +20,7 @@ title: Rigid Formats Controlled Text Generation
 author: Piji Li Haisong Zhang Xiaojiang Liu Shuming Shi
 url: https://arxiv.org/pdf/2004.08022.pdf
 citation: 0
-tag: aa-recentlyAdded, task-rigidFormat, task-control, pre-BERT, arch-transformer
+tag: aa-recentlyAdded, aa-ACL2020, task-rigidFormat, task-control, pre-BERT, arch-transformer
 ------------------------------------------------------------------------
 year: 2020
 conf: ACL
@@ -28,7 +28,39 @@ title: BLEURT: Learning Robust Metrics for Text Generation
 author: Thibault Sellam Dipanjan Das Ankur P. Parikh
 url: https://arxiv.org/pdf/2004.04696.pdf
 citation: 0
-tag: aa-recentlyAdded, eval-metric-learnable, pre-bert
+tag: aa-recentlyAdded, aa-ACL2020, eval-metric-learnable, pre-bert
+------------------------------------------------------------------------
+year: 2020
+conf: ACL
+title: Automatic Generation of Citation Texts in Scholarly Papers: A Pilot Study (Not Released)
+author: Xinyu Xing, Xiaosheng Fan and Xiaojun Wan
+url: https://notReleased.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, gen-abs, task-sci
+------------------------------------------------------------------------
+year: 2020
+conf: ACL
+title: Multi-Granularity Interaction Network for Extractive and Abstractive Multi-Document Summarization (Not Released)
+author: Hanqi Jin, Tianming Wang and Xiaojun Wan
+url: https://notReleased.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, gen-abs, gen-ext, task-multiDoc
+------------------------------------------------------------------------
+year: 2020
+conf: ACL
+title: Jointly Learning to Align and Summarize for Neural Cross-Lingual Summarization (Not Released)
+author: Yue Cao, Hui Liu and Xiaojun Wan
+url: https://notReleased.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, train-multilingual
+------------------------------------------------------------------------
+year: 2020
+conf: ACL
+title: Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward (Not Released)
+Luyang Huang, Lingfei Wu, and Lu Wang
+url: https://notReleased.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, gen-abs, task-knowledge
 ------------------------------------------------------------------------
 year: 2012
 conf: NAA-CL
@@ -494,13 +526,13 @@ url: https://www.aclweb.org/anthology/K17-1045.pdf
 citation: 61
 tag: arch-gnn
 ------------------------------------------------------------------------
-year: 2019
-conf: Arxiv
+year: 2020
+conf: ACL
 title: Discourse-Aware Neural Extractive Model for Text Summarization
 author: Jiacheng Xu, Zhe Gan, Yu Cheng, Jingjing Liu
 url: https://arxiv.org/pdf/1910.14142.pdf
 citation: 0
-tag: arch-gnn
+tag: aa-ACL2020, arch-gnn
 ------------------------------------------------------------------------
 year: 2019
 conf: ICLR
