@@ -1,5 +1,13 @@
 year: 2020
 conf: ACL
+title: Extractive Summarization as Text Matching
+author: Ming Zhong, Pengfei Liu, Yiran Chen, Danqing Wang, Xipeng Qiu, Xuanjing Huang
+url: https://arxiv.org/pdf/2004.08795.pdf
+citation: 0
+tag: aa-recentlyAdded, gen-ext, eval-redundancy, pre-bert
+------------------------------------------------------------------------
+year: 2020
+conf: ACL
 title: Asking and Answering Questions to Evaluate the Factual Consistency of Summaries
 author: Alex Wang, Kyunghyun Cho, Mike Lewis
 url: https://arxiv.org/pdf/2004.04228.pdf
@@ -52,7 +60,7 @@ title: A Divide-and-Conquer Approach to the Summarization of Academic Articles
 author: Alexios Gidiotis, Grigorios Tsoumakas
 url: https://arxiv.org/pdf/2004.06190
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, task-longtext, task-sci, gen-abs
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -60,7 +68,7 @@ title: AREDSUM: Adaptive Redundancy-Aware Iterative Sentence Ranking for Extract
 author: Keping Bi, Rahul Jha, W. Bruce Croft, Asli Celikyilmaz
 url: https://arxiv.org/pdf/2004.06176
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-ext, pre-bert, eval-aspect-redundancy, arch-transformer
 ------------------------------------------------------------------------
 year: 2019
 conf: ICKM
@@ -84,7 +92,7 @@ title: Salience Estimation with Multi-Attention Learning for Abstractive Text Su
 author: Piji Li, Lidong Bing, Zhongyu Wei, Wai Lam
 url: https://arxiv.org/pdf/2004.03589
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs, arch-att, arch-textrank
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -100,7 +108,7 @@ title: Query Focused Multi-Document Summarization with Distant Supervision
 author: Yumo Xu, Mirella Lapata
 url: https://arxiv.org/pdf/2004.03027
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, task-query, pre-bert
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -108,23 +116,7 @@ title: Improved Code Summarization via a Graph Neural Network
 author: Alexander LeClair, Sakib Haque, Lingfei Wu, Collin McMillan
 url: https://arxiv.org/pdf/2004.02843
 citation: 0
-tag: aa-recentlyAdded
-------------------------------------------------------------------------
-year: 2020
-conf: Arxiv
-title: At Which Level Should We Extract? An Empirical Study on Extractive Document Summarization
-author: Qingyu Zhou, Furu Wei, Ming Zhou
-url: https://arxiv.org/pdf/2004.02664
-citation: 0
-tag: aa-recentlyAdded
-------------------------------------------------------------------------
-year: 2020
-conf: Arxiv
-title: Learning to Summarize Passages: Mining Passage-Summary Pairs from Wikipedia Revision Histories
-author: Qingyu Zhou, Furu Wei, Ming Zhou
-url: https://arxiv.org/pdf/2004.02592
-citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, task-code, arch-gnn
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -132,7 +124,7 @@ title: End-to-End Abstractive Summarization for Meetings
 author: Chenguang Zhu, Ruochen Xu, Michael Zeng, Xuedong Huang
 url: https://arxiv.org/pdf/2004.02016
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs, task-meeting
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -140,7 +132,7 @@ title: STEP: Sequence-to-Sequence Transformer Pre-training for Document Summariz
 author: Yanyan Zou, Xingxing Zhang, Wei Lu, Furu Wei, Ming Zhou
 url: https://arxiv.org/pdf/2004.01853
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, pre-step
 ------------------------------------------------------------------------
 year: 2020
 conf: ICLR-ws
@@ -148,7 +140,7 @@ title: Amharic Abstractive Text Summarization
 author: Amr M. Zaki, Mahmoud I. Khalil, Hazem M. Abbas
 url: https://arxiv.org/pdf/2003.13721
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-bas
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -156,7 +148,7 @@ title: Abstractive Summarization with Combination of Pre-trained Sequence-to-Seq
 author: Itsumi Saito, Kyosuke Nishida, Kosuke Nishida, Junji Tomita
 url: https://arxiv.org/pdf/2003.13028
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs, gen-2stage, pre-bert
 ------------------------------------------------------------------------
 year: 2020
 conf: LREC
@@ -164,7 +156,7 @@ title: Abstractive Text Summarization based on Language Model Conditioning and L
 author: Dmitrii Aksenov, Julián Moreno-Schneider, Peter Bourgonje, Robert Schwarzenberg, Leonhard Hennig, Georg Rehm
 url: https://arxiv.org/pdf/2003.13027
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs, task-longtext
 ------------------------------------------------------------------------
 year: 2019
 conf: IJCNN
@@ -172,7 +164,7 @@ title: Learning Syntactic and Dynamic Selective Encoding for Document Summarizat
 author: Haiyang Xu, Yahao He, Kun Han, Junwen Chen, Xiangang Li
 url: https://arxiv.org/pdf/2003.11173
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -180,7 +172,7 @@ title: Boosting Factual Correctness of Abstractive Summarization
 author: Chenguang Zhu, William Hinthorn, Ruochen Xu, Qingkai Zeng, Michael Zeng, Xuedong Huang, Meng Jiang
 url: https://arxiv.org/pdf/2003.08612
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, eval-aspect-factuality, arch-gnn, task-knowledge
 ------------------------------------------------------------------------
 year: 2020
 conf: ICASSP
@@ -188,7 +180,7 @@ title: Selective Attention Encoders by Syntactic Graph Convolutional Networks fo
 author: Haiyang Xu, Yun Wang, Kun Han, Baochang Ma, Junwen Chen, Xiangang Li
 url: https://arxiv.org/pdf/2003.08004
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs, arch-gnn
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -212,7 +204,7 @@ title: StructSum: Incorporating Latent and Explicit Sentence Dependencies for Si
 author: Vidhisha Balachandran, Artidoro Pagnoni, Jay Yoon Lee, Dheeraj Rajagopal, Jaime Carbonell, Yulia Tsvetkov
 url: https://arxiv.org/pdf/2003.00576
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -224,19 +216,11 @@ tag: aa-recentlyAdded
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
-title: A more abstractive summarization model
-author: Satyaki Chakraborty, Xinya Li, Sayak Chakraborty
-url: https://arxiv.org/pdf/2002.10959
-citation: 0
-tag: aa-recentlyAdded
-------------------------------------------------------------------------
-year: 2020
-conf: Arxiv
 title: Discriminative Adversarial Search for Abstractive Summarization
 author: Thomas Scialom, Paul-Alexis Dray, Sylvain Lamprier, Benjamin Piwowarski, Jacopo Staiano
 url: https://arxiv.org/pdf/2002.10375
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs, train-transfer, eval-optimize-humanJudgement
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -252,7 +236,7 @@ title: On the impressive performance of randomly weighted encoders in summarizat
 author: Jonathan Pilault, Jaehong Park, Christopher Pal
 url: https://arxiv.org/pdf/2002.09084
 citation: 0
-tag: aa-recentlyAdded
+tag: aa-recentlyAdded, gen-abs
 ------------------------------------------------------------------------
 year: 2020
 conf: Arxiv
@@ -396,14 +380,6 @@ title: Visual Summarization of Scholarly Videos using Word Embeddings and Keyphr
 author: Hang Zhou, Christian Otto, Ralph Ewerth
 url: https://arxiv.org/pdf/1912.10809
 citation: 0
-tag: aa-recentlyAdded
-------------------------------------------------------------------------
-year: 2019
-conf: Arxiv
-title: PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization
-author: Jingqing Zhang, Yao Zhao, Mohammad Saleh, Peter J. Liu
-url: https://arxiv.org/pdf/1912.08777
-citation: 6
 tag: aa-recentlyAdded
 ------------------------------------------------------------------------
 year: 2020

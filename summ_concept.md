@@ -20,7 +20,9 @@
 * `task-aspect`: Aspect-based Summarization
 * `task-opinion`: Opinion Summarization
 * `task-review`: Review Summarization
-* `task-questoin`: Question-based Summarization
+* `task-meeting`: Meeting-based Summarization
+* `task-query`: query-based Summarization
+* `task-question`: question-based Summarization
 * `task-video`: Video-based Summarization
 * `task-code`: Source Code Summarization
 * `task-control`: Controllable Summarization
@@ -37,6 +39,7 @@
 * `arch-transformer`: Transformer
 * `arch-graph`: Graph Neural Networks or Statistic Graph Models
 * `arch-gnn`: Graph Neural Networks
+* `arch-textrank`: TextRank
 * `arch-att`: Attention Mechanism
 * `arch-pointer`: Pointer Layer
 * `arch-coverage`: Coverage Mechanism
@@ -105,3 +108,4 @@
 * `eval-aspect-abstractness`: Abstractness
 * `eval-referenceQuality`: Reference Quality
 * `eval-metric-learnable`: Metrics are Learnable
+* `eval-optimize-humanJudgement`: Optimization towards human judgement
