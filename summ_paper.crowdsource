@@ -1,4 +1,12 @@
 year: 2020
+conf: Arxiv
+title: BLEU Neighbors: A Reference-less Approach to Automatic Evaluation
+author: Kawin Ethayarajh, Dorsa Sadigh
+url: https://arxiv.org/pdf/2004.12726.pdf
+citation: 0
+tag: aa-recentlyAdded, eval-reference-less
+------------------------------------------------------------------------
+year: 2020
 conf: ACL
 title: Extractive Summarization as Text Matching
 author: Ming Zhong, Pengfei Liu, Yiran Chen, Danqing Wang, Xipeng Qiu, Xuanjing Huang
