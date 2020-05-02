@@ -1,4 +1,20 @@
 year: 2020
+conf: ACL
+title: Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports
+author: Yuhao Zhang, Derek Merck, Emily Bao Tsai, Christopher D. Manning, Curtis P. Langlotz
+url: https://arxiv.org/pdf/1911.02541.pdf
+citation: 2
+tag: aa-recentlyAdded, aa-ACL2020, gen-abs, eval-aspect-factuality, nondif-reinforce, task-radiologyReport
+------------------------------------------------------------------------
+year: 2020
+conf: ACL
+title: Heterogeneous Graph Neural Networks for Extractive Document Summarization
+author: Danqing Wang, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang
+url: https://arxiv.org/pdf/2004.12393.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, gen-ext, arch-gnn, task-multiDoc, task-singleDoc
+------------------------------------------------------------------------
+year: 2020
 conf: Arxiv
 title: BLEU Neighbors: A Reference-less Approach to Automatic Evaluation
 author: Kawin Ethayarajh, Dorsa Sadigh

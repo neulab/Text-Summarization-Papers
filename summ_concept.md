@@ -16,6 +16,7 @@
 * `task-multiDoc`: Multi-document Summarization
 * `task-senCompre:` Sentence Compression
 * `task-sci`: Scientific Paper
+* `task-radiologyReport`: Radiology Reports
 * `task-multimodal`: Multi-modal Summarization
 * `task-aspect`: Aspect-based Summarization
 * `task-opinion`: Opinion Summarization

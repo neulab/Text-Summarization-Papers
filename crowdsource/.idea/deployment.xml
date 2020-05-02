@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="ubuntu@ec2-3-85-142-59.compute-1.amazonaws.com:22" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="ubuntu@ec2-3-85-142-59.compute-1.amazonaws.com:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/ubuntu/myGithub/paperlist-summarization/crowdsource" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
