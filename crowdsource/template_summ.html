@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+
+<style>
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+
+<title>Summarization-Paperlist</title>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.min.css'>
+<link rel='stylesheet' href='https://rawgit.com/vitalets/x-editable/master/dist/bootstrap3-editable/css/bootstrap-editable.css'>
+<link rel="stylesheet" href="./style.css">
+
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+
+<!--  badges -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/editable/bootstrap-table-editable.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/export/bootstrap-table-export.js'></script>
+<script src='https://rawgit.com/hhurz/tableExport.jquery.plugin/master/tableExport.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/filter-control/bootstrap-table-filter-control.js'></script>
+
+<script src="https://cdn.bootcss.com/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.16.0/dist/extensions/toolbar/bootstrap-table-toolbar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#key").hover(function(){
+    // $("#test").css("background-color","yellow");   
+      $("#value-gif").show("slow")
+      $("#value-desc").css("display","block");
+    },function(){
+    // $("#test").css("background-color","pink");   
+    $("#value-gif").hide("slow")
+    $("#value-desc").css("display","none");
+  });
+});
+</script>
+
+</head>
+
+
+<!--       <p>Fire icon as a link:
+        <a href="#">
+          <span class="glyphicon glyphicon-fire"></span>
+        </a>
+      </p> -->
+
+<strong> Updates (2020-05-07) </strong> <br>
+<ul>
+  <li>A gif file to dynamically depict the modern history of text summarization</li>
+  <li>More than 20 recently-released papers</li>
+  <li>A more beautiful presentation of the "concepts"</li>
+</ul>
+
+
+<strong> Wonderful Links </strong> <br>
+<a id="key"><strong>[History Movie]</strong></a>
+&nbsp;
+<a herf="http://pfliu.com/pl-summarization/summ_paper_topcited.html"><strong>[10 most-cited summarization papers since 2014]</strong></a>
+&nbsp;
+<a herf="http://pfliu.com/pl-summarization/summ_paper_gen-ext.html"><strong>[10 must-read papers for neural extractive summarization]</strong></a>
+&nbsp;
+<a herf="http://pfliu.com/pl-summarization/summ_paper_gen-abs.html"><strong>[10 must-read papers for neural abstractive summarization]</strong></a>
+<br>
+
+
+
+
+
+<HR style="border:1 dashed #987cb9" width="100%" color="gray" SIZE=2> 
+
+
+
+
+
+<div id = "value-gif" style="display:none">
+<br>
+<img  id = "value-gif" src="./sum.gif" alt="Summary"  height="550" width="900">
+<br>
+<a href="#" ><img src="../images/paperlist/blue.png" style="width:20px; height:21px" title="before 2019" alt="before 2019"></a>
+<font size = 3>denotes papers before a specified year (e.g., 2019)</font>
+
+
+<br>
+<a href="#"><img src="../images/paperlist/red.png" style="width:20px; height:20px" title="from 2019" alt="from 2019"></a>
+<font size = 3>denotes papers in a specified year (e.g., 2019)</font>
+<br>
+
+
+<a href="#"><img src="../images/paperlist/fire.png" style="width:20px; height:20px" title="HOT" alt="HOT"></a>
+<font color="red" size = 3>Concepts</font> <font size = 3> in red suggest HOT topics in a specified year</font>
+<HR style="border:1 dashed #987cb9" width="100%" color="gray" SIZE=2>  
+</div>
+
+
+
+<br>
+<body>
+
+<br>
+
+
+<div id="toolbar">
+  <div class="form-inline" role="form">
+  
+  
+    
+    <div class="form-group" id="yearfilter">
+      <span><strong>Year</strong>: </span>
+      <!-- <select id="year-select" multiple="multiple" name="mymulti"></select> -->
+      <select id="year-select" class="selectpicker" multiple data-size="10" data-selected-text-format="count>2" data-width="fit">
+            </select>
+    </div>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="form-group" id="conffilter">
+      <span><strong>Conference</strong>: </span>
+      <!-- <select id="conf-select" multiple="multiple" name="mymulti"></select> -->
+            <select id="conf-select" class="selectpicker" multiple data-size="10" data-selected-text-format="count>2" data-width="fit">
+            </select>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <div class="form-group" id="topicrfilter">
+      <span><strong>Concept</strong>: </span>
+      <!-- <select id="topic-select" multiple="multiple" name="mymulti"></select> -->
+      <select id="topic-select" class="selectpicker" multiple data-size="20" data-selected-text-format="count>2" data-width="fit">
+      </select>
+    </div>
+    
+    
+    <div class="form-group" id="searchfilter">
+      <input name="search" class="form-control" type="text" placeholder="Search" id="searchInput" onkeyup="mySearch()">
+    </div>
+    
+    <!-- <button id="ok" type="submit" class="btn btn-primary">OK</button> -->
+  </div>
+</div>
+    <HR style="border:1 dashed #987cb9" width="100%" color="gray" SIZE=2> 
+
+
+<table width="95%" cellpadding="2" cellspacing="1" class="table table-striped" id="table" data-toggle="table"  data-search="false" data-filter-control="true"  data-click-to-select="true"  data-html="true" data-sort-name="year" data-sort-name="conf" data-sort-order="desc"><colgroup>
+<col span="1" style="width: 1%;">
+<col span="1" style="width: 1%;">
+<col span="1" style="width: 10%;">
+<col span="1" style="width: 1%;">
+<col span="1" style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="text-center" width="50px" nowrap data-field="year" data-sortable="true">Year</th>
+<th class="text-center" width="50px" nowrap data-field="conf" data-sortable="true">Conf.</th>
+<th class="text-center" width="50px" nowrap data-field="topic" data-sortable="true">Concept</th>
+<th class="text-center" width="50px" nowrap data-field="cited" data-formatter="citedcolor" data-sortable="true">Cited</th>
+<th nowrap style="word-wrap:break-word" data-field="paper" data-formatter="LinkFormatter">Paper</th>
+<th width="50px" nowrap data-field="authors" data-visible="false" >Authors</th>
+<th width="50px" nowrap data-field="url" data-visible="false" >Url</th>
+</tr>
+</thead>
+<tbody id="myTable">
+
+__placeholder_table_content__
+
+</tbody>
+
+</table>
+
+
+<script  src="./script.js"></script>
+</body></html>

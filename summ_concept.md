@@ -22,6 +22,9 @@
 * `task-opinion`: Opinion Summarization
 * `task-review`: Review Summarization
 * `task-meeting`: Meeting-based Summarization
+* `task-conversation`: Consersation-based Summarization
+* `task-medical`: Medical text-related Summarization
+* `task-covid`: COVID-19 related Summarization
 * `task-query`: query-based Summarization
 * `task-question`: question-based Summarization
 * `task-video`: Video-based Summarization
@@ -32,6 +35,8 @@
 * `task-knowledge`: Text Summarization with External Knowledge
 * `task-highlight`: Pick out important content and emphasize
 * `task-analysis`: Model Understanding or Interpretability
+* `task-novel`: Novel Chapter Generation
+* `task-argument`: Automatic Argument Summarization
 
 
 ## Architecture (Mechanism)
@@ -76,6 +81,9 @@
 * `pre-unilm`: UNILM
 * `pre-mass`: MASS
 * `pre-T5`: Text-to-Text Transfer Transformer
+* `pre-S2ORC`: Pretrained model on semantic scholar open research corpus
+* `pre-sciBERT`: Scientific paper based pre-trained model
+* `pre-SPECTER`: Scientific Paper Embeddings using Citationinformed TransformERs
 
 
 ## Relaxation/Training Methods for Non-differentiable Functions
@@ -97,6 +105,7 @@
 
 ## Dataset
 * `data-new`: Constructing a new dataset
+* `data-annotation`: Annotation Methodology
 
 
 ## Evaluation
@@ -111,3 +120,7 @@
 * `eval-metric-learnable`: Metrics are Learnable
 * `eval-optimize-humanJudgement`: Optimization towards human judgement
 * `eval-reference-less`: Reference-less Approach to Automatic Evaluation
+* `eval-metric-unsupervised`: Unsupervised Automatic Evaluation
+
+## Survey
+* `survey-2020`: A survey paper in 2020

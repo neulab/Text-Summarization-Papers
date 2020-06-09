@@ -49,6 +49,8 @@
       <workItem from="1588226626318" duration="284000" />
       <workItem from="1588227228755" duration="987000" />
       <workItem from="1588228250263" duration="156000" />
+      <workItem from="1588829594670" duration="3644000" />
+      <workItem from="1591628361668" duration="7508000" />
     </task>
     <servers />
   </component>
@@ -56,10 +58,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2286" y="139" key="#Deployment" timestamp="1588227673225">
+    <state x="2286" y="139" key="#Deployment" timestamp="1588831772498">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2286" y="139" key="#Deployment/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588227673225" />
+    <state x="2286" y="139" key="#Deployment/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588831772498" />
     <state x="2372" y="95" key="#Options" timestamp="1588227684889">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -76,5 +78,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2464" y="302" key="com.intellij.ide.util.TipDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588228260982" />
+    <state x="2643" y="232" key="ftp.server.browser" timestamp="1588831769570">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2643" y="232" key="ftp.server.browser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1588831769570" />
   </component>
 </project>

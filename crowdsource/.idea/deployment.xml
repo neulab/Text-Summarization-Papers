@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="ubuntu@ec2-3-85-142-59.compute-1.amazonaws.com:22" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" autoUploadExternalChanges="true">
     <serverData>
-      <paths name="ubuntu@ec2-3-85-142-59.compute-1.amazonaws.com:22">
+      <paths name="ubuntu@ec2-34-226-148-180.compute-1.amazonaws.com:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/ubuntu/myGithub/paperlist-summarization/crowdsource" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/ubuntu/myGithub/paperlist-summarization/crowdsource" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

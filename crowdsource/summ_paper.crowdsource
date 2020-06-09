@@ -1,3 +1,196 @@
+year: 2019-02
+conf: Arxiv
+title: Abstractive Summarization of Spoken and Written Conversation
+author: Prakhar Ganesh, Saket Dingliwal
+url: https://arxiv.org/pdf/1902.01615.pdf
+citation: 2
+tag: task-conversation
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: Attend to Medical Ontologies: Content Selection for Clinical Abstractive Summarization
+author: Sajad Sotudeh, Nazli Goharian, Ross W. Filice
+url: https://arxiv.org/pdf/2005.00163.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, task-radiologyReport, task-medical
+------------------------------------------------------------------------
+year: 2020-05
+conf: Arixv
+title: End-to-end Semantics-based Summary Quality Assessment for Single-document Summarization
+author: Forrest Sheng Bao, Hebi Li, Ge Luo, Cen Chen, Yinfei Yang, Minghui Qiu
+url: https://arxiv.org/pdf/2005.06377.pdf
+citation: 0
+tag: aa-recentlyAdded, eval-metric-learnable
+------------------------------------------------------------------------
+year: 2020-05
+conf: IJCAI
+title: From Standard Summarization to New Tasks and Beyond: Summarization with Manifold Information
+author: Shen Gao, Xiuying Chen, Zhaochun Ren, Dongyan Zhao, Rui Yan
+url: https://arxiv.org/pdf/2005.04684.pdf
+citation: 0
+tag: aa-recentlyAdded, survey-2020
+------------------------------------------------------------------------
+year: 2020-05
+conf: Arixv
+title: CAiRE-COVID: A Question Answering and Multi-Document Summarization System for COVID-19 Research
+author: Dan Su, Yan Xu, Tiezheng Yu, Farhad Bin Siddique, Elham J. Barezi, Pascale Fung
+url: https://arxiv.org/pdf/2005.03975.pdf
+citation: 0
+tag: aa-recentlyAdded, task-covid, task-medical, query-based Summarization
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization
+author: Esin Durmus, He He, Mona Diab
+url: https://arxiv.org/pdf/2005.03754.pdf
+citation: 0
+tag: aa-recentlyAdded, eval-aspect-factuality, task-question
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: SUPERT: Towards New Frontiers in Unsupervised Evaluation Metrics for Multi-Document Summarization
+author: Yang Gao, Wei Zhao, Steffen Eger
+url: https://arxiv.org/pdf/2005.03724.pdf
+citation: 0
+tag: aa-recentlyAdded, eval-metric-unsupervised
+------------------------------------------------------------------------
+year: 2020-05
+conf: Arixv
+title: Reference and Document Aware Semantic Evaluation Methods for Korean Language Summarization
+author: Dongyub Lee, Myeongcheol Shin, Taesun Whang, Seungwoo Cho, Byeongil Ko, Daniel Lee, Eunggyun Kim, Jaechoon Jo
+url: https://arxiv.org/pdf/2005.03510.pdf
+citation: 0
+tag: aa-recentlyAdded, eval-metric-learnable
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: HipoRank: Incorporating Hierarchical and Positional Information into Graph-based Unsupervised Long Document Extractive Summarization
+author: Yue Dong, Andrei Romascanu, Jackie C. K. Cheung
+url: https://arxiv.org/pdf/2005.00513.pdf
+citation: 0
+tag: aa-recentlyAdded, arch-graph, train-unsupervsied
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: A Transformer-based Approach for Source Code Summarization
+author: Wasi Uddin Ahmad, Saikat Chakraborty, Baishakhi Ray, Kai-Wei Chang
+url: https://arxiv.org/pdf/2005.00661.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, task-code, arch-transformer
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: On Faithfulness and Factuality in Abstractive Summarization
+author: Joshua Maynez, Shashi Narayan, Bernd Bohnet, Ryan McDonald
+url: https://arxiv.org/pdf/2005.00661.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, eval-aspect-factuality
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: Improving Truthfulness of Headline Generation
+author: Kazuki Matsumaru, Sho Takase, Naoaki Okazaki
+url: https://arxiv.org/pdf/2005.00882.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, eval-aspect-factuality
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: From Arguments to Key Points: Towards Automatic Argument Summarization
+author: Roy Bar-Haim, Lilach Eden, Roni Friedman, Yoav Kantor, Dan Lahav, Noam Slonim
+url: https://arxiv.org/pdf/2005.01619.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, task-argument
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: OpinionDigest: A Simple Framework for Opinion Summarization
+author: Yoshihiko Suhara, Xiaolan Wang, Stefanos Angelidis, Wang-Chiew Tan
+url: https://arxiv.org/pdf/2005.01901.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, task-opinion, arch-transformer
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: TAG : Type Auxiliary Guiding for Code Comment Generation
+author: Ruichu Cai, Zhihao Liang, Boyan Xu, Zijian Li, Yuexing Hao, Yao Chen
+url: https://arxiv.org/pdf/2005.02835.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, task-code, nondif-reinforce
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: Exploring Content Selection in Summarization of Novel Chapters
+author: Faisal Ladhak, Bryan Li, Yaser Al-Onaizan, Kathleen McKeown
+url: https://arxiv.org/pdf/2005.01840.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, task-novel, gen-ext, data-new
+------------------------------------------------------------------------
+year: 2020-05
+conf: ACL
+title: Discrete Optimization for Unsupervised Sentence Summarization with
+Word-Level Extraction
+author: Raphael Schumann, Lili Mou, Yao Lu, Olga Vechtomova, Katja Markert
+url: https://arxiv.org/pdf/2005.02146.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, task-senCompre, train-unsup
+------------------------------------------------------------------------
+year: 2020-05
+conf: Arxiv
+title: Artemis: A Novel Annotation Methodology for Indicative Single Document Summarization
+author: Rahul Jha, Keping Bi, Yang Li, Mahdi Pakdaman, Asli Celikyilmaz, Ivan Zhibodev, Kieran McDonald
+url: https://arxiv.org/pdf/2005.02146.pdf
+citation: 0
+tag: aa-recentlyAdded, data-annotation, gen-ext
+------------------------------------------------------------------------
+year: 2020-04
+conf: Arxiv
+title: Screenplay Summarization Using Latent Narrative Structure
+author: Pinelopi Papalampidi, Frank Keller, Lea Frermann, Mirella Lapata
+url: https://arxiv.org/pdf/2004.12727.pdf
+citation: 0
+tag: aa-recentlyAdded
+------------------------------------------------------------------------
+year: 2020-04
+conf: Arxiv
+title: Fact or Fiction: Verifying Scientific Claims
+author: David Wadden, Kyle Lo, Lucy Lu Wang, Shanchuan Lin, Madeleine van Zuylen, Arman Cohan, Hannaneh Hajishirzi
+url: https://arxiv.org/pdf/2004.14974.pdf
+citation: 0
+tag: aa-recentlyAdded, task-sci, eval-aspect-factuality
+------------------------------------------------------------------------
+year: 2020-04
+conf: Arxiv
+title: Exploring Explainable Selection to Control Abstractive GenerationTransformers
+author: Wang Haonan, Gao Yang, Bai Yu, Mirella Lapata, Huang Heyan
+url: https://arxiv.org/pdf/2004.11779.pdf
+citation: 0
+tag: aa-recentlyAdded, gen-abs, task-control
+------------------------------------------------------------------------
+year: 2020-04
+conf: ACL
+title: SPECTER: Document-level Representation Learning using Citation-informed Transformers
+author: Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld
+url: https://arxiv.org/pdf/2004.07180.pdf
+citation: 0
+tag: aa-recentlyAdded, pre-SPECTER, task-sci
+------------------------------------------------------------------------
+year: 2020-04
+conf: Arxiv
+title: TLDR: Extreme Summarization of Scientific Documents
+author: Isabel Cachola, Kyle Lo, Arman Cohan, Daniel S. Weld
+url: https://arxiv.org/pdf/2004.15011.pdf
+citation: 0
+tag: aa-recentlyAdded, data-new, gen-abs, task-sci
+------------------------------------------------------------------------
+year: 2020-04
+conf: ACL
+title: S2ORC: The Semantic Scholar Open Research Corpus
+author: Kyle Lo, Lucy Lu Wang, Mark Neumann, Rodney Kinney, Dan S. Weld
+url: https://arxiv.org/pdf/1911.02782.pdf
+citation: 0
+tag: aa-recentlyAdded, aa-ACL2020, data-new, pre-S2ORC, task-sci
+------------------------------------------------------------------------
 year: 2020
 conf: ACL
 title: Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports

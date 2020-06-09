@@ -1,0 +1,3063 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+
+<style>
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+
+<title>Summarization-Paperlist</title>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.min.css'>
+<link rel='stylesheet' href='https://rawgit.com/vitalets/x-editable/master/dist/bootstrap3-editable/css/bootstrap-editable.css'>
+<link rel="stylesheet" href="./style.css">
+
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap-multiselect/0.9.15/css/bootstrap-multiselect.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+
+<!--  badges -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/editable/bootstrap-table-editable.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/export/bootstrap-table-export.js'></script>
+<script src='https://rawgit.com/hhurz/tableExport.jquery.plugin/master/tableExport.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.9.1/extensions/filter-control/bootstrap-table-filter-control.js'></script>
+
+<script src="https://cdn.bootcss.com/bootstrap-multiselect/0.9.15/js/bootstrap-multiselect.js"></script>
+<script src="https://unpkg.com/bootstrap-table@1.16.0/dist/extensions/toolbar/bootstrap-table-toolbar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#key").hover(function(){
+    // $("#test").css("background-color","yellow");   
+      $("#value-gif").show("slow")
+      $("#value-desc").css("display","block");
+    },function(){
+    // $("#test").css("background-color","pink");   
+    $("#value-gif").hide("slow")
+    $("#value-desc").css("display","none");
+  });
+});
+</script>
+
+</head>
+
+
+<!--       <p>Fire icon as a link:
+        <a href="#">
+          <span class="glyphicon glyphicon-fire"></span>
+        </a>
+      </p> -->
+
+<strong> Updates (2020-05-07) </strong> <br>
+<ul>
+  <li>A gif file to dynamically depict the modern history of text summarization</li>
+  <li>More than 20 recently-released papers</li>
+  <li>A more beautiful presentation of the "concepts"</li>
+</ul>
+
+
+<strong> Wonderful Links </strong> <br>
+<a id="key"><strong>[History Movie]</strong></a>
+&nbsp;
+<a herf="http://pfliu.com/pl-summarization/summ_paper_topcited.html"><strong>[10 most-cited summarization papers since 2014]</strong></a>
+&nbsp;
+<a herf="http://pfliu.com/pl-summarization/summ_paper_gen-ext.html"><strong>[10 must-read papers for neural extractive summarization]</strong></a>
+&nbsp;
+<a herf="http://pfliu.com/pl-summarization/summ_paper_gen-abs.html"><strong>[10 must-read papers for neural abstractive summarization]</strong></a>
+<br>
+
+
+
+
+
+<HR style="border:1 dashed #987cb9" width="100%" color="gray" SIZE=2> 
+
+
+
+
+
+<div id = "value-gif" style="display:none">
+<br>
+<img  id = "value-gif" src="./sum.gif" alt="Summary"  height="550" width="900">
+<br>
+<a href="#" ><img src="../images/paperlist/blue.png" style="width:20px; height:21px" title="before 2019" alt="before 2019"></a>
+<font size = 3>denotes papers before a specified year (e.g., 2019)</font>
+
+
+<br>
+<a href="#"><img src="../images/paperlist/red.png" style="width:20px; height:20px" title="from 2019" alt="from 2019"></a>
+<font size = 3>denotes papers in a specified year (e.g., 2019)</font>
+<br>
+
+
+<a href="#"><img src="../images/paperlist/fire.png" style="width:20px; height:20px" title="HOT" alt="HOT"></a>
+<font color="red" size = 3>Concepts</font> <font size = 3> in red suggest HOT topics in a specified year</font>
+<HR style="border:1 dashed #987cb9" width="100%" color="gray" SIZE=2>  
+</div>
+
+
+
+<br>
+<body>
+
+<br>
+
+
+<div id="toolbar">
+  <div class="form-inline" role="form">
+  
+  
+    
+    <div class="form-group" id="yearfilter">
+      <span><strong>Year</strong>: </span>
+      <!-- <select id="year-select" multiple="multiple" name="mymulti"></select> -->
+      <select id="year-select" class="selectpicker" multiple data-size="10" data-selected-text-format="count>2" data-width="fit">
+            </select>
+    </div>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="form-group" id="conffilter">
+      <span><strong>Conference</strong>: </span>
+      <!-- <select id="conf-select" multiple="multiple" name="mymulti"></select> -->
+            <select id="conf-select" class="selectpicker" multiple data-size="10" data-selected-text-format="count>2" data-width="fit">
+            </select>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <div class="form-group" id="topicrfilter">
+      <span><strong>Concept</strong>: </span>
+      <!-- <select id="topic-select" multiple="multiple" name="mymulti"></select> -->
+      <select id="topic-select" class="selectpicker" multiple data-size="20" data-selected-text-format="count>2" data-width="fit">
+      </select>
+    </div>
+    
+    
+    <div class="form-group" id="searchfilter">
+      <input name="search" class="form-control" type="text" placeholder="Search" id="searchInput" onkeyup="mySearch()">
+    </div>
+    
+    <!-- <button id="ok" type="submit" class="btn btn-primary">OK</button> -->
+  </div>
+</div>
+    <HR style="border:1 dashed #987cb9" width="100%" color="gray" SIZE=2> 
+
+
+<table width="95%" cellpadding="2" cellspacing="1" class="table table-striped" id="table" data-toggle="table"  data-search="false" data-filter-control="true"  data-click-to-select="true"  data-html="true" data-sort-name="year" data-sort-name="conf" data-sort-order="desc"><colgroup>
+<col span="1" style="width: 1%;">
+<col span="1" style="width: 1%;">
+<col span="1" style="width: 10%;">
+<col span="1" style="width: 1%;">
+<col span="1" style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th class="text-center" width="50px" nowrap data-field="year" data-sortable="true">Year</th>
+<th class="text-center" width="50px" nowrap data-field="conf" data-sortable="true">Conf.</th>
+<th class="text-center" width="50px" nowrap data-field="topic" data-sortable="true">Concept</th>
+<th class="text-center" width="50px" nowrap data-field="cited" data-formatter="citedcolor" data-sortable="true">Cited</th>
+<th nowrap style="word-wrap:break-word" data-field="paper" data-formatter="LinkFormatter">Paper</th>
+<th width="50px" nowrap data-field="authors" data-visible="false" >Authors</th>
+<th width="50px" nowrap data-field="url" data-visible="false" >Url</th>
+</tr>
+</thead>
+<tbody id="myTable">
+
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, arch-graph, train-unsupervsied</td>
+<td>0</td>
+<td>HipoRank: Incorporating Hierarchical and Positional Information into Graph-based Unsupervised Long Document Extractive Summarization</td>
+<td>Yue Dong, Andrei Romascanu, Jackie C. K. Cheung</td>
+<td>https://arxiv.org/pdf/2005.00513.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, task-code, arch-transformer</td>
+<td>0</td>
+<td>A Transformer-based Approach for Source Code Summarization</td>
+<td>Wasi Uddin Ahmad, Saikat Chakraborty, Baishakhi Ray, Kai-Wei Chang</td>
+<td>https://arxiv.org/pdf/2005.00661.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, eval-aspect-factuality</td>
+<td>0</td>
+<td>On Faithfulness and Factuality in Abstractive Summarization</td>
+<td>Joshua Maynez, Shashi Narayan, Bernd Bohnet, Ryan McDonald</td>
+<td>https://arxiv.org/pdf/2005.00661.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, eval-aspect-factuality</td>
+<td>0</td>
+<td>Improving Truthfulness of Headline Generation</td>
+<td>Kazuki Matsumaru, Sho Takase, Naoaki Okazaki</td>
+<td>https://arxiv.org/pdf/2005.00882.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, task-argument</td>
+<td>0</td>
+<td>From Arguments to Key Points: Towards Automatic Argument Summarization</td>
+<td>Roy Bar-Haim, Lilach Eden, Roni Friedman, Yoav Kantor, Dan Lahav, Noam Slonim</td>
+<td>https://arxiv.org/pdf/2005.01619.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, task-opinion, arch-transformer</td>
+<td>0</td>
+<td>OpinionDigest: A Simple Framework for Opinion Summarization</td>
+<td>Yoshihiko Suhara, Xiaolan Wang, Stefanos Angelidis, Wang-Chiew Tan</td>
+<td>https://arxiv.org/pdf/2005.01901.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, task-code, nondif-reinforce</td>
+<td>0</td>
+<td>TAG : Type Auxiliary Guiding for Code Comment Generation</td>
+<td>Ruichu Cai, Zhihao Liang, Boyan Xu, Zijian Li, Yuexing Hao, Yao Chen</td>
+<td>https://arxiv.org/pdf/2005.02835.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, task-novel, gen-ext, data-new</td>
+<td>0</td>
+<td>Exploring Content Selection in Summarization of Novel Chapters</td>
+<td>Faisal Ladhak, Bryan Li, Yaser Al-Onaizan, Kathleen McKeown</td>
+<td>https://arxiv.org/pdf/2005.01840.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, task-senCompre, train-unsup</td>
+<td>0</td>
+<td>Discrete Optimization for Unsupervised Sentence Summarization with</td>
+<td>Raphael Schumann, Lili Mou, Yao Lu, Olga Vechtomova, Katja Markert</td>
+<td>https://arxiv.org/pdf/2005.02146.pdf</td>
+</tr>
+<tr><td>2020-05</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, data-annotation, gen-ext</td>
+<td>0</td>
+<td>Artemis: A Novel Annotation Methodology for Indicative Single Document Summarization</td>
+<td>Rahul Jha, Keping Bi, Yang Li, Mahdi Pakdaman, Asli Celikyilmaz, Ivan Zhibodev, Kieran McDonald</td>
+<td>https://arxiv.org/pdf/2005.02146.pdf</td>
+</tr>
+<tr><td>2020-04</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Screenplay Summarization Using Latent Narrative Structure</td>
+<td>Pinelopi Papalampidi, Frank Keller, Lea Frermann, Mirella Lapata</td>
+<td>https://arxiv.org/pdf/2004.12727.pdf</td>
+</tr>
+<tr><td>2020-04</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, task-sci, eval-aspect-factuality</td>
+<td>0</td>
+<td>Fact or Fiction: Verifying Scientific Claims</td>
+<td>David Wadden, Kyle Lo, Lucy Lu Wang, Shanchuan Lin, Madeleine van Zuylen, Arman Cohan, Hannaneh Hajishirzi</td>
+<td>https://arxiv.org/pdf/2004.14974.pdf</td>
+</tr>
+<tr><td>2020-04</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, gen-abs, task-control</td>
+<td>0</td>
+<td>Exploring Explainable Selection to Control Abstractive GenerationTransformers</td>
+<td>Wang Haonan, Gao Yang, Bai Yu, Mirella Lapata, Huang Heyan</td>
+<td>https://arxiv.org/pdf/2004.11779.pdf</td>
+</tr>
+<tr><td>2020-04</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, pre-SPECTER, task-sci</td>
+<td>0</td>
+<td>SPECTER: Document-level Representation Learning using Citation-informed Transformers</td>
+<td>Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld</td>
+<td>https://arxiv.org/pdf/2004.07180.pdf</td>
+</tr>
+<tr><td>2020-04</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, data-new, gen-abs, task-sci</td>
+<td>0</td>
+<td>TLDR: Extreme Summarization of Scientific Documents</td>
+<td>Isabel Cachola, Kyle Lo, Arman Cohan, Daniel S. Weld</td>
+<td>https://arxiv.org/pdf/2004.15011.pdf</td>
+</tr>
+<tr><td>2020-04</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, data-new, pre-S2ORC, task-sci</td>
+<td>0</td>
+<td>S2ORC: The Semantic Scholar Open Research Corpus</td>
+<td>Kyle Lo, Lucy Lu Wang, Mark Neumann, Rodney Kinney, Dan S. Weld</td>
+<td>https://arxiv.org/pdf/1911.02782.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, gen-abs, eval-aspect-factuality, nondif-reinforce, task-radiologyReport</td>
+<td>2</td>
+<td>Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports</td>
+<td>Yuhao Zhang, Derek Merck, Emily Bao Tsai, Christopher D. Manning, Curtis P. Langlotz</td>
+<td>https://arxiv.org/pdf/1911.02541.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, gen-ext, arch-gnn, task-multiDoc, task-singleDoc</td>
+<td>0</td>
+<td>Heterogeneous Graph Neural Networks for Extractive Document Summarization</td>
+<td>Danqing Wang, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang</td>
+<td>https://arxiv.org/pdf/2004.12393.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, eval-reference-less</td>
+<td>0</td>
+<td>BLEU Neighbors: A Reference-less Approach to Automatic Evaluation</td>
+<td>Kawin Ethayarajh, Dorsa Sadigh</td>
+<td>https://arxiv.org/pdf/2004.12726.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, gen-ext, eval-redundancy, pre-bert</td>
+<td>0</td>
+<td>Extractive Summarization as Text Matching</td>
+<td>Ming Zhong, Pengfei Liu, Yiran Chen, Danqing Wang, Xipeng Qiu, Xuanjing Huang</td>
+<td>https://arxiv.org/pdf/2004.08795.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, eval-factuality, task-question</td>
+<td>0</td>
+<td>Asking and Answering Questions to Evaluate the Factual Consistency of Summaries</td>
+<td>Alex Wang, Kyunghyun Cho, Mike Lewis</td>
+<td>https://arxiv.org/pdf/2004.04228.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, task-rigidFormat, task-control, pre-BERT, arch-transformer</td>
+<td>0</td>
+<td>Rigid Formats Controlled Text Generation</td>
+<td>Piji Li Haisong Zhang Xiaojiang Liu Shuming Shi</td>
+<td>https://arxiv.org/pdf/2004.08022.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, eval-metric-learnable, pre-bert</td>
+<td>0</td>
+<td>BLEURT: Learning Robust Metrics for Text Generation</td>
+<td>Thibault Sellam Dipanjan Das Ankur P. Parikh</td>
+<td>https://arxiv.org/pdf/2004.04696.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, gen-abs, task-sci</td>
+<td>0</td>
+<td>Automatic Generation of Citation Texts in Scholarly Papers: A Pilot Study (Not Released)</td>
+<td>Xinyu Xing, Xiaosheng Fan and Xiaojun Wan</td>
+<td>https://notReleased.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, gen-abs, gen-ext, task-multiDoc</td>
+<td>0</td>
+<td>Multi-Granularity Interaction Network for Extractive and Abstractive Multi-Document Summarization (Not Released)</td>
+<td>Hanqi Jin, Tianming Wang and Xiaojun Wan</td>
+<td>https://notReleased.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, train-multilingual</td>
+<td>0</td>
+<td>Jointly Learning to Align and Summarize for Neural Cross-Lingual Summarization (Not Released)</td>
+<td>Yue Cao, Hui Liu and Xiaojun Wan</td>
+<td>https://notReleased.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-recentlyAdded, aa-ACL2020, gen-abs, task-knowledge</td>
+<td>0</td>
+<td>Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward (Not Released)</td>
+<td></td>
+<td>https://notReleased.pdf</td>
+</tr>
+<tr><td>2012</td>
+<td>NAA-CL</td>
+<td>aa-recentlyAdded, eval-referenceQuality</td>
+<td>52</td>
+<td>HyTER: Meaning-Equivalent Semantics for Translation Evaluation</td>
+<td>Markus Dreyer, Daniel Marcu</td>
+<td>https://www.aclweb.org/anthology/N12-1017.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, eval-referenceQuality, artifact-translationese</td>
+<td>0</td>
+<td>BLEU might be Guilty but References are not Innocent</td>
+<td>Markus Freitag, David Grangier, Isaac Caswell</td>
+<td>https://arxiv.org/pdf/2004.06063.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Belief Propagation for Maximum Coverage on Weighted Bipartite Graph and Application to Text Summarization</td>
+<td>Hiroki Kitano, Koujin Takeda</td>
+<td>https://arxiv.org/pdf/2004.08301</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, task-longtext, task-sci, gen-abs</td>
+<td>0</td>
+<td>A Divide-and-Conquer Approach to the Summarization of Academic Articles</td>
+<td>Alexios Gidiotis, Grigorios Tsoumakas</td>
+<td>https://arxiv.org/pdf/2004.06190</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, gen-ext, pre-bert, eval-aspect-redundancy, arch-transformer</td>
+<td>0</td>
+<td>AREDSUM: Adaptive Redundancy-Aware Iterative Sentence Ranking for Extractive Document Summarization</td>
+<td>Keping Bi, Rahul Jha, W. Bruce Croft, Asli Celikyilmaz</td>
+<td>https://arxiv.org/pdf/2004.06176</td>
+</tr>
+<tr><td>2019</td>
+<td>ICKM</td>
+<td>aa-recentlyAdded, task-review, task-control</td>
+<td>0</td>
+<td>Aspect and Opinion Aware Abstractive Review Summarization with Reinforced Hard Typed Decoder</td>
+<td>Yufei Tian, Jianfei Yu, Jing Jiang</td>
+<td>https://arxiv.org/pdf/2004.05755</td>
+</tr>
+<tr><td>2020</td>
+<td>ICMR</td>
+<td>aa-recentlyAdded, task-video, task-control, task-query</td>
+<td>0</td>
+<td>Query-controllable Video Summarization</td>
+<td>Jia-Hong Huang, Marcel Worring</td>
+<td>https://arxiv.org/pdf/2004.03661</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, gen-abs, arch-att, arch-textrank</td>
+<td>0</td>
+<td>Salience Estimation with Multi-Attention Learning for Abstractive Text Summarization</td>
+<td>Piji Li, Lidong Bing, Zhongyu Wei, Wai Lam</td>
+<td>https://arxiv.org/pdf/2004.03589</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, task-longtext, gen-abs</td>
+<td>0</td>
+<td>Windowing Models for Abstractive Summarization of Long Texts</td>
+<td>Leon Schüller, Florian Wilhelm, Nico Kreiling, Goran Glavaš</td>
+<td>https://arxiv.org/pdf/2004.03324</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, task-query, pre-bert</td>
+<td>0</td>
+<td>Query Focused Multi-Document Summarization with Distant Supervision</td>
+<td>Yumo Xu, Mirella Lapata</td>
+<td>https://arxiv.org/pdf/2004.03027</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, task-code, arch-gnn</td>
+<td>0</td>
+<td>Improved Code Summarization via a Graph Neural Network</td>
+<td>Alexander LeClair, Sakib Haque, Lingfei Wu, Collin McMillan</td>
+<td>https://arxiv.org/pdf/2004.02843</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, gen-abs, task-meeting</td>
+<td>0</td>
+<td>End-to-End Abstractive Summarization for Meetings</td>
+<td>Chenguang Zhu, Ruochen Xu, Michael Zeng, Xuedong Huang</td>
+<td>https://arxiv.org/pdf/2004.02016</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, pre-step</td>
+<td>0</td>
+<td>STEP: Sequence-to-Sequence Transformer Pre-training for Document Summarization</td>
+<td>Yanyan Zou, Xingxing Zhang, Wei Lu, Furu Wei, Ming Zhou</td>
+<td>https://arxiv.org/pdf/2004.01853</td>
+</tr>
+<tr><td>2020</td>
+<td>ICLR-ws</td>
+<td>aa-recentlyAdded, gen-bas</td>
+<td>0</td>
+<td>Amharic Abstractive Text Summarization</td>
+<td>Amr M. Zaki, Mahmoud I. Khalil, Hazem M. Abbas</td>
+<td>https://arxiv.org/pdf/2003.13721</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, gen-abs, gen-2stage, pre-bert</td>
+<td>0</td>
+<td>Abstractive Summarization with Combination of Pre-trained Sequence-to-Sequence and Saliency Models</td>
+<td>Itsumi Saito, Kyosuke Nishida, Kosuke Nishida, Junji Tomita</td>
+<td>https://arxiv.org/pdf/2003.13028</td>
+</tr>
+<tr><td>2020</td>
+<td>LREC</td>
+<td>aa-recentlyAdded, gen-abs, task-longtext</td>
+<td>0</td>
+<td>Abstractive Text Summarization based on Language Model Conditioning and Locality Modeling</td>
+<td>Dmitrii Aksenov, Julián Moreno-Schneider, Peter Bourgonje, Robert Schwarzenberg, Leonhard Hennig, Georg Rehm</td>
+<td>https://arxiv.org/pdf/2003.13027</td>
+</tr>
+<tr><td>2019</td>
+<td>IJCNN</td>
+<td>aa-recentlyAdded, gen-abs</td>
+<td>0</td>
+<td>Learning Syntactic and Dynamic Selective Encoding for Document Summarization</td>
+<td>Haiyang Xu, Yahao He, Kun Han, Junwen Chen, Xiangang Li</td>
+<td>https://arxiv.org/pdf/2003.11173</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, eval-aspect-factuality, arch-gnn, task-knowledge</td>
+<td>0</td>
+<td>Boosting Factual Correctness of Abstractive Summarization</td>
+<td>Chenguang Zhu, William Hinthorn, Ruochen Xu, Qingkai Zeng, Michael Zeng, Xuedong Huang, Meng Jiang</td>
+<td>https://arxiv.org/pdf/2003.08612</td>
+</tr>
+<tr><td>2020</td>
+<td>ICASSP</td>
+<td>aa-recentlyAdded, gen-abs, arch-gnn</td>
+<td>0</td>
+<td>Selective Attention Encoders by Syntactic Graph Convolutional Networks for Document Summarization</td>
+<td>Haiyang Xu, Yun Wang, Kun Han, Baochang Ma, Junwen Chen, Xiangang Li</td>
+<td>https://arxiv.org/pdf/2003.08004</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>DeepLENS: Deep Learning for Entity Summarization</td>
+<td>Qingxia Liu, Gong Cheng, Yuzhong Qu</td>
+<td>https://arxiv.org/pdf/2003.03736</td>
+</tr>
+<tr><td>2020</td>
+<td>ESWC</td>
+<td>aa-recentlyAdded</td>
+<td>1</td>
+<td>ESBM: An Entity Summarization BenchMark</td>
+<td>Qingxia Liu, Gong Cheng, Kalpa Gunaratna, Yuzhong Qu</td>
+<td>https://arxiv.org/pdf/2003.03734</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, gen-abs</td>
+<td>0</td>
+<td>StructSum: Incorporating Latent and Explicit Sentence Dependencies for Single Document Summarization</td>
+<td>Vidhisha Balachandran, Artidoro Pagnoni, Jay Yoon Lee, Dheeraj Rajagopal, Jaime Carbonell, Yulia Tsvetkov</td>
+<td>https://arxiv.org/pdf/2003.00576</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Clinical Text Summarization with Syntax-Based Negation and Semantic Concept Identification</td>
+<td>Wei-Hung Weng, Yu-An Chung, Schrasing Tong</td>
+<td>https://arxiv.org/pdf/2003.00353</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded, gen-abs, train-transfer, eval-optimize-humanJudgement</td>
+<td>0</td>
+<td>Discriminative Adversarial Search for Abstractive Summarization</td>
+<td>Thomas Scialom, Paul-Alexis Dray, Sylvain Lamprier, Benjamin Piwowarski, Jacopo Staiano</td>
+<td>https://arxiv.org/pdf/2002.10375</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Leveraging Code Generation to Improve Code Retrieval and Summarization via Dual Learning</td>
+<td>Wei Ye, Rui Xie, Jinglei Zhang, Tianxiang Hu, Xiaoyin Wang, Shikun Zhang</td>
+<td>https://arxiv.org/pdf/2002.10198</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL-SRW</td>
+<td>aa-recentlyAdded, gen-abs</td>
+<td>0</td>
+<td>On the impressive performance of randomly weighted encoders in summarization tasks</td>
+<td>Jonathan Pilault, Jaehong Park, Christopher Pal</td>
+<td>https://arxiv.org/pdf/2002.09084</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Transfer Learning for Abstractive Summarization at Controllable Budgets</td>
+<td>Ritesh Sarkhel, Moniba Keymanesh, Arnab Nandi, Srinivasan Parthasarathy</td>
+<td>https://arxiv.org/pdf/2002.07845</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Learning by Semantic Similarity Makes Abstractive Summarization Better</td>
+<td>Wonjin Yoon, Yoon Sun Yeo, Minbyul Jeong, Bong-Jun Yi, Jaewoo Kang</td>
+<td>https://arxiv.org/pdf/2002.07767</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Conditional Self-Attention for Query-based Summarization</td>
+<td>Yujia Xie, Tianyi Zhou, Yi Mao, Weizhu Chen</td>
+<td>https://arxiv.org/pdf/2002.07338</td>
+</tr>
+<tr><td>2020</td>
+<td>LREC</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>GameWikiSum: a Novel Large Multi-Document Summarization Dataset</td>
+<td>Diego Antognini, Boi Faltings</td>
+<td>https://arxiv.org/pdf/2002.06851</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Abstractive Summarization for Low Resource Data using Domain Transfer and Data Synthesis</td>
+<td>Ahmed Magooda, Diane Litman</td>
+<td>https://arxiv.org/pdf/2002.03407</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Attend to the beginning: A study on using bidirectional attention for extractive summarization</td>
+<td>Ahmed Magooda, Cezary Marcjan</td>
+<td>https://arxiv.org/pdf/2002.03405</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Rough Set based Aggregate Rank Measure & its Application to Supervised Multi Document Summarization</td>
+<td>Nidhika Yadav, Niladri Chatterjee</td>
+<td>https://arxiv.org/pdf/2002.03259</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Intweetive Text Summarization</td>
+<td>Jean Valère Cossu, Juan-Manuel Torres-Moreno, Eric SanJuan, Marc El-Bèze</td>
+<td>https://arxiv.org/pdf/2001.11382</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Length-controllable Abstractive Summarization by Guiding with Summary Prototype</td>
+<td>Itsumi Saito, Kyosuke Nishida, Kosuke Nishida, Atsushi Otsuka, Hisako Asano, Junji Tomita, Hiroyuki Shindo, Yuji Matsumoto</td>
+<td>https://arxiv.org/pdf/2001.07331</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>1</td>
+<td>Audio Summarization with Audio Features and Probability Distribution Divergence</td>
+<td>Carlos-Emiliano González-Gallardo, Romain Deveaud, Eric SanJuan, Juan-Manuel Torres-Moreno</td>
+<td>https://arxiv.org/pdf/2001.07098</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>1</td>
+<td>Mining customer product reviews for product development: A summarization process</td>
+<td>Tianjun Hou, Bernard Yannou, Yann Leroy, Emilie Poirson</td>
+<td>https://arxiv.org/pdf/2001.04200</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>TED: A Pretrained Unsupervised Summarization Model with Theme Modeling and Denoising</td>
+<td>Ziyi Yang, Chenguang Zhu, Robert Gmyr, Michael Zeng, Xuedong Huang, Eric Darve</td>
+<td>https://arxiv.org/pdf/2001.00725</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Deep Reinforced Self-Attention Masks for Abstractive Summarization (DR.SAS)</td>
+<td>Ankit Chadha, Mohamed Masoud</td>
+<td>https://arxiv.org/pdf/2001.00009</td>
+</tr>
+<tr><td>2019</td>
+<td>CIKM</td>
+<td>aa-recentlyAdded</td>
+<td>4</td>
+<td>Hybrid MemNet for Extractive Summarization</td>
+<td>Abhishek Kumar Singh, Manish Gupta, Vasudeva Varma</td>
+<td>https://arxiv.org/pdf/1912.11701</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Unity in Diversity: Learning Distributed Heterogeneous Sentence Representation for Extractive Summarization</td>
+<td>Abhishek Kumar Singh, Manish Gupta, Vasudeva Varma</td>
+<td>https://arxiv.org/pdf/1912.11688</td>
+</tr>
+<tr><td>2019</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>1</td>
+<td>Make Lead Bias in Your Favor: A Simple and Effective Method for News Summarization</td>
+<td>Chenguang Zhu, Ziyi Yang, Robert Gmyr, Michael Zeng, Xuedong Huang</td>
+<td>https://arxiv.org/pdf/1912.11602</td>
+</tr>
+<tr><td>2019</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Improving Abstractive Text Summarization with History Aggregation</td>
+<td>Pengcheng Liao, Chuang Zhang, Xiaojun Chen, Xiaofei Zhou</td>
+<td>https://arxiv.org/pdf/1912.11046</td>
+</tr>
+<tr><td>2019</td>
+<td>Arxiv</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Visual Summarization of Scholarly Videos using Word Embeddings and Keyphrase Extraction</td>
+<td>Hang Zhou, Christian Otto, Ralph Ewerth</td>
+<td>https://arxiv.org/pdf/1912.10809</td>
+</tr>
+<tr><td>2020</td>
+<td>AAAI-ws</td>
+<td>aa-recentlyAdded</td>
+<td>0</td>
+<td>Quality of syntactic implication of RL-based sentence summarization</td>
+<td>Hoa T. Le, Christophe Cerisara, Claire Gardent</td>
+<td>https://arxiv.org/pdf/1912.05493</td>
+</tr>
+<tr><td>2019</td>
+<td>SIGKDD</td>
+<td>eval-aspect-factuality</td>
+<td>2</td>
+<td>Assessing The Factual Accuracy of Generated Text</td>
+<td>Ben Goodrich, Vinay Rao, Mohammad Saleh, Peter J Liu</td>
+<td>https://arxiv.org/pdf/1905.13322.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>gen-ext</td>
+<td>4</td>
+<td>Searching for Effective Neural Extractive Summarization: What Works and What's Next</td>
+<td>Ming Zhong, Pengfei Liu, Danqing Wang, Xipeng Qiu, Xuanjing Huang</td>
+<td>https://arxiv.org/pdf/1907.03491.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>task-analysis</td>
+<td>17</td>
+<td>Content Selection in Deep Learning Models of Summarization</td>
+<td>Chris Kedzie, Kathleen McKeown, Hal Daumé</td>
+<td>https://arxiv.org/pdf/1810.12343.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>Arxiv</td>
+<td>train-meta</td>
+<td>0</td>
+<td>Exploring Domain Shift in Extractive Text Summarization</td>
+<td>Danqing Wang, Pengfei Liu, Ming Zhong, Jie Fu, Xipeng Qiu, Xuanjing Huang</td>
+<td>https://arxiv.org/pdf/1908.11664.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>Arxiv</td>
+<td>eval-aspect-factuality</td>
+<td>0</td>
+<td>Evaluating the Factual Consistency of Abstractive Text Summarization</td>
+<td>Wojciech Kryściński, Bryan McCann, Caiming Xiong, Richard Socher</td>
+<td>https://arxiv.org/pdf/1910.12840.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ICLR</td>
+<td>eval-aspect-bertscore</td>
+<td>24</td>
+<td>BERTScore: Evaluating Text Generation with BERT</td>
+<td>Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi</td>
+<td>https://arxiv.org/pdf/1904.09675.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>gen-2stage</td>
+<td>0</td>
+<td>Jointly Extracting and Compressing Documents with Summary State Representations</td>
+<td>Afonso Mendes, Shashi Narayan, Sebastião Miranda, Zita Marinho, André F. T. Martins, Shay B. Cohen</td>
+<td>https://arxiv.org/pdf/1904.02020.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ICML</td>
+<td>pre-unilm</td>
+<td>35</td>
+<td>Unified Language Model Pre-training for Natural Language Understanding and Generation</td>
+<td>Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon</td>
+<td>https://arxiv.org/pdf/1905.03197.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>Arxiv</td>
+<td>pre-gpt</td>
+<td>6</td>
+<td>Sample Efficient Text Summarization Using a Single Pre-Trained Transformer</td>
+<td>Urvashi Khandelwal, Kevin Clark, Dan Jurafsky, Lukasz Kaiser</td>
+<td>https://arxiv.org/pdf/1904.02020.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>Arxiv</td>
+<td>pre-bart</td>
+<td>5</td>
+<td>BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension</td>
+<td>Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Ves Stoyanov, Luke Zettlemoyer</td>
+<td>https://arxiv.org/pdf/1910.13461.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ICML</td>
+<td>pre-mass</td>
+<td>56</td>
+<td>MASS: Masked Sequence to Sequence Pre-training for Language Generation</td>
+<td>Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, Tie-Yan Liu</td>
+<td>https://arxiv.org/pdf/1905.02450.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>Arxiv</td>
+<td>pre-pegasus</td>
+<td>2</td>
+<td>PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization</td>
+<td>Jingqing Zhang, Yao Zhao, Mohammad Saleh, Peter J. Liu</td>
+<td>https://arxiv.org/pdf/1912.08777.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>CoNLL</td>
+<td>arch-gnn</td>
+<td>61</td>
+<td>Graph-based Neural Multi-Document Summarization</td>
+<td>Michihiro Yasunaga, Rui Zhang, Kshitijh Meelu, Ayush Pareek, Krishnan Srinivasan, Dragomir Radev</td>
+<td>https://www.aclweb.org/anthology/K17-1045.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>ACL</td>
+<td>aa-ACL2020, arch-gnn</td>
+<td>0</td>
+<td>Discourse-Aware Neural Extractive Model for Text Summarization</td>
+<td>Jiacheng Xu, Zhe Gan, Yu Cheng, Jingjing Liu</td>
+<td>https://arxiv.org/pdf/1910.14142.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ICLR</td>
+<td>arch-gnn</td>
+<td>12</td>
+<td>Structured Neural Summarization</td>
+<td>Patrick Fernandes, Miltiadis Allamanis, Marc Brockschmidt</td>
+<td>https://arxiv.org/pdf/1811.01824.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>arch-gnn</td>
+<td>10</td>
+<td>Text Generation from Knowledge Graphs with Graph Transformers</td>
+<td>Rik Koncel-Kedziorski, Dhanush Bekal, Yi Luan, Mirella Lapata, Hannaneh Hajishirzi</td>
+<td>https://arxiv.org/pdf/1904.02342.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>arch-gnn</td>
+<td>0</td>
+<td>Modeling Global and Local Node Contexts for Text Generation from Knowledge Graphs</td>
+<td>Leonardo F. R. Ribeiro, Yue Zhang, Claire Gardent, Iryna Gurevych</td>
+<td>https://arxiv.org/pdf/2001.11003.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>Arxiv</td>
+<td>task-sci</td>
+<td>0</td>
+<td>Citation Text Generation</td>
+<td>Kelvin Luu, Rik Koncel-Kedziorski, Kyle Lo, Isabel Cachola, Noah A. Smith</td>
+<td>https://arxiv.org/pdf/2002.00317.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>gen-abs, arch-cnn, arch-att</td>
+<td>1288</td>
+<td>A Neural Attention Model for Abstractive Sentence Summarization</td>
+<td>Alexander M. Rush, Sumit Chopra, Jason Weston</td>
+<td>https://arxiv.org/pdf/1509.00685.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>arch-rnn, arch-att, arch-coverage, arch-pointer</td>
+<td>605</td>
+<td>Get To The Point: Summarization with Pointer-Generator Networks</td>
+<td>Abigail See, Peter J. Liu, Christopher D. Manning</td>
+<td>https://arxiv.org/pdf/1704.04368.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>ACL</td>
+<td>arch-pointer, arch-rnn, arch-att</td>
+<td>571</td>
+<td>Incorporating Copying Mechanism in Sequence-to-Sequence Learning</td>
+<td>Jiatao Gu, Zhengdong Lu, Hang Li, Victor O.K. Li</td>
+<td>https://arxiv.org/pdf/1603.06393.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>ACL</td>
+<td>arch-pointer, arch-rnn, arch-att</td>
+<td>285</td>
+<td>Pointing the Unknown Words</td>
+<td>Caglar Gulcehre, Sungjin Ahn, Ramesh Nallapati, Bowen Zhou, Yoshua Bengio</td>
+<td>https://arxiv.org/pdf/1603.08148.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>ACL</td>
+<td>arch-coverage, arch-rnn, arch-att</td>
+<td>362</td>
+<td>Modeling Coverage for Neural Machine Translation</td>
+<td>Zhaopeng Tu, Zhengdong Lu, Yang Liu, Xiaohua Liu, Hang Li</td>
+<td>https://arxiv.org/pdf/1601.04811.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ICLR</td>
+<td>nondif-reinforce, arch-rnn, arch-att</td>
+<td>453</td>
+<td>A Deep Reinforced Model for Abstractive Summarization</td>
+<td>Romain Paulus, Caiming Xiong, Richard Socher</td>
+<td>https://arxiv.org/pdf/1705.04304.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>ACL</td>
+<td>task-singledDoc, arch-rnn</td>
+<td>340</td>
+<td>Neural Summarization by Extracting Sentences and Words</td>
+<td>Jianpeng Cheng, Mirella Lapata</td>
+<td>https://arxiv.org/pdf/1603.07252.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>AAAI</td>
+<td>arch-rnn</td>
+<td>315</td>
+<td>SummaRuNNer: A Recurrent Neural Network Based Sequence Model for Extractive Summarization of Documents</td>
+<td>Ramesh Nallapati, Feifei Zhai, Bowen Zhou</td>
+<td>https://arxiv.org/pdf/1611.04230.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>train-unsup, task-video</td>
+<td>3</td>
+<td>Discriminative Feature Learning for Unsupervised Video Summarization</td>
+<td>Yunjae Jung, Donghyeon Cho, Dahun Kim, Sanghyun Woo, In-So Kweon</td>
+<td>https://arxiv.org/pdf/1811.09791.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>NIPS</td>
+<td>task-video</td>
+<td>222</td>
+<td>Diverse Sequential Subset Selection for Supervised Video Summarization</td>
+<td>Boqing Gong, Wei-Lun Chao, Kristen Grauman, Fei Sha</td>
+<td>https://pdfs.semanticscholar.org/3ddd/140e1519f6e8f9b2b917ccb04478f32dcf1d.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>data-new, arch-rnn</td>
+<td>105</td>
+<td>LCSTS: A Large Scale Chinese Short Text Summarization Dataset</td>
+<td>Baotian Hu, Qingcai Chen, Fangze Zhu</td>
+<td>https://arxiv.org/pdf/1506.05865.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>data-new, arch-cnn, arch-att</td>
+<td>36</td>
+<td>Don’t Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization</td>
+<td>Shashi Narayan, Shay B. Cohen, Mirella Lapata</td>
+<td>https://www.aclweb.org/anthology/D18-1206.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>NAA-CL</td>
+<td>data-new</td>
+<td>42</td>
+<td>Neural Network-Based Abstract Generation for Opinions and Arguments</td>
+<td>Lu Wang, Wang Ling</td>
+<td>https://www.aclweb.org/anthology/N16-1007.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>gen-abs, data-new, arch-rnn, arch-att</td>
+<td>10</td>
+<td>Abstractive Summarization of Reddit Posts with Multi-level Memory Networks</td>
+<td>Byeongchang Kim, Hyunwoo Kim, Gunhee Kim</td>
+<td>https://arxiv.org/pdf/1811.00783.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>gen-abs, data-new</td>
+<td>2</td>
+<td>BIGPATENT: A Large-Scale Dataset for Abstractive and Coherent Summarization</td>
+<td>Eva Sharma, Chen Li, Lu Wang</td>
+<td>https://arxiv.org/pdf/1906.03741.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>CoNLL</td>
+<td>gen-abs, data-new, arch-rnn</td>
+<td>685</td>
+<td>Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond</td>
+<td>Ramesh Nallapati, Bowen Zhou, Cicero dos Santos, Çağlar Gu̇lçehre, Bing Xiang</td>
+<td>https://www.aclweb.org/anthology/K16-1028.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>task-sci, arch-att, arch-rnn</td>
+<td>44</td>
+<td>A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents</td>
+<td>Arman Cohan, Franck Dernoncourt, Doo Soon Kim, Trung Bui, Seokhwan Kim, Walter Chang, Nazli Goharian</td>
+<td>https://arxiv.org/pdf/1804.05685.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>task-longtext</td>
+<td>51</td>
+<td>Newsroom: A Dataset of 1.3 Million Summaries with Diverse Extractive Strategies</td>
+<td>Max Grusky, Mor Naaman, Yoav Artzi</td>
+<td>https://arxiv.org/pdf/1804.11283.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP-ws</td>
+<td>data-new</td>
+<td>0</td>
+<td>BillSum: A Corpus for Automatic Summarization of US Legislation</td>
+<td>Anastassia Kornilova, Vlad Eidelman</td>
+<td>https://arxiv.org/pdf/1910.00523.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs</td>
+<td>0</td>
+<td>SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization</td>
+<td>Prakhar Ganesh, Saket Dingliwal</td>
+<td>https://arxiv.org/pdf/1902.01615.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>train-multilingual</td>
+<td>0</td>
+<td>Global Voices: Crossing Borders in Automatic News Summarization</td>
+<td>Khanh Nguyen, Hal Daumé</td>
+<td>https://arxiv.org/pdf/1910.00421.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ICLR</td>
+<td>data-new</td>
+<td>141</td>
+<td>Generating Wikipedia by Summarizing Long Sequences</td>
+<td>Peter J. Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, Noam Shazeer</td>
+<td>https://arxiv.org/pdf/1801.10198.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>task-sci, data-new</td>
+<td>0</td>
+<td>ScisummNet: A Large Annotated Corpus and Content-Impact Models for Scientific Paper Summarization with Citation Networks</td>
+<td>Michihiro Yasunaga, Jungo Kasai, Rui Zhang, Alexander R. Fabbri, Irene Li, Dan Friedman, Dragomir R. Radev</td>
+<td>https://arxiv.org/pdf/1909.01716.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>data-new</td>
+<td>5</td>
+<td>Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model</td>
+<td>Alexander R. Fabbri, Irene Li, Tianwei She, Suyi Li, Dragomir R. Radev</td>
+<td>https://arxiv.org/pdf/1906.01749.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>Arxiv</td>
+<td>data-new</td>
+<td>12</td>
+<td>WikiHow: A Large Scale Text Summarization Dataset</td>
+<td>Mahnaz Koupaee, William Yang Wang</td>
+<td>https://arxiv.org/pdf/1810.09305.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>data-new</td>
+<td>14</td>
+<td>Understanding and Detecting Supporting Arguments of Diverse Types</td>
+<td>Xinyu Hua, Lu Wang</td>
+<td>https://www.aclweb.org/anthology/P17-2032.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>data-new</td>
+<td>49</td>
+<td>Diversity driven Attention Model for Query-based Abstractive</td>
+<td>Summarization</td>
+<td>Preksha Nema, Mitesh Khapra, Anirban Laha, Balaraman Ravindran</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>data-new</td>
+<td>1</td>
+<td>Recommendations for Datasets for Source Code Summarization</td>
+<td>Alexander LeClair, Collin McMillan</td>
+<td>https://arxiv.org/pdf/1904.02660.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>data-new</td>
+<td>2</td>
+<td>TalkSumm: A Dataset and Scalable Annotation Method for Scientific Paper Summarization Based on Conference Talks</td>
+<td>Guy Lev, Michal Shmueli-Scheuer, Jonathan Herzig, Achiya Jerbi, David Konopnicki</td>
+<td>https://arxiv.org/pdf/1906.01351.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>data-new</td>
+<td>2</td>
+<td>Inducing Document Structure for Aspect-based Summarization</td>
+<td>Lea Frermann, Alexandre Klementiev</td>
+<td>https://www.aclweb.org/anthology/P19-1630.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>data-new</td>
+<td>0</td>
+<td>How to Write Summaries with Patterns? Learning towards Abstractive Summarization through Prototype Editing</td>
+<td>Shen Gao, Xiuying Chen, Piji Li, Zhangming Chan, Dongyan Zhao, Rui Yan</td>
+<td>https://arxiv.org/pdf/1909.08837.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>data-new</td>
+<td>2</td>
+<td>A Dataset of Peer Reviews (PeerRead): Collection, Insights and NLP Applications</td>
+<td>Dongyeop Kang, Waleed Ammar, Bhavana Dalvi, Madeleine van Zuylen, Sebastian Kohlmeier, Eduard Hovy, Roy Schwartz</td>
+<td>https://arxiv.org/pdf/1804.09635.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>task-multimodal</td>
+<td>3</td>
+<td>Multimodal Abstractive Summarization for How2 Videos</td>
+<td>Shruti Palaskar, Jindřich Libovický, Spandana Gella, Florian Metze</td>
+<td>https://arxiv.org/pdf/1906.07901.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>AAAI</td>
+<td>gen-abs</td>
+<td>0</td>
+<td>Joint Parsing and Generation for Abstractive Summarization</td>
+<td>Kaiqiang Song, Logan Lebanoff, Qipeng Guo, Xipeng Qiu, Xiangyang Xue, Chen Li, Dong Yu, Fei Liu</td>
+<td>https://arxiv.org/pdf/1911.10389.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>AAAI</td>
+<td>pre-bert</td>
+<td>1</td>
+<td>Controlling the Amount of Verbatim Copying in Abstractive Summarization</td>
+<td>Kaiqiang Song, Bingqing Wang, Zhe Feng, Liu Ren, Fei Liu</td>
+<td>https://arxiv.org/pdf/1911.10390.pdf</td>
+</tr>
+<tr><td>2020</td>
+<td>AAAI</td>
+<td>task-senCompre</td>
+<td>0</td>
+<td>Syntactically Look-Ahead Attention Network for Sentence Compression</td>
+<td>Hidetaka Kamigaito, Manabu Okumura</td>
+<td>https://arxiv.org/pdf/2002.01145.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>gen-abs</td>
+<td>5</td>
+<td>Abstractive Text Summarization by Incorporating Reader Comments</td>
+<td>Shen Gao, Xiuying Chen, Piji Li, Zhaochun Ren, Lidong Bing, Dongyan Zhao, Rui Yan</td>
+<td>https://arxiv.org/pdf/1812.05407.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>data-new</td>
+<td>1</td>
+<td>Towards Personalized Review Summarization via User-Aware Sequence Network</td>
+<td>Junjie Li, Haoran Li, Chengqing Zong</td>
+<td>https://pdfs.semanticscholar.org/d269/717aecdcdd0e484dddc02699b407ce756d62.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>arch-cnn</td>
+<td>5</td>
+<td>DeepChannel: Salience Estimation by Contrastive Learning for Extractive Document Summarization</td>
+<td>Jiaxin Shi, Chen Liang, Lei Hou, Juan-Zi Li, Zhiyuan Liu, Hanwang Zhang</td>
+<td>https://arxiv.org/pdf/1811.02394.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>other</td>
+<td>0</td>
+<td>Generating Character Descriptions for Automatic Summarization of Fiction</td>
+<td>Anna Kazantseva</td>
+<td>https://pdfs.semanticscholar.org/5ab3/0d3452f16fef36f1da7fc63ae24bef119904.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>task-video</td>
+<td>6</td>
+<td>Cycle-SUM: Cycle-Consistent Adversarial LSTM Networks for Unsupervised Video Summarization</td>
+<td>Li Yuan, Francis EH Tay, Ping Li, Li Zhou, Jiashi Feng</td>
+<td>https://arxiv.org/pdf/1904.08265.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>other</td>
+<td>1</td>
+<td>Abstractive Summarization: A Survey of the State of the Art</td>
+<td>Hui Lin, Vincent Ng</td>
+<td>https://doi.org/10.1609/aaai.v33i01.33019815</td>
+</tr>
+<tr><td>2019</td>
+<td>AAAI</td>
+<td>other</td>
+<td>0</td>
+<td>A Multi-Task Learning Framework for Abstractive Text Summarization</td>
+<td>Yao Lu, Linqing Liu, Zhile Jiang, Min Yang, Randy Goebel</td>
+<td>https://doi.org/10.1609/aaai.v33i01.33019987</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>arch-transformer</td>
+<td>4</td>
+<td>Improving Abstractive Document Summarization with Salient Information Modeling</td>
+<td>Yongjian You, Weijia Jia, Tianyi Liu, Wenmian Yang</td>
+<td>https://pdfs.semanticscholar.org/cbf9/07906a60184f38a85db51c3f8c2ce99dca0b.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>train-unsup</td>
+<td>2</td>
+<td>Unsupervised Neural Single-Document Summarization of Reviews via Learning Latent Discourse Structure and its Ranking</td>
+<td>Masaru Isonuma, Junichiro Mori, Ichiro Sakata</td>
+<td>https://arxiv.org/pdf/1906.05691.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>train-unsup</td>
+<td>1</td>
+<td>Sentence Centrality Revisited for Unsupervised Summarization</td>
+<td>Hao Zheng, Mirella Lapata</td>
+<td>https://arxiv.org/pdf/1906.03508.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>train-template</td>
+<td>1</td>
+<td>BiSET: Bi-directional Selective Encoding with Template for Abstractive Summarization</td>
+<td>Kai Wang, Xiaojun Quan, Rui Wang</td>
+<td>https://arxiv.org/pdf/1906.05012.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>task-multiDoc</td>
+<td>4</td>
+<td>Hierarchical Transformers for Multi-Document Summarization</td>
+<td>Yang Liu, Mirella Lapata</td>
+<td>https://arxiv.org/pdf/1905.13164.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>gen-abs</td>
+<td>1</td>
+<td>Abstractive text summarization based on deep learning and semantic content generalization</td>
+<td>Panagiotis Kouris, Georgios Alexandridis, Andreas Stafylopatis</td>
+<td>https://pdfs.semanticscholar.org/50ce/1595e8daf95ea031b91237d0ed21e1525787.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>eval-aspect-redundancy</td>
+<td>6</td>
+<td>A Simple Theoretical Model of Importance for Summarization</td>
+<td>Maxime Peyrard</td>
+<td>https://pdfs.semanticscholar.org/14c3/71d359aed214b87b7a40bdbe7bfeb2968973.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>other</td>
+<td>2</td>
+<td>HighRES: Highlight-based Reference-less Evaluation of Summarization</td>
+<td>Hardy, Shashi Narayan, Andreas Vlachos</td>
+<td>https://arxiv.org/pdf/1906.01361.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>eval-metric-rouge</td>
+<td>8</td>
+<td>HIBERT: Document Level Pre-training of Hierarchical Bidirectional Transformers for Document Summarization</td>
+<td>Xingxing Zhang, Furu Wei, Ming Zhou</td>
+<td>https://arxiv.org/pdf/1905.06566.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>gen-abs, arch-cnn</td>
+<td>5</td>
+<td>Scoring Sentence Singletons and Pairs for Abstractive Summarization</td>
+<td>Logan Lebanoff, Kaiqiang Song, Franck Dernoncourt, Doo Soon Kim, Seokhwan Kim, Walter Chang, Fei Liu</td>
+<td>https://arxiv.org/pdf/1906.00077.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>task-multiDoc</td>
+<td>3</td>
+<td>Improving the Similarity Measure of Determinantal Point Processes for Extractive Multi-Document Summarization</td>
+<td>Sangwoo Cho, Logan Lebanoff, Hassan Foroosh, Fei Liu</td>
+<td>https://arxiv.org/pdf/1906.00072.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>arch-att</td>
+<td>6</td>
+<td>Zero-Shot Cross-Lingual Abstractive Sentence Summarization through Teaching Generation and Attention</td>
+<td>Xiangyu Duan, Mingming Yin, Min Zhang, Boxing Chen, Weihua Luo</td>
+<td>https://pdfs.semanticscholar.org/8011/68a3f084b385d418b38fc9d877bc57cc545a.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>gen-abs, task-singledDoc, arch-cnn, eval-metric-rouge</td>
+<td>3</td>
+<td>Global Optimization under Length Constraint for Neural Text Summarization</td>
+<td>Takuya Makino, Tomoya Iwakura, Hiroya Takamura, Manabu Okumura</td>
+<td>https://pdfs.semanticscholar.org/8d92/c3e1687af5ad7eddc1ffe50728b64e7b3b5b.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>task-multimodal</td>
+<td>1</td>
+<td>Keep Meeting Summaries on Topic: Abstractive Multi-Modal Meeting Summarization</td>
+<td>Manling Li, Lingyu Zhang, Heng Ji, Richard J. Radke</td>
+<td>https://pdfs.semanticscholar.org/8c2f/5ed9efe3985ded8ee724dffc6ebf1f082493.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>other</td>
+<td>1</td>
+<td>Studying Summarization Evaluation Metrics in the Appropriate Scoring Range</td>
+<td>Maxime Peyrard</td>
+<td>https://pdfs.semanticscholar.org/cca4/2b7e53a2d5e5c0f995735043e84a3b1cc89c.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>gen-ext, gen-abs, train-unsup</td>
+<td>1</td>
+<td>Simple Unsupervised Summarization by Contextual Matching</td>
+<td>Jiawei Zhou, Alexander M. Rush</td>
+<td>https://arxiv.org/pdf/1907.13337.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>gen-ext, arch-cnn</td>
+<td>1</td>
+<td>Self-Supervised Learning for Contextualized Extractive Summarization</td>
+<td>Hong Wang, Xin Wang, Wenhan Xiong, Mo Yu, Xiaoxiao Guo, Shiyu Chang, William Yang Wang</td>
+<td>https://arxiv.org/pdf/1906.04466.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>task-question</td>
+<td>0</td>
+<td>On the Summarization of Consumer Health Questions</td>
+<td>Asma Ben Abacha, Dina Demner-Fushman</td>
+<td>https://pdfs.semanticscholar.org/2dad/078c48278da520d5bd67ed2e4fca0ef85e83.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>task-opinion</td>
+<td>0</td>
+<td>Not All Reviews Are Equal: Towards Addressing Reviewer Biases for Opinion Summarization</td>
+<td>Wenyi Tay</td>
+<td>https://pdfs.semanticscholar.org/d3fe/c2b47051ab07e43af6462c62566e053df033.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>gen-ext, eval-metric-rouge</td>
+<td>0</td>
+<td>STRASS: A Light and Effective Method for Extractive Summarization Based on Sentence Embeddings</td>
+<td>Léo Bouscarrat, Antoine Bonnefoy, Thomas Peel, Cecile Pereira</td>
+<td>https://arxiv.org/pdf/1907.07323.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ACL</td>
+<td>task-knowledge</td>
+<td>0</td>
+<td>A Modular Tool for Automatic Summarization</td>
+<td>Valentin Nyzam, Aurélien Bossard</td>
+<td>https://pdfs.semanticscholar.org/6d51/d8a0f5ad5ac1dce9afd321aee2d85349c5b0.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-abs, task-singledDoc, pre-bert</td>
+<td>1</td>
+<td>An Entity-Driven Framework for Abstractive Summarization</td>
+<td>Eva Sharma, Luyang Huang, Zhe Hu, Lu Wang</td>
+<td>https://arxiv.org/pdf/1909.02059.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs, nondif-reinforce, eval-metric-rouge</td>
+<td>1</td>
+<td>Answers Unite! Unsupervised Metrics for Reinforced Summarization Models</td>
+<td>Thomas Scialom, Sylvain Lamprier, Benjamin Piwowarski, Jacopo Staiano</td>
+<td>https://arxiv.org/pdf/1909.01610.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>arch-att</td>
+<td>0</td>
+<td>Attribute-aware Sequence Network for Review Summarization</td>
+<td>Junjie Li, Xuepeng Wang, Dawei Yin, Chengqing Zong</td>
+<td>https://pdfs.semanticscholar.org/1bad/13a444f3b1fc43eb79892fecf8363d4d7eee.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs, task-knowledge, arch-pointer</td>
+<td>0</td>
+<td>Concept Pointer Network for Abstractive Summarization</td>
+<td>Wang Wenbo, Yang Gao, Huang Heyan, Yuxiang Zhou</td>
+<td>https://arxiv.org/pdf/1910.08486.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs, arch-att</td>
+<td>0</td>
+<td>Contrastive Attention Mechanism for Abstractive Sentence Summarization</td>
+<td>Xiangyu Duan, Hongfei Yu, Mingming Yin, Min Zhang, Weihua Luo, Yue Zhang</td>
+<td>https://arxiv.org/pdf/1910.13114.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-abs, task-sci, task-longtext, eval-metric-rouge</td>
+<td>0</td>
+<td>Extractive Summarization of Long Documents by Combining Global and Local Context</td>
+<td>Wen Xiao, Giuseppe Carenini</td>
+<td>https://arxiv.org/pdf/1909.08089.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext</td>
+<td>0</td>
+<td>Improving Latent Alignment in Text Summarization by Generalizing the Pointer Generator</td>
+<td>Xiaoyu Shen, Yang Zhao, Hui Chia Su, Dietrich Klakow</td>
+<td>https://pdfs.semanticscholar.org/38f5/7d726a0812ca0ba279af9e5fd2281c71fd79.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>train-multitask</td>
+<td>0</td>
+<td>NCLS: Neural Cross-Lingual Summarization</td>
+<td>Junnan Zhu, Qian Wang, Yining Wang, Yu Fang Zhou, Jiajun Zhang, Shaonan Wang, Chengqing Zong</td>
+<td>https://arxiv.org/pdf/1909.00156.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-2stage, task-singledDoc, arch-cnn, eval-metric-rouge</td>
+<td>8</td>
+<td>Neural Extractive Text Summarization with Syntactic Compression</td>
+<td>Jiacheng Xu, Greg Durrett</td>
+<td>https://arxiv.org/pdf/1902.00863.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>arch-att, train-multitask, eval-aspect-factuality</td>
+<td>6</td>
+<td>Neural Text Summarization: A Critical Evaluation</td>
+<td>Wojciech Kryscinski, Nitish Shirish Keskar, Bryan McCann, Caiming Xiong, Richard Socher</td>
+<td>https://arxiv.org/pdf/1908.08960.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-2stage, arch-cnn, nondif-reinforce, eval-metric-rouge</td>
+<td>0</td>
+<td>Reading Like HER: Human Reading Inspired Extractive Summarization</td>
+<td>Ling Luo, Xiang Ao, Y. S. Song, Feiyang Pan, Min Yang, Qing He</td>
+<td>https://pdfs.semanticscholar.org/3088/0653c7a39dd234b0f3edf4eb72a5e8961a9d.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>task-multiDoc, arch-rnn</td>
+<td>0</td>
+<td>Subtopic-Driven Multi-Document Summarization</td>
+<td>Xin Zheng, Aixin Sun, Jing Li, Karthik Muthuswamy</td>
+<td>https://pdfs.semanticscholar.org/f5c4/c5e0dcdb9d4aed2cd9616b7a903a53dfc5fa.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>other</td>
+<td>0</td>
+<td>Summary Cloze: A New Task for Content Selection in Topic-Focused Summarization</td>
+<td>Daniel Deutsch, Dan Roth</td>
+<td>https://pdfs.semanticscholar.org/3011/91fa17caaa3f9400b1722e196bee75b778ac.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-abs, gen-2stage, arch-transformer</td>
+<td>12</td>
+<td>Text Summarization with Pretrained Encoders</td>
+<td>Yang Liu, Mirella Lapata</td>
+<td>https://arxiv.org/pdf/1908.08345.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>train-multilingual</td>
+<td>0</td>
+<td>Abstract Text Summarization: A Low Resource Challenge</td>
+<td>Shantipriya Parida, Petr Motlícek</td>
+<td>https://pdfs.semanticscholar.org/b699/32bd355beb359557d9f988dfb84cc361e605.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs, arch-cnn, arch-att</td>
+<td>0</td>
+<td>Attention Optimization for Abstractive Document Summarization</td>
+<td>Min Gui, Junfeng Tian, Rui Wang, Zhenglu Yang</td>
+<td>https://arxiv.org/pdf/1910.11491.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, nondif-reinforce, eval-metric-rouge</td>
+<td>1</td>
+<td>Countering the effects of lead bias in news summarization via multi-stage training and auxiliary losses</td>
+<td>M. E. Grenander, Yue Dong, Jackie Chi Kit Cheung, Annie Louis</td>
+<td>https://arxiv.org/pdf/1909.04028.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge</td>
+<td>1</td>
+<td>Deep Reinforcement Learning with Distributional Semantic Rewards for Abstractive Summarization</td>
+<td>Siyao Li, Deren Lei, Pengda Qin, William Yang Wang</td>
+<td>https://arxiv.org/pdf/1909.00141.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>pre-elmo</td>
+<td>0</td>
+<td>The Feasibility of Embedding Based Automatic Evaluation for Single Document Summarization</td>
+<td>Simeng Sun, Ani Nenkova</td>
+<td>https://pdfs.semanticscholar.org/584b/9e321c8f82fed514f70b10313b5fd971b277.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, train-unsup, arch-transformer</td>
+<td>1</td>
+<td>BottleSum: Unsupervised and Self-supervised Sentence Summarization using the Information Bottleneck Principle</td>
+<td>Peter West, Ari Holtzman, Jan Buys, Yejin Choi</td>
+<td>https://arxiv.org/pdf/1909.07405.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>task-query</td>
+<td>0</td>
+<td>A Summarization System for Scientific Documents</td>
+<td>Shai Erera, Michal Shmueli-Scheuer, Guy Feigenblat, Ora Peled Nakash, Odellia Boni, Haggai Roitman, Doron Cohen, Bar Weiner, Yosi Mass, Or Rivlin, Guy Lev, Achiya Jerbi, Jonathan Herzig, Yufang Hou, Charles Jochim, Martin Gleize, Francesca Bonin, David Konopnicki</td>
+<td>https://arxiv.org/pdf/1908.11152.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-abs, arch-cnn, pre-bert, eval-metric-rouge</td>
+<td>0</td>
+<td>Summary Level Training of Sentence Rewriting for Abstractive Summarization</td>
+<td>Sanghwan Bae, Taeuk Kim, Jihoon Kim, Sang-goo Lee</td>
+<td>https://arxiv.org/pdf/1909.08752.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>other</td>
+<td>0</td>
+<td>Learning to Create Sentence Semantic Relation Graphs for Multi-Document Summarization</td>
+<td>Diego Antognini, Boi Faltings</td>
+<td>https://arxiv.org/pdf/1909.12231.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs, train-unsup, task-multiDoc, arch-rnn</td>
+<td>0</td>
+<td>Unsupervised Aspect-Based Multi-Document Abstractive Summarization</td>
+<td>Maximin Coavoux, Hady ElSahar, Matthias Gallé</td>
+<td>https://pdfs.semanticscholar.org/c605/fa1e3618c35c98b63398c25a04b9936da1e3.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-abs, arch-att, eval-aspect-redundancy</td>
+<td>1</td>
+<td>An Editorial Network for Enhanced Document Summarization</td>
+<td>Edward Moroshko, Guy Feigenblat, Haggai Roitman, David Konopnicki</td>
+<td>https://arxiv.org/pdf/1902.10360.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext</td>
+<td>1</td>
+<td>A Closer Look at Data Bias in Neural Extractive Summarization Models</td>
+<td>Ming Zhong, Danqing Wang, Pengfei Liu, Xipeng Qiu, Xuanjing Huang</td>
+<td>https://arxiv.org/pdf/1909.13705.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, pre-elmo, pre-bert</td>
+<td>0</td>
+<td>Multi-Document Summarization with Determinantal Point Processes and Contextualized Representations</td>
+<td>Sangwoo Cho, Chen Li, D. H. Yu, Hassan Foroosh, Fei Liu</td>
+<td>https://arxiv.org/pdf/1910.11411.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs</td>
+<td>2</td>
+<td>Analyzing Sentence Fusion in Abstractive Summarization</td>
+<td>Logan Lebanoff, John Muchovej, Franck Dernoncourt, Doo Soon Kim, Seokhwan Kim, Walter Chang, Fei Liu</td>
+<td>https://arxiv.org/pdf/1910.00203.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-ext, arch-cnn, arch-transformer</td>
+<td>0</td>
+<td>Exploiting Discourse-Level Segmentation for Extractive Summarization</td>
+<td>Zhengyuan Liu, Nancy F. Chen</td>
+<td>https://pdfs.semanticscholar.org/6b34/426d7609452d2d39299cefd3a1bcf1029ce2.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>gen-abs, task-singledDoc, arch-cnn, arch-transformer, arch-att, eval-aspect-factuality</td>
+<td>0</td>
+<td>Transformer-based Model for Single Documents Neural Summarization</td>
+<td>Elozino Egonmwan, Yllias Chali</td>
+<td>https://pdfs.semanticscholar.org/1401/dabdf177352d54467576832d0d767ecff795.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>EMNLP</td>
+<td>task-senCompre</td>
+<td>0</td>
+<td>Cross-Task Knowledge Transfer for Query-Based Text Summarization</td>
+<td>Elozino Egonmwan, Vittorio Castelli, Md Arafat Sultan</td>
+<td>https://pdfs.semanticscholar.org/5913/88f994543ca03fb99b91d6d93421c2304d8c.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ICML</td>
+<td>gen-ext, gen-abs, train-unsup, task-multiDoc</td>
+<td>7</td>
+<td>MeanSum: A Neural Model for Unsupervised Multi-Document Abstractive Summarization</td>
+<td>Eric Chu, Peter J. Liu</td>
+<td>https://pdfs.semanticscholar.org/f5af/fe0ba254aad17a0481522c4378636b84a3da.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>ICML</td>
+<td>other</td>
+<td>17</td>
+<td>Fair k-Center Clustering for Data Summarization</td>
+<td>Matthäus Kleindessner, Pranjal Awasthi, Jamie Morgenstern</td>
+<td>https://arxiv.org/pdf/1901.08628.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>train-lowresource</td>
+<td>3</td>
+<td>A Robust Abstractive System for Cross-Lingual Summarization</td>
+<td>Jessica Ouyang, Boya Song, Kathleen McKeown</td>
+<td>https://pdfs.semanticscholar.org/a79d/7b0bbabe28ea8cc4e8fbcd73a5b43d29782c.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>task-multiDoc</td>
+<td>0</td>
+<td>Fast Concept Mention Grouping for Concept Map-based Multi-Document Summarization</td>
+<td>Tobias Falke, Iryna Gurevych</td>
+<td>https://pdfs.semanticscholar.org/0618/964c3a84a6bb34a40c725caae6c5c2cc1651.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>gen-ext, task-multimodal, task-video, task-question</td>
+<td>6</td>
+<td>Guiding Extractive Summarization with Question-Answering Rewards</td>
+<td>Kristjan Arumae, Fei Liu</td>
+<td>https://arxiv.org/pdf/1904.02321.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>gen-abs, train-unsup, task-sci</td>
+<td>2</td>
+<td>Keyphrase Generation: A Text Summarization Struggle</td>
+<td>Erion Çano, Ondrej Bojar</td>
+<td>https://arxiv.org/pdf/1904.00110.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>gen-abs, arch-cnn, eval-metric-rouge, task-question</td>
+<td>4</td>
+<td>Question Answering as an Automatic Evaluation Metric for News Article Summarization</td>
+<td>Matan Eyal, Tal Baumel, Michael Elhadad</td>
+<td>https://arxiv.org/pdf/1906.00318.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>other</td>
+<td>6</td>
+<td>Single Document Summarization as Tree Induction</td>
+<td>Yang Liu, Ivan Titov, Mirella Lapata</td>
+<td>https://pdfs.semanticscholar.org/6f8d/ff0ff99397e5833d12b1c300474b07e77eae.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>other</td>
+<td>0</td>
+<td>Crowdsourcing Lightweight Pyramids for Manual Summary Evaluation</td>
+<td>Ori Shapira, David Gabay, Yang Gao, Hadar Ronen, Ramakanth Pasunuru, Mohit Bansal, Yael Amsterdamer, Ido Dagan</td>
+<td>https://arxiv.org/pdf/1904.05929.pdf</td>
+</tr>
+<tr><td>2019</td>
+<td>NAA-CL</td>
+<td>eval-metric-rouge</td>
+<td>2</td>
+<td>How to Compare Summarizers without Target Length? Pitfalls, Solutions and Re-Examination of the Neural Summarization Literature</td>
+<td>Simeng Sun, Ori Shapira, Ido Dagan, Ani Nenkova</td>
+<td>https://pdfs.semanticscholar.org/c6fb/8d0b8d4eefa4a2fd8a4c44d0103bd24c1401.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-ext, gen-abs, arch-att, eval-metric-rouge</td>
+<td>46</td>
+<td>A Unified Model for Extractive and Abstractive Summarization using Inconsistency Loss</td>
+<td>Wan Ting Hsu, Chieh-Kai Lin, Ming-Ying Lee, Kerui Min, Jing Tang, Min Sun</td>
+<td>https://arxiv.org/pdf/1805.06266.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-ext, arch-pointer</td>
+<td>15</td>
+<td>Extractive Summarization with SWAP-NET: Sentences and Words from Alternating Pointer Networks</td>
+<td>Aishwarya Jadhav, Vaibhav Rajan</td>
+<td>https://pdfs.semanticscholar.org/f5f8/2b5e42768a25246b0f7ba4c59f6c522fc892.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>train-template</td>
+<td>35</td>
+<td>Retrieve, Rerank and Rewrite: Soft Template Based Neural Summarization</td>
+<td>Ziqiang Cao, Wenjie Li, Sujian Li, Furu Wei</td>
+<td>https://pdfs.semanticscholar.org/c93b/8518204ef722f4c749628023c6d5d061a5fa.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-ext, arch-cnn</td>
+<td>45</td>
+<td>Neural Document Summarization by Jointly Learning to Score and Select Sentences</td>
+<td>Qingyu Zhou, Nan Yang, Furu Wei, Shaohan Huang, Ming Zhou, Tiejun Zhao</td>
+<td>https://arxiv.org/pdf/1807.02305.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-abs, train-unsup, task-senCompre, task-knowledge</td>
+<td>13</td>
+<td>Unsupervised Abstractive Meeting Summarization with Multi-Sentence Compression</td>
+<td>Guokan Shang, Wensi Ding, Zekun Zhang, Antoine Jean-Pierre Tixier, Polykarpos Meladianos, Michalis Vazirgiannis, Jean-Pierre Lorré</td>
+<td>https://arxiv.org/pdf/1805.05271.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-abs, arch-cnn, nondif-reinforce</td>
+<td>101</td>
+<td>Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting</td>
+<td>Yen-Chun Chen, Mohit Bansal</td>
+<td>https://arxiv.org/pdf/1805.11080.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-abs, train-multitask, eval-aspect-redundancy</td>
+<td>31</td>
+<td>Soft Layer-Specific Multi-Task Summarization with Entailment and Question Generation</td>
+<td>Han Guo, Ramakanth Pasunuru, Mohit Bansal</td>
+<td>https://arxiv.org/pdf/1805.11004.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-abs, arch-cnn</td>
+<td>40</td>
+<td>Global Encoding for Abstractive Summarization</td>
+<td>Junyang Lin, Xu Sun, Shuming Ma, Qi Su</td>
+<td>https://arxiv.org/pdf/1805.03989.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-abs</td>
+<td>16</td>
+<td>Autoencoder as Assistant Supervisor: Improving Text Representation for Chinese Social Media Text Summarization</td>
+<td>Shuming Ma, Xu Sun, Junyang Lin, Houfeng Wang</td>
+<td>https://arxiv.org/pdf/1805.04869.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-abs, task-opinion, train-multilingual</td>
+<td>4</td>
+<td>Towards Opinion Summarization of Customer Reviews</td>
+<td>Samuel Pecar</td>
+<td>https://pdfs.semanticscholar.org/39f8/972de7352acb6fa49bc822488233c3df71fe.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-abs, train-unsup</td>
+<td>6</td>
+<td>Unsupervised Semantic Abstractive Summarization</td>
+<td>Shibhansh Dohare, Vivek Gupta, Harish Karnick</td>
+<td>https://pdfs.semanticscholar.org/a895/e96b52d2ff0c9365106a94c780a017cf9a58.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>gen-ext, nondif-reinforce, task-question</td>
+<td>4</td>
+<td>Reinforced Extractive Summarization with Question-Focused Rewards</td>
+<td>Kristjan Arumae, Fei Liu</td>
+<td>https://arxiv.org/pdf/1805.10392.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ACL</td>
+<td>task-control</td>
+<td>54</td>
+<td>Controllable Abstractive Summarization</td>
+<td>Angela Fan, David Grangier, Michael Auli</td>
+<td>https://arxiv.org/pdf/1711.05217.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-abs, eval-metric-rouge</td>
+<td>6</td>
+<td>Guided Neural Language Generation for Abstractive Summarization using Abstract Meaning Representation</td>
+<td>Hardy, Andreas Vlachos</td>
+<td>https://arxiv.org/pdf/1808.09160.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>latent-vae</td>
+<td>21</td>
+<td>Neural Latent Extractive Document Summarization</td>
+<td>Xingxing Zhang, Mirella Lapata, Furu Wei, Ming Zhou</td>
+<td>https://arxiv.org/pdf/1808.07187.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-abs</td>
+<td>6</td>
+<td>On the Abstractiveness of Neural Document Summarization</td>
+<td>Fangfang Zhang, Jin-ge Yao, Rui Yan</td>
+<td>https://pdfs.semanticscholar.org/99ea/0837b8be4583366156d3a83f83c0b41d9eb0.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-ext, task-multimodal</td>
+<td>1</td>
+<td>Harnessing Popularity in Social Media for Extractive Summarization of Online Conversations</td>
+<td>Ryuji Kano, Yasuhide Miura, Motoki Taniguchi, Yan-Ying Chen, Francine Chen, Tomoko Ohkuma</td>
+<td>https://pdfs.semanticscholar.org/3bc8/78cff3c817b689ede7ba737fc72e7ac3fcfc.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>task-sci, arch-att</td>
+<td>5</td>
+<td>Neural Related Work Summarization with a Joint Context-driven Attention Mechanism</td>
+<td>Yongzhen Wang, Xiaozhong Liu, Zheng Gao</td>
+<td>https://arxiv.org/pdf/1901.09492.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-abs, task-multimodal</td>
+<td>14</td>
+<td>Improving Neural Abstractive Document Summarization with Explicit Information Selection Modeling</td>
+<td>Wei Li, Xinyan Xiao, Yajuan Lyu, Yuanzhuo Wang</td>
+<td>https://pdfs.semanticscholar.org/1363/c78901f7204047241768af8c13e49f405625.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-abs, task-knowledge, eval-aspect-factuality</td>
+<td>38</td>
+<td>Improving Abstraction in Text Summarization</td>
+<td>Wojciech Kryscinski, Romain Paulus, Caiming Xiong, Richard Socher</td>
+<td>https://arxiv.org/pdf/1808.07913.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-abs, arch-rnn, nondif-reinforce, eval-metric-rouge</td>
+<td>19</td>
+<td>BanditSum: Extractive Summarization as a Contextual Bandit</td>
+<td>Yue Dong, Yikang Shen, Eric Crawford, Herke van Hoof, Jackie Chi Kit Cheung</td>
+<td>https://arxiv.org/pdf/1809.09672.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-abs, task-multimodal, arch-rnn, arch-att, task-multimodal</td>
+<td>5</td>
+<td>Abstractive Text-Image Summarization Using Multi-Modal Attentional Hierarchical RNN</td>
+<td>Jingqiang Chen, Hai Zhuge</td>
+<td>https://pdfs.semanticscholar.org/f8a5/2cb3d840d7250a87fc9be92be1abaa377d82.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>task-multimodal</td>
+<td>8</td>
+<td>Closed-Book Training to Improve Summarization Encoder Memory</td>
+<td>Yichen Jiang, Mohit Bansal</td>
+<td>https://arxiv.org/pdf/1809.04585.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-abs, arch-att, arch-rnn</td>
+<td>7</td>
+<td>Improving Neural Abstractive Document Summarization with Structural Regularization</td>
+<td>Wei Li, Xinyan Xiao, Yajuan Lyu, Yuanzhuo Wang</td>
+<td>https://pdfs.semanticscholar.org/01f8/314c8e03af0afb8391576d1ffb9ed821f199.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-ext, arch-cnn</td>
+<td>5</td>
+<td>Iterative Document Representation Learning Towards Summarization with Polishing</td>
+<td>Xiuying Chen, Shen Gao, Chongyang Tao, Yan Song, Dongyan Zhao, Rui Yan</td>
+<td>https://arxiv.org/pdf/1809.10324.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-abs, arch-cnn, arch-att, eval-metric-rouge</td>
+<td>97</td>
+<td>Bottom-Up Abstractive Summarization</td>
+<td>Sebastian Gehrmann, Yuntian Deng, Alexander M. Rush</td>
+<td>https://arxiv.org/pdf/1808.10792.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-abs, arch-cnn, eval-metric-rouge</td>
+<td>8</td>
+<td>Controlling Length in Abstractive Summarization Using a Convolutional Neural Network</td>
+<td>Yizhu Liu, Zhiyi Luo, Kenny Q. Zhu</td>
+<td>https://pdfs.semanticscholar.org/95ba/8a071cb992efb736be6a8dc26b83266d054e.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>train-transfer, arch-rnn, arch-att</td>
+<td>20</td>
+<td>Adapting the Neural Encoder-Decoder Framework from Single to Multi-Document Summarization</td>
+<td>Logan Lebanoff, Kaiqiang Song, Fei Liu</td>
+<td>https://arxiv.org/pdf/1808.06218.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>task-multimodal, arch-att, task-multimodal</td>
+<td>3</td>
+<td>MSMO: Multimodal Summarization with Multimodal Output</td>
+<td>Junnan Zhu, Haoran Li, Tianshang Liu, Yu Zhou, Jiajun Zhang, Chengqing Zong</td>
+<td>https://pdfs.semanticscholar.org/2f10/b647947526c1e6d84fc54fdf741a33f4c1cb.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>EMNLP</td>
+<td>gen-abs, train-unsup</td>
+<td>0</td>
+<td>Frustratingly Easy Model Ensemble for Abstractive Summarization</td>
+<td>Hayato Kobayashi</td>
+<td>https://pdfs.semanticscholar.org/9727/01c3f7601d253502e0ea7e8227df31d41393.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>gen-abs, task-knowledge</td>
+<td>11</td>
+<td>Entity Commonsense Representation for Neural Abstractive Summarization</td>
+<td>Reinald Kim Amplayo, Seonjae Lim, Seung-won Hwang</td>
+<td>https://arxiv.org/pdf/1806.05504.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>gen-abs, task-longtext</td>
+<td>95</td>
+<td>Deep Communicating Agents for Abstractive Summarization</td>
+<td>Asli Çelikyilmaz, Antoine Bosselut, Xiaodong He, Yejin Choi</td>
+<td>https://arxiv.org/pdf/1803.10357.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>gen-ext, gen-2stage</td>
+<td>2</td>
+<td>Provable Fast Greedy Compressive Summarization with Any Monotone Submodular Function</td>
+<td>Shinsaku Sakaue, Tsutomu Hirao, Masaaki Nishino, Masaaki Nagata</td>
+<td>https://pdfs.semanticscholar.org/de01/77d3cbbb0001d9ac3276c8bcfd09f67a91a6.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>gen-ext, gen-abs, task-singledDoc, arch-rnn, arch-cnn, nondif-reinforce, eval-metric-rouge</td>
+<td>112</td>
+<td>Ranking Sentences for Extractive Summarization with Reinforcement Learning</td>
+<td>Shashi Narayan, Shay B. Cohen, Mirella Lapata</td>
+<td>https://arxiv.org/pdf/1802.08636.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>task-query</td>
+<td>1</td>
+<td>Relational Summarization for Corpus Analysis</td>
+<td>Abram Handler, Brendan T. O'Connor</td>
+<td>https://pdfs.semanticscholar.org/0b74/af5233b693226c86736ff796b91b3e60f50b.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>eval-metric-rouge</td>
+<td>6</td>
+<td>Which Scores to Predict in Sentence Regression for Text Summarization?</td>
+<td>Markus Zopf, Eneldo Loza Mencía, Johannes Fürnkranz</td>
+<td>https://pdfs.semanticscholar.org/7f0c/6325723003f15a49b0982d9dcdc43164deb0.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>gen-ext, gen-abs, arch-cnn</td>
+<td>28</td>
+<td>Guiding Generation for Abstractive Text Summarization Based on Key Information Guide Network</td>
+<td>Chenliang Li, Weiran Xu, Si Kan Li, Sheng Gao</td>
+<td>https://pdfs.semanticscholar.org/2770/a733eecdda23c1b3f9408c9202efec4f0da0.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>arch-att</td>
+<td>9</td>
+<td>A Mixed Hierarchical Attention Based Encoder-Decoder Approach for Standard Table Summarization</td>
+<td>Parag Jain, Anirban Laha, Karthik Sankaranarayanan, Preksha Nema, Mitesh M. Khapra, Shreyas Shetty</td>
+<td>https://arxiv.org/pdf/1804.07790.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>task-query</td>
+<td>6</td>
+<td>Effective Crowdsourcing for a New Type of Summarization Task</td>
+<td>Youxuan Jiang, Catherine Finegan-Dollak, Jonathan K. Kummerfeld, Walter S. Lasecki</td>
+<td>https://pdfs.semanticscholar.org/69ab/6ce4656be944db0e987228a7cb2f449b6ed2.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge, eval-aspect-redundancy</td>
+<td>48</td>
+<td>Multi-Reward Reinforced Summarization with Saliency and Entailment</td>
+<td>Ramakanth Pasunuru, Mohit Bansal</td>
+<td>https://arxiv.org/pdf/1804.06451.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>NAA-CL</td>
+<td>eval-metric-rouge</td>
+<td>7</td>
+<td>Objective Function Learning to Match Human Judgements for Optimization-Based Summarization</td>
+<td>Maxime Peyrard, Iryna Gurevych</td>
+<td>https://pdfs.semanticscholar.org/7ed8/dd8a10ebf1508947c29c1e82f8a0197f9f78.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>task-multimodal, task-video, arch-att</td>
+<td>19</td>
+<td>Video Summarization via Semantic Attended Networks</td>
+<td>Huawei Wei, Bingbing Ni, Yichao Yan, Huanyu Yu, Xiaokang Yang, Chen Yao</td>
+<td>https://pdfs.semanticscholar.org/6ec0/9bad57cc81a71ef7596f57e94ee13b380ae3.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>task-multimodal, task-video</td>
+<td>24</td>
+<td>Streaming Non-Monotone Submodular Maximization: Personalized Video Summarization on the Fly</td>
+<td>Baharan Mirzasoleiman, Stefanie Jegelka, Andreas Krause</td>
+<td>https://arxiv.org/pdf/1706.03583.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>gen-ext, gen-abs, arch-att, eval-aspect-factuality</td>
+<td>43</td>
+<td>Faithful to the Original: Fact Aware Neural Abstractive Summarization</td>
+<td>Ziqiang Cao, Furu Wei, Wenjie Li, Sujian Li</td>
+<td>https://arxiv.org/pdf/1711.04434.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>task-knowledge</td>
+<td>2</td>
+<td>A Semantic QA-Based Approach for Text Summarization Evaluation</td>
+<td>Po Hung Chen, Fei Wu, Tong Wang</td>
+<td>https://arxiv.org/pdf/1704.06259.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>gen-ext, task-multiDoc, eval-metric-rouge</td>
+<td>0</td>
+<td>Unity in Diversity: Learning Distributed Heterogeneous Sentence Representation for Extractive Summarization</td>
+<td>Abhishek Kumar Singh, Manish Gupta, Vasudeva Varma</td>
+<td>https://arxiv.org/pdf/1912.11688.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>gen-ext, eval-aspect-redundancy</td>
+<td>3</td>
+<td>Twitter Summarization Based on Social Network and Sparse Reconstruction</td>
+<td>Ruifang He, Xingyi Duan</td>
+<td>https://pdfs.semanticscholar.org/0904/00e0c6404958f500a51bf52f66ca2b50e694.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>gen-ext, task-opinion, task-knowledge, arch-rnn, train-multitask</td>
+<td>4</td>
+<td>Cognition-Cognizant Sentiment Analysis With Multitask Subjectivity Summarization Based on Annotators' Gaze Behavior</td>
+<td>Abhijit Mishra, Srikanth Tamilselvam, Riddhiman Dasgupta, Seema Nagar, Kuntal Dey</td>
+<td>https://pdfs.semanticscholar.org/ef52/f8f774464961139fd45be462b133255e6147.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>train-unsup, task-multimodal, task-video, task-opinion, arch-rnn, nondif-reinforce</td>
+<td>55</td>
+<td>Deep Reinforcement Learning for Unsupervised Video Summarization With Diversity-Representativeness Reward</td>
+<td>Kaiyang Zhou, Yu Qiao</td>
+<td>https://arxiv.org/pdf/1801.00054.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>AAAI</td>
+<td>gen-abs, arch-cnn, nondif-reinforce, eval-metric-rouge</td>
+<td>42</td>
+<td>Generative Adversarial Network for Abstractive Text Summarization</td>
+<td>Linqing Liu, Yao Lu, Min Yang, Qiang Qu, Jia Zhu, Hongyan Li</td>
+<td>https://arxiv.org/pdf/1711.09357.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ICML</td>
+<td>task-multimodal</td>
+<td>28</td>
+<td>Fair and Diverse DPP-Based Data Summarization</td>
+<td>L. Elisa Celis, Vijay Keswani, Damian Straszak, Amit Deshpande, Tarun Kathuria, Nisheeth K. Vishnoi</td>
+<td>https://arxiv.org/pdf/1802.04023.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ICML</td>
+<td>gen-2stage</td>
+<td>10</td>
+<td>Data Summarization at Scale: A Two-Stage Submodular Approach</td>
+<td>Marko Mitrovic, Ehsan Kazemi, Morteza Zadimoghaddam, Amin Karbasi</td>
+<td>https://arxiv.org/pdf/1806.02815.pdf</td>
+</tr>
+<tr><td>2018</td>
+<td>ICML</td>
+<td>other</td>
+<td>15</td>
+<td>Scalable Deletion-Robust Submodular Maximization: Data Summarization with Privacy and Fairness Constraints</td>
+<td>Ehsan Kazemi, Morteza Zadimoghaddam, Amin Karbasi</td>
+<td>https://pdfs.semanticscholar.org/6259/9f741551c1f8a12336714f6cd7d4a7004e54.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>gen-ext, gen-abs, task-query, arch-att</td>
+<td>46</td>
+<td>Diversity driven attention model for query-based abstractive summarization</td>
+<td>Preksha Nema, Mitesh M. Khapra, Anirban Laha, Balaraman Ravindran</td>
+<td>https://arxiv.org/pdf/1704.08300.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>gen-ext, task-multiDoc</td>
+<td>6</td>
+<td>Supervised Learning of Automatic Pyramid for Optimization-Based Multi-Document Summarization</td>
+<td>Maxime Peyrard, Judith Eckle-Kohler</td>
+<td>https://pdfs.semanticscholar.org/fff9/8a5851431593f40945b4c49ec969888bce62.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>gen-abs, arch-cnn</td>
+<td>106</td>
+<td>Selective Encoding for Abstractive Sentence Summarization</td>
+<td>Qingyu Zhou, Nan Yang, Furu Wei, Ming Zhou</td>
+<td>https://arxiv.org/pdf/1704.07073.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>gen-ext, gen-abs, arch-att</td>
+<td>111</td>
+<td>Abstractive Document Summarization with a Graph-Based Attentional Neural Model</td>
+<td>Jiwei Tan, Xiaojun Wan, Jianguo Xiao</td>
+<td>https://pdfs.semanticscholar.org/c624/c38e53f321a6df2d16bd707499ce744ca114.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>gen-ext, gen-2stage, eval-metric-rouge</td>
+<td>4</td>
+<td>Oracle Summaries of Compressive Summarization</td>
+<td>Tsutomu Hirao, Masaaki Nishino, Masaaki Nagata</td>
+<td>https://pdfs.semanticscholar.org/37eb/67de02a79855de24420d391efd025ebaa89a.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ACL</td>
+<td>arch-att</td>
+<td>27</td>
+<td>Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization</td>
+<td>Shuming Ma, Xu Sun, Jingjing Xu, Houfeng Wang, Wenjie Li, Qi Su</td>
+<td>https://arxiv.org/pdf/1706.02459.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>EMNLP</td>
+<td>task-multiDoc, eval-metric-rouge</td>
+<td>3</td>
+<td>Affinity-Preserving Random Walk for Multi-Document Summarization</td>
+<td>Kexiang Wang, Tianyu Liu, Zhifang Sui, Baobao Chang</td>
+<td>https://pdfs.semanticscholar.org/9397/c3545ada8e139684c6f479d6f0e125885b32.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>EMNLP</td>
+<td>task-event</td>
+<td>26</td>
+<td>Hierarchically-Attentive RNN for Album Summarization and Storytelling</td>
+<td>Licheng Yu, Mohit Bansal, Tamara L. Berg</td>
+<td>https://arxiv.org/pdf/1708.02977.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>EMNLP</td>
+<td>task-multimodal, task-video, task-multimodal</td>
+<td>12</td>
+<td>Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video</td>
+<td>Haoran Li, Junnan Zhu, Cong Ma, Jiajun Zhang, Chengqing Zong</td>
+<td>https://pdfs.semanticscholar.org/25e3/a70f95e4c636e4ddd602dcf5a6d3318a0504.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>EMNLP</td>
+<td>gen-2stage, train-unsup, task-multiDoc, task-senCompre, arch-att</td>
+<td>12</td>
+<td>Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization</td>
+<td>Piji Li, Wai Lam, Lidong Bing, Weiwei Guo, Huang Li</td>
+<td>https://pdfs.semanticscholar.org/d025/598aab2075a89c5313c6092a6fbeab744b2f.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>EMNLP</td>
+<td>gen-abs, latent-vae</td>
+<td>76</td>
+<td>Deep Recurrent Generative Decoder for Abstractive Text Summarization</td>
+<td>Piji Li, Wai Lam, Lidong Bing, Zihao W. Wang</td>
+<td>https://arxiv.org/pdf/1708.00625.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>EMNLP</td>
+<td>train-curriculum</td>
+<td>32</td>
+<td>Extractive Summarization Using Multi-Task Learning with Document Classification</td>
+<td>Masaru Isonuma, Toru Fujino, Junichiro Mori, Yutaka Matsuo, Ichiro Sakata</td>
+<td>https://pdfs.semanticscholar.org/a621/f2049fc484ae696ccb32ff5544a922009f7b.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>EMNLP</td>
+<td>task-event</td>
+<td>7</td>
+<td>Interactive Abstractive Summarization for Event News Tweets</td>
+<td>Ori Shapira, Hadar Ronen, Meni Adler, Yael Amsterdamer, Judit Bar-Ilan, Ido Dagan</td>
+<td>https://pdfs.semanticscholar.org/84f0/09920b919ff3ee6b64cb146446a7b80fdecf.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>AAAI</td>
+<td>task-multimodal, task-video</td>
+<td>7</td>
+<td>Bridging Video Content and Comments: Synchronized Video Description with Temporal Summarization of Crowdsourced Time-Sync Comments</td>
+<td>Linli Xu, Chao Zhang</td>
+<td>https://pdfs.semanticscholar.org/fdcc/b06ca15bb83961cf7d1b62cb7be158a38864.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>AAAI</td>
+<td>task-multiDoc</td>
+<td>42</td>
+<td>Improving Multi-Document Summarization via Text Classification</td>
+<td>Ziqiang Cao, Wenjie Li, Sujian Li, Furu Wei</td>
+<td>https://arxiv.org/pdf/1611.09238.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>AAAI</td>
+<td>train-unsup, task-multiDoc, train-multitask, latent-vae</td>
+<td>25</td>
+<td>Salience Estimation via Variational Auto-Encoders for Multi-Document Summarization</td>
+<td>Piji Li, Zihao W. Wang, Wai Lam, Zhaochun Ren, Lidong Bing</td>
+<td>https://pdfs.semanticscholar.org/c41d/71217cebb1ef70ba16068d21df9f7be16b70.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>AAAI</td>
+<td>task-multimodal, task-video, task-event, data-new</td>
+<td>12</td>
+<td>Active Video Summarization: Customized Summaries via On-line Interaction with the User</td>
+<td>Ana Garcia del Molino, Xavier Boix, Joo-Hwee Lim, Ah-Hwee Tan</td>
+<td>https://pdfs.semanticscholar.org/eb9b/5c4f161954443b59a5fa4df14f4123f95953.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ICML</td>
+<td>other</td>
+<td>8</td>
+<td>Differentially Private Submodular Maximization: Data Summarization in Disguise</td>
+<td>Marko Mitrovic, Mark Bun, Andreas Krause, Amin Karbasi</td>
+<td>https://pdfs.semanticscholar.org/0fe4/1911a6d96579be0452ab805e953e6230fbb1.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>ICML</td>
+<td>task-multimodal</td>
+<td>23</td>
+<td>Deletion-Robust Submodular Maximization: Data Summarization with "the Right to be Forgotten"</td>
+<td>Baharan Mirzasoleiman, Amin Karbasi, Andreas Krause</td>
+<td>https://pdfs.semanticscholar.org/eb94/9b8b72bab2bdfd0729f1e9df31cfb7434b2c.pdf</td>
+</tr>
+<tr><td>2017</td>
+<td>NIPS</td>
+<td>task-multimodal, task-video</td>
+<td>9</td>
+<td>Subset Selection and Summarization in Sequential Data</td>
+<td>Ehsan Elhamifar, M. Clara De Paolis Kaluza</td>
+<td>https://pdfs.semanticscholar.org/add6/f2c6357a57e9fc56d3e9df6950d3978bd476.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>ACL</td>
+<td>gen-ext, task-multiDoc, eval-metric-rouge</td>
+<td>10</td>
+<td>Optimizing an Approximation of ROUGE - a Problem-Reduction Approach to Extractive Multi-Document Summarization</td>
+<td>Maxime Peyrard, Judith Eckle-Kohler</td>
+<td>https://pdfs.semanticscholar.org/6545/5772149b5d0d7db369da2fb9f1795ad2acf8.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>ACL</td>
+<td>task-singledDoc</td>
+<td>70</td>
+<td>Learning-Based Single-Document Summarization with Compression and Anaphoricity Constraints</td>
+<td>Greg Durrett, Taylor Berg-Kirkpatrick, Dan Klein</td>
+<td>https://arxiv.org/pdf/1603.08887.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>EMNLP</td>
+<td>other</td>
+<td>9</td>
+<td>News Stream Summarization using Burst Information Networks</td>
+<td>Tao Ge, Lei Cui, Baobao Chang, Sujian Li, Ming Zhou, Zhifang Sui</td>
+<td>https://pdfs.semanticscholar.org/574c/8f5ed8c8b2779ce3eeb4a6d31f218a9073cd.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>NAA-CL</td>
+<td>gen-ext, task-multimodal, task-video, task-event, arch-cnn</td>
+<td>22</td>
+<td>A Low-Rank Approximation Approach to Learning Joint Embeddings of News Stories and Images for Timeline Summarization</td>
+<td>William Yang Wang, Yashar Mehdad, Dragomir R. Radev, Amanda Stent</td>
+<td>https://pdfs.semanticscholar.org/0b9d/93e5d3b72ff61117edde269c3068724bd119.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>NAA-CL</td>
+<td>eval-metric-rouge</td>
+<td>11</td>
+<td>Automatic Summarization of Student Course Feedback</td>
+<td>Wencan Luo, Fei Liu, Zitao Liu, Diane J. Litman</td>
+<td>https://arxiv.org/pdf/1805.10395.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>NAA-CL</td>
+<td>gen-abs, arch-rnn, arch-cnn, arch-att</td>
+<td>400</td>
+<td>Abstractive Sentence Summarization with Attentive Recurrent Neural Networks</td>
+<td>Sumit Chopra, Michael Auli, Alexander M. Rush</td>
+<td>https://pdfs.semanticscholar.org/7a67/159fc7bc76d0b37930b55005a69b51241635.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>NAA-CL</td>
+<td>eval-aspect-coherence</td>
+<td>1</td>
+<td>Non-decreasing Sub-modular Function for Comprehensible Summarization</td>
+<td>Litton J. Kurisinkel, Pruthwik Mishra, Vigneshwaran Muralidaran, Vasudeva Varma, Dipti Misra Sharma</td>
+<td>https://pdfs.semanticscholar.org/d1f5/67bbc0f0c456ec64c822d7bec0c38b21d490.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>AAAI</td>
+<td>task-multimodal</td>
+<td>44</td>
+<td>Noisy Submodular Maximization via Adaptive Sampling with Applications to Crowdsourced Image Collection Summarization</td>
+<td>Adish Singla, Sebastian Tschiatschek, Andreas Krause</td>
+<td>https://arxiv.org/pdf/1511.07211.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>AAAI</td>
+<td>other</td>
+<td>4</td>
+<td>Topic Concentration in Query Focused Summarization Datasets</td>
+<td>Tal Baumel, Raphael Cohen, Michael Elhadad</td>
+<td>http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/11939</td>
+</tr>
+<tr><td>2016</td>
+<td>AAAI</td>
+<td>gen-abs, task-multiDoc, eval-metric-rouge</td>
+<td>25</td>
+<td>TGSum: Build Tweet Guided Multi-Document Summarization Dataset</td>
+<td>Ziqiang Cao, Chengyao Chen, Wenjie Li, Sujian Li, Furu Wei, Ming Zhou</td>
+<td>https://arxiv.org/pdf/1511.08417.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>AAAI</td>
+<td>gen-ext, train-unsup, task-opinion</td>
+<td>12</td>
+<td>Microsummarization of Online Reviews: An Experimental Study</td>
+<td>Rebecca Mason, Benjamin Gaska, Benjamin Van Durme, Pallavi Choudhury, Ted Hart, William B. Dolan, Kristina Toutanova, Margaret Mitchell</td>
+<td>https://pdfs.semanticscholar.org/f902/646b34f3ad6981ee868a5e3a1ec8eaee33a4.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>IJCAI</td>
+<td>other</td>
+<td>10</td>
+<td>HIEDS: A Generic and Efficient Approach to Hierarchical Dataset Summarization</td>
+<td>Gong Cheng, Cheng Jin, Yuzhong Qu</td>
+<td>https://pdfs.semanticscholar.org/026b/f96710109f9d4842cb8f6000e3cda688ce90.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>IJCAI</td>
+<td>other</td>
+<td>11</td>
+<td>Timeline Summarization with Life Cycle Models</td>
+<td>Yi Chang, Jiliang Tang, Dawei Yin, Makoto Yamada, Yan Liu</td>
+<td>https://pdfs.semanticscholar.org/e2f5/022bc9857704f3f27658ad2e87b55106955a.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>IJCAI</td>
+<td>other</td>
+<td>16</td>
+<td>Real-Time Web Scale Event Summarization Using Sequential Decision Making</td>
+<td>Javed A. Aslam, Matthew Ekstrand-Abueg, Virgil Pavlu, Fernando Diaz, Tetsuya Sakai</td>
+<td>https://pdfs.semanticscholar.org/4e46/ca0cd5284d35ca5e6db24839214436905dbb.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>ICML</td>
+<td>other</td>
+<td>56</td>
+<td>Fast Constrained Submodular Maximization: Personalized Data Summarization</td>
+<td>Baharan Mirzasoleiman, Ashwinkumar Badanidiyuru, Amin Karbasi</td>
+<td>https://pdfs.semanticscholar.org/2adc/e1a5e7606157950b1899a2a4c709a6820429.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>ICML</td>
+<td>task-code, arch-cnn, arch-att</td>
+<td>166</td>
+<td>A Convolutional Attention Network for Extreme Summarization of Source Code</td>
+<td>Miltiadis Allamanis, Hao Peng, Charles A. Sutton</td>
+<td>https://arxiv.org/pdf/1602.03001.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>NIPS</td>
+<td>train-retrieval</td>
+<td>8</td>
+<td>Leveraging Sparsity for Efficient Submodular Data Summarization</td>
+<td>Erik M. Lindgren, Shanshan Wu, Alexandros G. Dimakis</td>
+<td>https://arxiv.org/pdf/1703.02690.pdf</td>
+</tr>
+<tr><td>2016</td>
+<td>NIPS</td>
+<td>other</td>
+<td>25</td>
+<td>Fast Distributed Submodular Cover: Public-Private Data Summarization</td>
+<td>Baharan Mirzasoleiman, Morteza Zadimoghaddam, Amin Karbasi</td>
+<td>https://pdfs.semanticscholar.org/15d6/7d6303cd873ede3e695dc180bb44742e6615.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>ACL</td>
+<td>other</td>
+<td>10</td>
+<td>Summarization of Multi-Document Topic Hierarchies using Submodular Mixtures</td>
+<td>Ramakrishna Bairi, Rishabh K. Iyer, Ganesh Ramakrishnan, Jeff A. Bilmes</td>
+<td>https://pdfs.semanticscholar.org/3552/449ef8576bb4fa11d8944e0ccb4338982cce.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>ACL</td>
+<td>gen-abs, task-multiDoc</td>
+<td>106</td>
+<td>Abstractive Multi-Document Summarization via Phrase Selection and Merging</td>
+<td>Lidong Bing, Piji Li, Yi Liao, Wai Lam, Weiwei Guo, Rebecca J. Passonneau</td>
+<td>https://arxiv.org/pdf/1506.01597.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>ACL</td>
+<td>other</td>
+<td>16</td>
+<td>Joint Graphical Models for Date Selection in Timeline Summarization</td>
+<td>Giang Binh Tran, Eelco Herder, Katja Markert</td>
+<td>https://doi.org/10.3115/v1%2FP15-1154</td>
+</tr>
+<tr><td>2015</td>
+<td>ACL</td>
+<td>task-event, eval-aspect-redundancy</td>
+<td>39</td>
+<td>Predicting Salient Updates for Disaster Summarization</td>
+<td>Chris Kedzie, Kathleen McKeown, Fernando Díaz</td>
+<td>https://pdfs.semanticscholar.org/382b/f4617c7732fbd9aa2b8cee442216f204d4c6.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>ACL</td>
+<td>task-multiDoc</td>
+<td>1</td>
+<td>BrailleSUM: A News Summarization System for the Blind and Visually Impaired People</td>
+<td>Chin-Yew Lin, Eduard H. Hovy</td>
+<td>https://pdfs.semanticscholar.org/9c1a/028299cc2b7f4cbdbe6e19abfc844a6ead6b.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>ACL</td>
+<td>arch-cnn</td>
+<td>73</td>
+<td>Learning Summary Prior Representation for Extractive Summarization</td>
+<td>Ziqiang Cao, Furu Wei, Sujian Li, Wenjie Li, Ming Zhou, Houfeng Wang</td>
+<td>https://pdfs.semanticscholar.org/0f6d/8e5d9b243eaf1d3968d8cd272db64e536beb.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>ACL</td>
+<td>gen-ext, train-unsup</td>
+<td>16</td>
+<td>Unsupervised extractive summarization via coverage maximization with syntactic and semantic concepts</td>
+<td>Natalie Schluter, Anders Søgaard</td>
+<td>https://pdfs.semanticscholar.org/ff20/f2c56d3f57c679c33174ab20c0260b3654a2.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>task-multiDoc</td>
+<td>33</td>
+<td>System Combination for Multi-document Summarization</td>
+<td>Kai Hong, Mitchell Marcus, Ani Nenkova</td>
+<td>https://pdfs.semanticscholar.org/0403/ca8ad125899996c783f6481c78d432a77106.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>task-opinion</td>
+<td>4</td>
+<td>Monotone Submodularity in Opinion Summaries</td>
+<td>Jayanth Jayanth, Jayaprakash Sundararaj, Pushpak Bhattacharyya</td>
+<td>https://pdfs.semanticscholar.org/7922/602d076e4ee4eccee690ceb44561c81fb3c4.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>task-event</td>
+<td>12</td>
+<td>Using Content-level Structures for Summarizing Microblog Repost Trees</td>
+<td>Jing Li, Wei Gao, Zhongyu Wei, Baolin Peng, Kam-Fai Wong</td>
+<td>https://pdfs.semanticscholar.org/31df/51e3f31f702898b169764825bcc9c911b7de.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>gen-abs</td>
+<td>15</td>
+<td>Summarizing Student Responses to Reflection Prompts</td>
+<td>Wencan Luo, Diane J. Litman</td>
+<td>https://pdfs.semanticscholar.org/71fe/25e61cf181fd0d02f23162360644dd9d401b.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>gen-ext</td>
+<td>24</td>
+<td>Phrase-based Compressive Cross-Language Summarization</td>
+<td>Jin-ge Yao, Xiaojun Wan, Jianguo Xiao</td>
+<td>https://pdfs.semanticscholar.org/c572/0b45c183aab4366ec339ae08b23b956711d4.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>eval-metric-rouge</td>
+<td>31</td>
+<td>Re-evaluating Automatic Summarization with BLEU and 192 Shades of ROUGE</td>
+<td>Yvette Graham</td>
+<td>https://pdfs.semanticscholar.org/333f/98412ff246cd646551b4ca6f4b059dc1ea81.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>gen-ext</td>
+<td>8</td>
+<td>Indicative Tweet Generation: An Extractive Summarization Problem?</td>
+<td>Priya Sidhaye, Jackie Chi Kit Cheung</td>
+<td>https://pdfs.semanticscholar.org/5e4b/040741fb5e4944368885944cace5e31a17be.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-abs, task-multiDoc, task-event</td>
+<td>27</td>
+<td>Abstractive Multi-document Summarization with Semantic Information Extraction</td>
+<td>Wei Li</td>
+<td>https://pdfs.semanticscholar.org/4f87/81df9fd1d7473a28b86885af30a1cad2a2d0.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>eval-metric-rouge</td>
+<td>33</td>
+<td>Concept-based Summarization using Integer Linear Programming: From Concept Pruning to Multiple Optimal Solutions</td>
+<td>Florian Boudin, Hugo Mougard, Benoît Favre</td>
+<td>https://pdfs.semanticscholar.org/5ffa/3faab9f936f3973a57321acc5b8b69869a5f.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>gen-abs, eval-metric-rouge</td>
+<td>36</td>
+<td>Better Summarization Evaluation with Word Embeddings for ROUGE</td>
+<td>Jun-Ping Ng, Viktoria Abrecht</td>
+<td>https://arxiv.org/pdf/1508.06034.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>gen-ext, train-unsup, task-query</td>
+<td>9</td>
+<td>Krimping texts for better summarization</td>
+<td>Marina Litvak, Mark Last, Natalia Vanetik</td>
+<td>https://pdfs.semanticscholar.org/35d9/68bd727c8cc9408834f0846db0d789db4152.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>latent-topic</td>
+<td>60</td>
+<td>Topical Coherence for Graph-based Extractive Summarization</td>
+<td>Daraksha Parveen, Hans-Martin Ramsl, Michael Strube</td>
+<td>https://pdfs.semanticscholar.org/52eb/b5873677dd900a97e4bd4042fb40be14f937.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>other</td>
+<td>26</td>
+<td>Extractive Summarization by Maximizing Semantic Volume</td>
+<td>Dani Yogatama, Fei Liu, Noah A. Smith</td>
+<td>https://pdfs.semanticscholar.org/6bb2/08cf0aa40af2349acf0fd491136b9619b0ca.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>EMNLP</td>
+<td>other</td>
+<td>38</td>
+<td>Summarization Based on Embedding Distributions</td>
+<td>Hayato Kobayashi, Masaki Noguchi, Taichi Yatsuka</td>
+<td>https://pdfs.semanticscholar.org/11f3/474414d9c3fe3d9f85777b3292a5b31dd6f4.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NAA-CL</td>
+<td>task-opinion</td>
+<td>33</td>
+<td>Using Summarization to Discover Argument Facets in Online Idealogical Dialog</td>
+<td>Amita Misra, Pranav Anand, Jean E. Fox Tree, Marilyn A. Walker</td>
+<td>https://arxiv.org/pdf/1709.00662.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NAA-CL</td>
+<td>gen-ext, task-singledDoc, task-senCompre</td>
+<td>6</td>
+<td>A Dynamic Programming Algorithm for Tree Trimming-based Text Summarization</td>
+<td>Masaaki Nishino, Norihito Yasuda, Tsutomu Hirao, Shin-ichi Minato, Masaaki Nagata</td>
+<td>https://pdfs.semanticscholar.org/60b3/d552588c7342a681194d4835dfac82f99cb5.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NAA-CL</td>
+<td>task-multiDoc</td>
+<td>30</td>
+<td>Using External Resources and Joint Learning for Bigram Weighting in ILP-Based Multi-Document Summarization</td>
+<td>Chen Li, Yang Liu, Lin Zhao</td>
+<td>https://pdfs.semanticscholar.org/51c2/91403797ce3e4f3410d74241c976332a6627.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NAA-CL</td>
+<td>other</td>
+<td>23</td>
+<td>Movie Script Summarization as Graph-based Scene Extraction</td>
+<td>Philip John Gorinski, Mirella Lapata</td>
+<td>https://pdfs.semanticscholar.org/79c4/243df125387e89bb9ed2121f3c0f7a4565d7.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NAA-CL</td>
+<td>gen-abs, task-event</td>
+<td>151</td>
+<td>Toward Abstractive Summarization Using Semantic Representations</td>
+<td>Fei Liu, Jeffrey Flanigan, Sam Thomson, Norman M. Sadeh, Noah A. Smith</td>
+<td>https://arxiv.org/pdf/1805.10399.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NAA-CL</td>
+<td>task-multiDoc</td>
+<td>27</td>
+<td>Clustering Sentences with Density Peaks for Multi-document Summarization</td>
+<td>Yang Zhang, Yunqing Xia, Yi Liu, Wenmin Wang</td>
+<td>https://pdfs.semanticscholar.org/9d0c/28d20de2ff4f429e95f5247e938acff4f01c.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NAA-CL</td>
+<td>eval-metric-rouge</td>
+<td>16</td>
+<td>Improving Update Summarization via Supervised ILP and Sentence Reranking</td>
+<td>Chen Li, Yang Liu, Lin Zhao</td>
+<td>https://pdfs.semanticscholar.org/ae37/e0d13547caa149273cab7883d2dd721d465a.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NAA-CL</td>
+<td>gen-ext</td>
+<td>11</td>
+<td>Enhancing Instructor-Student and Student-Student Interactions with Mobile Interfaces and Summarization</td>
+<td>Wencan Luo, Xiangmin Fan, Muhsin Menekse, Jingtao Wang, Diane J. Litman</td>
+<td>https://pdfs.semanticscholar.org/9ff7/76a8675463b747e3af677f603a77957216bc.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>AAAI</td>
+<td>gen-ext</td>
+<td>42</td>
+<td>FACES: Diversity-Aware Entity Summarization Using Incremental Hierarchical Conceptual Clustering</td>
+<td>Kalpa Gunaratna, Krishnaprasad Thirunarayan, Amit P. Sheth</td>
+<td>https://pdfs.semanticscholar.org/a7cb/7de7329f1145626a3689349ce92e54f81756.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>AAAI</td>
+<td>gen-ext, task-multiDoc</td>
+<td>37</td>
+<td>Multi-Document Summarization Based on Two-Level Sparse Representation Model</td>
+<td>He Liu, Hongliang Yu, Zhi-Hong Deng</td>
+<td>https://pdfs.semanticscholar.org/1100/064b1e68e15d4dfadfcaf1d0d037c5b3786d.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>AAAI</td>
+<td>task-multiDoc</td>
+<td>159</td>
+<td>Ranking with Recursive Neural Networks and Its Application to Multi-Document Summarization</td>
+<td>Ziqiang Cao, Furu Wei, Li Dong, Sujian Li, Ming Zhou</td>
+<td>https://pdfs.semanticscholar.org/e522/e23a4f4c797478d90afaa5c4d96b30d50aa7.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>IJCAI</td>
+<td>gen-ext, gen-2stage</td>
+<td>29</td>
+<td>Compressive Document Summarization via Sparse Optimization</td>
+<td>Jin-ge Yao, Xiaojun Wan, Jianguo Xiao</td>
+<td>https://pdfs.semanticscholar.org/58ca/38168655d1acfc9f38bfd1c2107d34fdda22.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>IJCAI</td>
+<td>gen-abs, task-multiDoc, task-senCompre</td>
+<td>89</td>
+<td>Multi-Document Abstractive Summarization Using ILP based Multi-Sentence Compression</td>
+<td>Siddhartha Banerjee, Prasenjit Mitra, Kazunari Sugiyama</td>
+<td>https://arxiv.org/pdf/1609.07034.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>IJCAI</td>
+<td>gen-2stage, task-multiDoc, task-event</td>
+<td>33</td>
+<td>Reader-Aware Multi-Document Summarization via Sparse Coding</td>
+<td>Piji Li, Lidong Bing, Wai Lam, Huang Li, Yi Liao</td>
+<td>https://arxiv.org/pdf/1504.07324.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>IJCAI</td>
+<td>gen-ext, arch-cnn, eval-aspect-redundancy</td>
+<td>58</td>
+<td>Optimizing Sentence Modeling and Selection for Document Summarization</td>
+<td>Wenpeng Yin, Yulong Pei</td>
+<td>https://pdfs.semanticscholar.org/f121/92424dfd1a2df308346520556a1a7ed6094c.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>IJCAI</td>
+<td>gen-ext, task-singledDoc, task-senCompre, task-sci, eval-metric-rouge, eval-aspect-coherence, eval-aspect-redundancy</td>
+<td>47</td>
+<td>Integrating Importance, Non-redundancy and Coherence Graph-based Extractive Summarization</td>
+<td>Daraksha Parveen, Michael Strube</td>
+<td>https://pdfs.semanticscholar.org/8d66/4019dfaa30b07d3b2d9b15b0c756092347f2.pdf</td>
+</tr>
+<tr><td>2015</td>
+<td>NIPS</td>
+<td>gen-ext</td>
+<td>4</td>
+<td>Weighted Theta Functions and Embeddings with Applications to Max-Cut, Clustering and Summarization</td>
+<td>Fredrik D. Johansson, Ankani Chattoraj, Chiranjib Bhattacharyya, Devdatt P. Dubhashi</td>
+<td>https://pdfs.semanticscholar.org/fe63/ccc491b5d7e5633927a4d5cd8a1fd8516f65.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>ACL</td>
+<td>gen-ext, gen-abs, task-event</td>
+<td>29</td>
+<td>Modelling Events through Memory-based, Open-IE Patterns for Abstractive Summarization</td>
+<td>John M Brown</td>
+<td>https://pdfs.semanticscholar.org/642c/1dd6dddb38b65b0b0d71f25b84186f14613e.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>ACL</td>
+<td>task-multiDoc</td>
+<td>38</td>
+<td>Hierarchical Summarization: Scaling Up Multi-Document Summarization</td>
+<td>Janara Christensen, Stephen Soderland, Gagan Bansal, Mausam</td>
+<td>https://pdfs.semanticscholar.org/7c44/f9cb7a22576c811d344c58846a9c41356a08.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>ACL</td>
+<td>task-query</td>
+<td>13</td>
+<td>Query-Chain Focused Summarization</td>
+<td>Tal Baumel, Raphael Cohen, Michael Elhadad</td>
+<td>https://pdfs.semanticscholar.org/1190/d79aaa94da75bdab3300e29369fb82bd47a8.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>ACL</td>
+<td>task-multiDoc, eval-metric-rouge</td>
+<td>28</td>
+<td>Exploiting Timelines to Enhance Multi-document Summarization</td>
+<td>Jun-Ping Ng, Yan Chen, Min-Yen Kan, Zhoujun Li</td>
+<td>https://pdfs.semanticscholar.org/6bdf/3bd4c32b65ba0c144768ed75744497d193d4.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>ACL</td>
+<td>gen-ext, gen-abs, task-query</td>
+<td>20</td>
+<td>Abstractive Summarization of Spoken and Written Conversations Based on Phrasal Queries</td>
+<td>Yashar Mehdad, Giuseppe Carenini, Raymond T. Ng</td>
+<td>https://pdfs.semanticscholar.org/a892/4217e17c5119333789504576933d9075f5c3.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>ACL</td>
+<td>gen-ext, task-multiDoc, task-event, nondif-reinforce</td>
+<td>5</td>
+<td>Detection of Topic and its Extrinsic Evaluation Through Multi-Document Summarization</td>
+<td>Yoshimi Suzuki, Fumiyo Fukumoto</td>
+<td>https://pdfs.semanticscholar.org/3df4/aefbaa410c71ba54820731a2e4b7a850fe07.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>ACL</td>
+<td>other</td>
+<td>40</td>
+<td>Single Document Summarization based on Nested Tree Structure</td>
+<td>Yuta Kikuchi, Tsutomu Hirao, Hiroya Takamura, Manabu Okumura, Masaaki Nagata</td>
+<td>https://pdfs.semanticscholar.org/da7a/8544f1d110c2ba1d430350810af61e0b1a35.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>ACL</td>
+<td>task-knowledge</td>
+<td>10</td>
+<td>A Bayesian Method to Incorporate Background Knowledge during Automatic Text Summarization</td>
+<td>Annie Louis</td>
+<td>https://pdfs.semanticscholar.org/ea1c/a46a8f6038b2fc35414af9b28c981e7610c7.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>EMNLP</td>
+<td>task-query, train-retrieval, eval-metric-rouge</td>
+<td>2</td>
+<td>Finding Good Enough: A Task-Based Evaluation of Query Biased Summarization for Cross-Language Information Retrieval</td>
+<td>Jennifer Williams, Sharon W. Tam, Wade Shen</td>
+<td>https://pdfs.semanticscholar.org/7186/ba0e0098e07ee35849167b39b2b11bff9bb0.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>EMNLP</td>
+<td>task-multiDoc, task-query, nondif-reinforce, eval-metric-rouge</td>
+<td>24</td>
+<td>Fear the REAPER: A System for Automatic Multi-Document Summarization with Reinforcement Learning</td>
+<td>Cody Rioux, Sadid A. Hasan, Yllias Chali</td>
+<td>https://pdfs.semanticscholar.org/14a9/3e7967e9fd2cdcc3cdfc350a3522f063bfdf.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>EMNLP</td>
+<td>gen-2stage, task-multiDoc, task-senCompre, eval-metric-rouge</td>
+<td>39</td>
+<td>Improving Multi-documents Summarization by Sentence Compression based on Expanded Constituent Parse Trees</td>
+<td>Chen Li, Yang Liu, Fei Liu, Lin Zhao, Fuliang Weng</td>
+<td>https://pdfs.semanticscholar.org/26d8/cd270901ec70e9c1bd8e76dafe7855d83a99.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>EMNLP</td>
+<td>task-multiDoc, task-knowledge</td>
+<td>1</td>
+<td>Analyzing Stemming Approaches for Turkish Multi-Document Summarization</td>
+<td>Muhammed Yavuz Nuzumlali, Arzucan Özgür</td>
+<td>https://pdfs.semanticscholar.org/3237/0a4d20eec6d26e69f465f091a8c23360e9d6.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>EMNLP</td>
+<td>gen-abs, task-event</td>
+<td>30</td>
+<td>Unsupervised Sentence Enhancement for Automatic Summarization</td>
+<td>Jackie Chi Kit Cheung, Gerald Penn</td>
+<td>https://pdfs.semanticscholar.org/b8c7/ab732f1e51d3ad00024bc4e5eda3b041f7cc.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>EMNLP</td>
+<td>task-query, train-retrieval</td>
+<td>8</td>
+<td>Leveraging Effective Query Modeling Techniques for Speech Recognition and Summarization</td>
+<td>Kuan-Yu Chen, Shih-Hung Liu, Berlin Chen, Ea-Ee Jan, Hsin-Min Wang, Wen-Lian Hsu, Hsin-Hsi Chen</td>
+<td>https://pdfs.semanticscholar.org/14c5/82c34e19ab9c8be34547ba1ca5404db1b865.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>EMNLP</td>
+<td>gen-abs, task-opinion, train-template</td>
+<td>96</td>
+<td>Abstractive Summarization of Product Reviews Using Discourse Structure</td>
+<td>Shima Gerani, Yashar Mehdad, Giuseppe Carenini, Raymond T. Ng, Bita Nejat</td>
+<td>https://pdfs.semanticscholar.org/2113/8c47dfe71fb33267ea0f855f32accf5c11ce.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>EMNLP</td>
+<td>eval-metric-rouge</td>
+<td>43</td>
+<td>Dependency-based Discourse Parser for Single-Document Summarization</td>
+<td>Yasuhisa Yoshida, Jun Suzuki, Tsutomu Hirao, Masaaki Nagata</td>
+<td>https://pdfs.semanticscholar.org/3eb3/43d0b8160fb406da59855118a49c53e1136e.pdf</td>
+</tr>
+<tr><td>2014</td>
+<td>AAAI</td>
+<td>task-multimodal</td>
+<td>10</td>
+<td>A Joint Optimization Model for Image Summarization Based on Image Content and Tags</td>
+<td>Hongliang Yu, Zhi-Hong Deng, Yunlun Yang, Tao Xiong</td>
+<td>https://pdfs.semanticscholar.org/e33e/330842c693a074bf04962499f3dc3b7ffc4e.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>gen-abs, train-template</td>
+<td>45</td>
+<td>Domain-Independent Abstract Generation for Focused Meeting Summarization</td>
+<td>Lu Wang, Claire Cardie</td>
+<td>https://pdfs.semanticscholar.org/0a47/0d9724c3ca21e6b53539ef9f099ba1c3e59c.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>task-multiDoc, task-senCompre, task-query, eval-metric-rouge</td>
+<td>78</td>
+<td>A Sentence Compression Based Framework to Query-Focused Multi-Document Summarization</td>
+<td>Lu Wang, Hema Raghavan, Vittorio Castelli, Radu Florian, Claire Cardie</td>
+<td>https://arxiv.org/pdf/1606.07548.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>gen-ext, task-multiDoc, train-multitask, eval-metric-rouge</td>
+<td>76</td>
+<td>Fast and Robust Compressive Summarization with Dual Decomposition and Multi-Task Learning</td>
+<td>Miguel B. Almeida, André F. T. Martins</td>
+<td>https://pdfs.semanticscholar.org/6401/9361de1d4fa54a7fc5949f3c4f568a6f334c.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>gen-ext</td>
+<td>30</td>
+<td>Subtree Extractive Summarization via Submodular Maximization</td>
+<td>Hajime Morita, Ryohei Sasano, Hiroya Takamura, Manabu Okumura</td>
+<td>https://pdfs.semanticscholar.org/0aed/313319c636496b3b04be33123d9677a52d91.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>eval-aspect-redundancy</td>
+<td>43</td>
+<td>Summarization Through Submodularity and Dispersion</td>
+<td>Anirban Dasgupta, Ravi Kumar, Sujith Ravi</td>
+<td>https://pdfs.semanticscholar.org/dbe1/93dc6d9bb313cb4298da26f9ab38b807e51e.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>gen-abs, task-multiDoc, task-senCompre, eval-aspect-redundancy</td>
+<td>27</td>
+<td>Towards Robust Abstractive Multi-Document Summarization: A Caseframe Analysis of Centrality and Domain</td>
+<td>Jackie Chi Kit Cheung, Gerald Penn</td>
+<td>https://pdfs.semanticscholar.org/eb57/6221bd83bb1de9105d3bc934930216615126.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>gen-ext</td>
+<td>78</td>
+<td>Using Supervised Bigram-based ILP for Extractive Summarization</td>
+<td>Chen Li, Xian Qian, Yang Liu</td>
+<td>https://pdfs.semanticscholar.org/4dbf/34d4604935af29eeca2d5a5ea4f17df0e379.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>eval-metric-rouge</td>
+<td>31</td>
+<td>Evolutionary Hierarchical Dirichlet Process for Timeline Summarization</td>
+<td>Jiwei Li, Sujian Li</td>
+<td>https://pdfs.semanticscholar.org/eff3/c2e5a633857138688336ee7bc4bd6cc7cec2.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>ACL</td>
+<td>other</td>
+<td>14</td>
+<td>Sequential Summarization: A New Application for Timely Updated Twitter Trending Topics</td>
+<td>Dehong Gao, Wenjie Li, Renxian Zhang</td>
+<td>https://pdfs.semanticscholar.org/eb7c/c170b294ef56911dac7d1d078299ac7d10c0.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>EMNLP</td>
+<td>task-singledDoc</td>
+<td>1</td>
+<td>Automatically Determining a Proper Length for Multi-document Summarization: A Bayesian Nonparametric Approach</td>
+<td>Tengfei Ma, Hiroshi Nakagawa</td>
+<td>https://pdfs.semanticscholar.org/99ed/33dc371b1d281be919c5d2533161f0a4ac22.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>EMNLP</td>
+<td>task-knowledge</td>
+<td>9</td>
+<td>Collective Personal Profile Summarization with Social Networks</td>
+<td>Zhongqing Wang, Shoushan Li, Fang Kong, Guodong Zhou</td>
+<td>https://pdfs.semanticscholar.org/ad82/5000bb191e1cf705a2f83e55c128bfd1d160.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>EMNLP</td>
+<td>gen-2stage, task-senCompre</td>
+<td>56</td>
+<td>Document Summarization via Guided Sentence Compression</td>
+<td>Chen Li, Fei Liu, Fuliang Weng, Yang Liu</td>
+<td>https://pdfs.semanticscholar.org/1b98/ecc801d4435fd57c6ef87b4c24cf6b3b58ce.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>EMNLP</td>
+<td>gen-ext, gen-2stage, eval-metric-rouge</td>
+<td>40</td>
+<td>Fast Joint Compression and Summarization via Graph Cuts</td>
+<td>Xian Qian, Yang Liu</td>
+<td>https://pdfs.semanticscholar.org/f299/c0d0cce60cad6643e5dd5333b8e7d1537a3e.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>EMNLP</td>
+<td>gen-ext, task-singledDoc, eval-metric-rouge, eval-aspect-coherence</td>
+<td>86</td>
+<td>Single-Document Summarization as a Tree Knapsack Problem</td>
+<td>Tsutomu Hirao, Yasuhisa Yoshida, Masaaki Nishino, Norihito Yasuda, Masaaki Nagata</td>
+<td>https://pdfs.semanticscholar.org/ed0c/8a7ab911cdb30b7e95edada3a55c01eb22c5.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>NAA-CL</td>
+<td>task-event</td>
+<td>65</td>
+<td>A Participant-based Approach for Event Summarization Using Twitter Streams</td>
+<td>Chao Shen, Fei Liu, Fuliang Weng, Tao Li</td>
+<td>https://pdfs.semanticscholar.org/0d7e/335365f4b7a6cb3cca996b59e7adbc967ceb.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>NAA-CL</td>
+<td>gen-ext, task-multiDoc, eval-aspect-coherence</td>
+<td>89</td>
+<td>Towards Coherent Multi-Document Summarization</td>
+<td>Janara Christensen, Mausam, Stephen Soderland, Oren Etzioni</td>
+<td>https://pdfs.semanticscholar.org/1dc0/4459d2e14df5d1ba2c50a35832e2de7da8ec.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>NAA-CL</td>
+<td>train-unsup</td>
+<td>55</td>
+<td>Using Document Summarization Techniques for Speech Data Subset Selection</td>
+<td>Kai Wei, Yuzong Liu, Katrin Kirchhoff, Jeff A. Bilmes</td>
+<td>https://pdfs.semanticscholar.org/f20d/6b1b43b30996a41e0002ee88b5e940ba4a8f.pdf</td>
+</tr>
+<tr><td>2013</td>
+<td>IJCAI</td>
+<td>eval-metric-rouge</td>
+<td>58</td>
+<td>i, Poet: Automatic Chinese Poetry Composition through a Generative Summarization Framework under Constrained Optimization</td>
+<td>Rui Yan, Han Jiang, Mirella Lapata, Shou-de Lin, Xueqiang Lv, Xiaoming Li</td>
+<td>https://pdfs.semanticscholar.org/c83f/a87a6359b6b871a383aaa59652ed264bc47a.pdf</td>
+</tr>
+
+
+</tbody>
+
+</table>
+
+
+<script  src="./script.js"></script>
+</body></html>
+
